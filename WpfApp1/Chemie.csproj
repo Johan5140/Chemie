@@ -18,6 +18,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="data\bgdark.png" />
+    <None Remove="data\bglight.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="data\bgdark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\bglight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Soubory\Soubory.csproj" />
   </ItemGroup>
 

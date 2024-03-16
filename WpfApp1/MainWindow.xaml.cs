@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
+//using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -27,14 +27,14 @@ namespace WpfApp1
         public MainWindow()
         {   
             InitializeComponent();
-            }
+            this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Chemie;component/data/bglight.png")));
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
-       
-    private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
         }
