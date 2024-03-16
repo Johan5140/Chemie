@@ -1,0 +1,1034 @@
+﻿<infooprvku>
+	<!--Vodík-->
+	<Vodík Sekce="Název" Info="Vodík" />
+	<Vodík Sekce="Chemická značka" Info="H" />
+	<Vodík Sekce="Protonové číslo" Info="1" />
+	<Vodík Sekce="Latinsky" Info="Hydrogenium" />
+	<Vodík Sekce="Skupina" Info="1. skupina" />
+	<Vodík Sekce="Perioda" Info="1. perioda" />
+	<Vodík Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Vodík Sekce="Relativní atomová hmotnost" Info="1,007 94" />
+	<!--Lithium-->
+	<Lithium Sekce="Název" Info="Lithium" />
+	<Lithium Sekce="Chemická značka" Info="Li" />
+	<Lithium Sekce="Protonové číslo" Info="3" />
+	<Lithium Sekce="Latinsky" Info="Lithium" />
+	<Lithium Sekce="Skupina" Info="1. skupina" />
+	<Lithium Sekce="Perioda" Info="2. perioda" />
+	<Lithium Sekce="Vlastnosti" Info="Stříbřitě kovová látka" />
+	<Lithium Sekce="Relativní atomová hmotnost" Info="6,941" />
+	<!--Sodík-->
+	<Sodík Sekce="Název" Info="Sodík" />
+	<Sodík Sekce="Chemická značka" Info="Na" />
+	<Sodík Sekce="Protonové číslo" Info="11" />
+	<Sodík Sekce="Latinsky" Info="Natrium" />
+	<Sodík Sekce="Skupina" Info="1. skupina" />
+	<Sodík Sekce="Perioda" Info="3. perioda" />
+	<Sodík Sekce="Vlastnosti" Info="Stříbrolesklý kov" />
+	<Sodík Sekce="Relativní atomová hmotnost" Info="22,98976828" />
+	<!--Draslík-->
+	<Draslík Sekce="Název" Info="Draslík" />
+	<Draslík Sekce="Chemická značka" Info="K" />
+	<Draslík Sekce="Protonové číslo" Info="19" />
+	<Draslík Sekce="Latinsky" Info="Kalium" />
+	<Draslík Sekce="Skupina" Info="1. skupina" />
+	<Draslík Sekce="Perioda" Info="4. perioda" />
+	<Draslík Sekce="Vlastnosti" Info="Stříbrolesklý kov" />
+	<Draslík Sekce="Relativní atomová hmotnost" Info="39,0983" />
+	<!--Rubidium-->
+	<Rubidium Sekce="Název" Info="Rubidium" />
+	<Rubidium Sekce="Chemická značka" Info="Rb" />
+	<Rubidium Sekce="Protonové číslo" Info="37" />
+	<Rubidium Sekce="Latinsky" Info="Rubidium" />
+	<Rubidium Sekce="Skupina" Info="1. skupina" />
+	<Rubidium Sekce="Perioda" Info="5. perioda" />
+	<Rubidium Sekce="Vlastnosti" Info="Měkký, lehký a stříbrolesklý kov, který lze krájet nožem" />
+	<Rubidium Sekce="Relativní atomová hmotnost" Info="85,4678" />
+	<!--Cesium-->
+	<Cesium Sekce="Název" Info="Cesium" />
+	<Cesium Sekce="Chemická značka" Info="Cs" />
+	<Cesium Sekce="Protonové číslo" Info="55" />
+	<Cesium Sekce="Latinsky" Info="Caesium" />
+	<Cesium Sekce="Skupina" Info="1. skupina" />
+	<Cesium Sekce="Perioda" Info="6. perioda" />
+	<Cesium Sekce="Vlastnosti" Info="Stříbrozlatá látka" />
+	<Cesium Sekce="Relativní atomová hmotnost" Info="132,905" />
+	<!--Francium-->
+	<Francium Sekce="Název" Info="Francium" />
+	<Francium Sekce="Chemická značka" Info="Fr" />
+	<Francium Sekce="Protonové číslo" Info="87" />
+	<Francium Sekce="Latinsky" Info="Francium" />
+	<Francium Sekce="Skupina" Info="1. skupina" />
+	<Francium Sekce="Perioda" Info="7. perioda" />
+	<Francium Sekce="Vlastnosti" Info="Stříbrný radioaktivní kov" />
+	<Francium Sekce="Relativní atomová hmotnost" Info="(233,019 8)" />
+	<!--Beryllium-->
+	<Beryllium Sekce="Název" Info="Beryllium" />
+	<Beryllium Sekce="Chemická značka" Info="Be" />
+	<Beryllium Sekce="Protonové číslo" Info="4" />
+	<Beryllium Sekce="Latinsky" Info="Beryllium" />
+	<Beryllium Sekce="Skupina" Info="2. skupina" />
+	<Beryllium Sekce="Perioda" Info="2. perioda" />
+	<Beryllium Sekce="Vlastnosti" Info="Šedý kov" />
+	<Beryllium Sekce="Relativní atomová hmotnost" Info="9,012182" />
+	<!--Hořčík-->
+	<Hořčík Sekce="Název" Info="Hořčík" />
+	<Hořčík Sekce="Chemická značka" Info="Mg" />
+	<Hořčík Sekce="Protonové číslo" Info="12" />
+	<Hořčík Sekce="Latinsky" Info="Magnesium" />
+	<Hořčík Sekce="Skupina" Info="2. skupina" />
+	<Hořčík Sekce="Perioda" Info="3. perioda" />
+	<Hořčík Sekce="Vlastnosti" Info="Našedlá kovová látka" />
+	<Hořčík Sekce="Relativní atomová hmotnost" Info="24,3050" />
+	<!--Vápník-->
+	<Vápník Sekce="Název" Info="Vápník" />
+	<Vápník Sekce="Chemická značka" Info="Ca" />
+	<Vápník Sekce="Protonové číslo" Info="20" />
+	<Vápník Sekce="Latinsky" Info="Calcium" />
+	<Vápník Sekce="Skupina" Info="2. skupina" />
+	<Vápník Sekce="Perioda" Info="4. perioda" />
+	<Vápník Sekce="Vlastnosti" Info="Stříbrolesklý" />
+	<Vápník Sekce="Relativní atomová hmotnost" Info="40,078 ± 0,004" />
+	<!--Stroncium-->
+	<Stroncium Sekce="Název" Info="Stroncium" />
+	<Stroncium Sekce="Chemická značka" Info="Sr" />
+	<Stroncium Sekce="Protonové číslo" Info="38" />
+	<Stroncium Sekce="Latinsky" Info="Strontium" />
+	<Stroncium Sekce="Skupina" Info="2. skupina" />
+	<Stroncium Sekce="Perioda" Info="5. perioda" />
+	<Stroncium Sekce="Vlastnosti" Info="Stříbrolesklý bílý kov" />
+	<Stroncium Sekce="Relativní atomová hmotnost" Info="87,62" />
+	<!--Baryum-->
+	<Baryum Sekce="Název" Info="Baryum" />
+	<Baryum Sekce="Chemická značka" Info="Ba" />
+	<Baryum Sekce="Protonové číslo" Info="56" />
+	<Baryum Sekce="Latinsky" Info="Barium" />
+	<Baryum Sekce="Skupina" Info="2. skupina" />
+	<Baryum Sekce="Perioda" Info="6. perioda" />
+	<Baryum Sekce="Vlastnosti" Info="Stříbrobílý kov" />
+	<Baryum Sekce="Relativní atomová hmotnost" Info="137,33" />
+	<!--Radium-->
+	<Radium Sekce="Název" Info="Radium" />
+	<Radium Sekce="Chemická značka" Info="Ra" />
+	<Radium Sekce="Protonové číslo" Info="88" />
+	<Radium Sekce="Latinsky" Info="Radium" />
+	<Radium Sekce="Skupina" Info="2. skupina" />
+	<Radium Sekce="Perioda" Info="7. perioda" />
+	<Radium Sekce="Vlastnosti" Info="Stříbrobílý kov, radioaktivní" />
+	<Radium Sekce="Relativní atomová hmotnost" Info="(226,025 4)" />
+	<!--Skandium-->
+	<Skandium Sekce="Název" Info="Skandium" />
+	<Skandium Sekce="Chemická značka" Info="Sc" />
+	<Skandium Sekce="Protonové číslo" Info="21" />
+	<Skandium Sekce="Latinsky" Info="Scandium" />
+	<Skandium Sekce="Skupina" Info="3. skupina" />
+	<Skandium Sekce="Perioda" Info="4. perioda" />
+	<Skandium Sekce="Vlastnosti" Info="Stříbřitě bílý, měkký a výrazně lehký kovov" />
+	<Skandium Sekce="Relativní atomová hmotnost" Info="44,9559" />
+	<!--Yttrium-->
+	<Yttrium Sekce="Název" Info="Yttrium" />
+	<Yttrium Sekce="Chemická značka" Info="Y" />
+	<Yttrium Sekce="Protonové číslo" Info="39" />
+	<Yttrium Sekce="Latinsky" Info="Yttrium" />
+	<Yttrium Sekce="Skupina" Info="3. skupina" />
+	<Yttrium Sekce="Perioda" Info="5. perioda" />
+	<Yttrium Sekce="Vlastnosti" Info="Šedý až stříbřitě bílý přechodný kov" />
+	<Yttrium Sekce="Relativní atomová hmotnost" Info="88,90585" />
+	<!--Titan-->
+	<Titan Sekce="Název" Info="Titan" />
+	<Titan Sekce="Chemická značka" Info="Ti" />
+	<Titan Sekce="Protonové číslo" Info="22" />
+	<Titan Sekce="Latinsky" Info="Titanium" />
+	<Titan Sekce="Skupina" Info="4. skupina" />
+	<Titan Sekce="Perioda" Info="4. perioda" />
+	<Titan Sekce="Vlastnosti" Info="Šedý až stříbřitě bílý, lehký kov" />
+	<Titan Sekce="Relativní atomová hmotnost" Info="47,867" />
+	<!--Zirkonium-->
+	<Zirkonium Sekce="Název" Info="Zirkonium" />
+	<Zirkonium Sekce="Chemická značka" Info="Zr" />
+	<Zirkonium Sekce="Protonové číslo" Info="40" />
+	<Zirkonium Sekce="Latinsky" Info="Zirconium" />
+	<Zirkonium Sekce="Skupina" Info="4. skupina" />
+	<Zirkonium Sekce="Perioda" Info="5. perioda" />
+	<Zirkonium Sekce="Vlastnosti" Info="Šedý až stříbřitě bílý, kovový prvek" />
+	<Zirkonium Sekce="Relativní atomová hmotnost" Info="91,224" />
+	<!--Hafnium-->
+	<Hafnium Sekce="Název" Info="Hafnium" />
+	<Hafnium Sekce="Chemická značka" Info="Hf" />
+	<Hafnium Sekce="Protonové číslo" Info="72" />
+	<Hafnium Sekce="Latinsky" Info="Hafnium" />
+	<Hafnium Sekce="Skupina" Info="4. skupina" />
+	<Hafnium Sekce="Perioda" Info="6. perioda" />
+	<Hafnium Sekce="Vlastnosti" Info="Šedý kov" />
+	<Hafnium Sekce="Relativní atomová hmotnost" Info="178,49" />
+	<!--Rutherfordium-->
+	<Rutherfordium Sekce="Název" Info="Rutherfordium" />
+	<Rutherfordium Sekce="Chemická značka" Info="Rf" />
+	<Rutherfordium Sekce="Protonové číslo" Info="104" />
+	<Rutherfordium Sekce="Latinsky" Info="Rutherfordium" />
+	<Rutherfordium Sekce="Skupina" Info="4. skupina" />
+	<Rutherfordium Sekce="Perioda" Info="7. perioda" />
+	<Rutherfordium Sekce="Vlastnosti" Info="Radioaktivní" />
+	<Rutherfordium Sekce="Relativní atomová hmotnost" Info="265,12" />
+	<!--Vanad-->
+	<Vanad Sekce="Název" Info="Vanad" />
+	<Vanad Sekce="Chemická značka" Info="V" />
+	<Vanad Sekce="Protonové číslo" Info="23" />
+	<Vanad Sekce="Latinsky" Info="Vanadium" />
+	<Vanad Sekce="Skupina" Info="5. skupina" />
+	<Vanad Sekce="Perioda" Info="4. perioda" />
+	<Vanad Sekce="Vlastnosti" Info="Šedo-bílý kov" />
+	<Vanad Sekce="Relativní atomová hmotnost" Info="50,9415" />
+	<!--Niob-->
+	<Niob Sekce="Název" Info="Niob" />
+	<Niob Sekce="Chemická značka" Info="Nb" />
+	<Niob Sekce="Protonové číslo" Info="41" />
+	<Niob Sekce="Latinsky" Info="Niobium" />
+	<Niob Sekce="Skupina" Info="5. skupina" />
+	<Niob Sekce="Perioda" Info="5. perioda" />
+	<Niob Sekce="Vlastnosti" Info="Šedý kujný kov" />
+	<Niob Sekce="Relativní atomová hmotnost" Info="92,9063" />
+	<!--Tantal-->
+	<Tantal Sekce="Název" Info="Tantal" />
+	<Tantal Sekce="Chemická značka" Info="Ta" />
+	<Tantal Sekce="Protonové číslo" Info="73" />
+	<Tantal Sekce="Latinsky" Info="Tantalum" />
+	<Tantal Sekce="Skupina" Info="5. skupina" />
+	<Tantal Sekce="Perioda" Info="6. perioda" />
+	<Tantal Sekce="Vlastnosti" Info="Šedý kov" />
+	<Tantal Sekce="Relativní atomová hmotnost" Info="180,9479" />
+	<!--Dubnium-->
+	<Dubnium Sekce="Název" Info="Dubnium" />
+	<Dubnium Sekce="Chemická značka" Info="Db" />
+	<Dubnium Sekce="Protonové číslo" Info="105" />
+	<Dubnium Sekce="Latinsky" Info="Dubnium" />
+	<Dubnium Sekce="Skupina" Info="5. skupina" />
+	<Dubnium Sekce="Perioda" Info="7. perioda" />
+	<Dubnium Sekce="Vlastnosti" Info="Umělý radioaktivní prvek" />
+	<Dubnium Sekce="Relativní atomová hmotnost" Info="268,13" />
+	<!--Chrom-->
+	<Chrom Sekce="Název" Info="Chrom" />
+	<Chrom Sekce="Chemická značka" Info="Cr" />
+	<Chrom Sekce="Protonové číslo" Info="24" />
+	<Chrom Sekce="Latinsky" Info="Chromium" />
+	<Chrom Sekce="Skupina" Info="6. skupina" />
+	<Chrom Sekce="Perioda" Info="4. perioda" />
+	<Chrom Sekce="Vlastnosti" Info="Světle bílý, lesklý, velmi tvrdý a zároveň křehký kov" />
+	<Chrom Sekce="Relativní atomová hmotnost" Info="51,9961" />
+	<!--Molybden-->
+	<Molybden Sekce="Název" Info="Molybden" />
+	<Molybden Sekce="Chemická značka" Info="Mo" />
+	<Molybden Sekce="Protonové číslo" Info="42" />
+	<Molybden Sekce="Latinsky" Info="Molybdaenum" />
+	<Molybden Sekce="Skupina" Info="6. skupina" />
+	<Molybden Sekce="Perioda" Info="5. perioda" />
+	<Molybden Sekce="Vlastnosti" Info="Šedobílý, tvrdý a křehký kov" />
+	<Molybden Sekce="Relativní atomová hmotnost" Info="95,96" />
+	<!--Wolfram-->
+	<Wolfram Sekce="Název" Info="Wolfram" />
+	<Wolfram Sekce="Chemická značka" Info="W" />
+	<Wolfram Sekce="Protonové číslo" Info="74" />
+	<Wolfram Sekce="Latinsky" Info="Wolframium" />
+	<Wolfram Sekce="Skupina" Info="6. skupina" />
+	<Wolfram Sekce="Perioda" Info="6. perioda" />
+	<Wolfram Sekce="Vlastnosti" Info="Světle šedý až bílý lesklý kov" />
+	<Wolfram Sekce="Relativní atomová hmotnost" Info="183,84" />
+	<!--Seaborgium-->
+	<Seaborgium Sekce="Název" Info="Seaborgium" />
+	<Seaborgium Sekce="Chemická značka" Info="Sg" />
+	<Seaborgium Sekce="Protonové číslo" Info="106" />
+	<Seaborgium Sekce="Latinsky" Info="Seaborgium" />
+	<Seaborgium Sekce="Skupina" Info="6. skupina" />
+	<Seaborgium Sekce="Perioda" Info="7. perioda" />
+	<Seaborgium Sekce="Vlastnosti" Info="Umělý radioaktivní prvek" />
+	<Seaborgium Sekce="Relativní atomová hmotnost" Info="271,13" />
+	<!--Mangan-->
+	<Mangan Sekce="Název" Info="Mangan" />
+	<Mangan Sekce="Chemická značka" Info="Mn" />
+	<Mangan Sekce="Protonové číslo" Info="25" />
+	<Mangan Sekce="Latinsky" Info="Manganum" />
+	<Mangan Sekce="Skupina" Info="7. skupina" />
+	<Mangan Sekce="Perioda" Info="4. perioda" />
+	<Mangan Sekce="Vlastnosti" Info="Světle šedý, tvrdý kov" />
+	<Mangan Sekce="Relativní atomová hmotnost" Info="54,9380454" />
+	<!--Technecium-->
+	<Technecium Sekce="Název" Info="Technecium" />
+	<Technecium Sekce="Chemická značka" Info="Tc" />
+	<Technecium Sekce="Protonové číslo" Info="43" />
+	<Technecium Sekce="Latinsky" Info="Technetium" />
+	<Technecium Sekce="Skupina" Info="7. skupina" />
+	<Technecium Sekce="Perioda" Info="5. perioda" />
+	<Technecium Sekce="Vlastnosti" Info="Šedý kov" />
+	<Technecium Sekce="Relativní atomová hmotnost" Info="98" />
+	<!--Rhenium-->
+	<Rhenium Sekce="Název" Info="Rhenium" />
+	<Rhenium Sekce="Chemická značka" Info="Re" />
+	<Rhenium Sekce="Protonové číslo" Info="75" />
+	<Rhenium Sekce="Latinsky" Info="Rhenium" />
+	<Rhenium Sekce="Skupina" Info="7. skupina" />
+	<Rhenium Sekce="Perioda" Info="6. perioda" />
+	<Rhenium Sekce="Vlastnosti" Info="Šedobílý kov" />
+	<Rhenium Sekce="Relativní atomová hmotnost" Info="186,207" />
+	<!--Bohrium-->
+	<Bohrium Sekce="Název" Info="Bohrium" />
+	<Bohrium Sekce="Chemická značka" Info="Bh" />
+	<Bohrium Sekce="Protonové číslo" Info="107" />
+	<Bohrium Sekce="Latinsky" Info="Bohrium" />
+	<Bohrium Sekce="Skupina" Info="7. skupina" />
+	<Bohrium Sekce="Perioda" Info="7. perioda" />
+	<Bohrium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Bohrium Sekce="Relativní atomová hmotnost" Info="270" />
+	<!--Železo-->
+	<Železo Sekce="Název" Info="Železo" />
+	<Železo Sekce="Chemická značka" Info="Fe" />
+	<Železo Sekce="Protonové číslo" Info="26" />
+	<Železo Sekce="Latinsky" Info="Ferrum" />
+	<Železo Sekce="Skupina" Info="8. skupina" />
+	<Železo Sekce="Perioda" Info="4. perioda" />
+	<Železo Sekce="Vlastnosti" Info="Světle šedý až bílý kov" />
+	<Železo Sekce="Relativní atomová hmotnost" Info="55,845" />
+	<!--Ruthenium-->
+	<Ruthenium Sekce="Název" Info="Ruthenium" />
+	<Ruthenium Sekce="Chemická značka" Info="Ru" />
+	<Ruthenium Sekce="Protonové číslo" Info="44" />
+	<Ruthenium Sekce="Latinsky" Info="Ruthenium" />
+	<Ruthenium Sekce="Skupina" Info="8. skupina" />
+	<Ruthenium Sekce="Perioda" Info="5. perioda" />
+	<Ruthenium Sekce="Vlastnosti" Info="Stříbrná látka s kovovým leskem" />
+	<Ruthenium Sekce="Relativní atomová hmotnost" Info="101.07 (u izotopů se může lišit)" />
+	<!--Osmium-->
+	<Osmium Sekce="Název" Info="Osmium" />
+	<Osmium Sekce="Chemická značka" Info="Os" />
+	<Osmium Sekce="Protonové číslo" Info="76" />
+	<Osmium Sekce="Latinsky" Info="Osmium" />
+	<Osmium Sekce="Skupina" Info="8. skupina" />
+	<Osmium Sekce="Perioda" Info="6. perioda" />
+	<Osmium Sekce="Vlastnosti" Info="Stříbromodrý kov" />
+	<Osmium Sekce="Relativní atomová hmotnost" Info="190,23" />
+	<!--Hassium-->
+	<Hassium Sekce="Název" Info="Hassium" />
+	<Hassium Sekce="Chemická značka" Info="Hs" />
+	<Hassium Sekce="Protonové číslo" Info="108" />
+	<Hassium Sekce="Latinsky" Info="Hassium" />
+	<Hassium Sekce="Skupina" Info="8. skupina" />
+	<Hassium Sekce="Perioda" Info="7. perioda" />
+	<Hassium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Hassium Sekce="Relativní atomová hmotnost" Info="předpokládaná 277,15" />
+	<!--Kobalt-->
+	<Kobalt Sekce="Název" Info="Kobalt" />
+	<Kobalt Sekce="Chemická značka" Info="Co" />
+	<Kobalt Sekce="Protonové číslo" Info="27" />
+	<Kobalt Sekce="Latinsky" Info="Cobaltum" />
+	<Kobalt Sekce="Skupina" Info="9. skupina" />
+	<Kobalt Sekce="Perioda" Info="4. perioda" />
+	<Kobalt Sekce="Vlastnosti" Info="Namodralý, tvrdý kov" />
+	<Kobalt Sekce="Relativní atomová hmotnost" Info="58,933195" />
+	<!--Rhodium-->
+	<Rhodium Sekce="Název" Info="Rhodium" />
+	<Rhodium Sekce="Chemická značka" Info="Rh" />
+	<Rhodium Sekce="Protonové číslo" Info="45" />
+	<Rhodium Sekce="Latinsky" Info="Rhodium" />
+	<Rhodium Sekce="Skupina" Info="9. skupina" />
+	<Rhodium Sekce="Perioda" Info="5. perioda" />
+	<Rhodium Sekce="Vlastnosti" Info="Stříbřitě bílý kov" />
+	<Rhodium Sekce="Relativní atomová hmotnost" Info="102,90550" />
+	<!--Iridium-->
+	<Iridium Sekce="Název" Info="Iridium" />
+	<Iridium Sekce="Chemická značka" Info="Ir" />
+	<Iridium Sekce="Protonové číslo" Info="77" />
+	<Iridium Sekce="Latinsky" Info="Iridium" />
+	<Iridium Sekce="Skupina" Info="9. skupina" />
+	<Iridium Sekce="Perioda" Info="6. perioda" />
+	<Iridium Sekce="Vlastnosti" Info="Stříbrně bílý" />
+	<Iridium Sekce="Relativní atomová hmotnost" Info="192,217" />
+	<!--Meitnerium-->
+	<Meitnerium Sekce="Název" Info="Meitnerium" />
+	<Meitnerium Sekce="Chemická značka" Info="Mt" />
+	<Meitnerium Sekce="Protonové číslo" Info="109" />
+	<Meitnerium Sekce="Latinsky" Info="Meitnerium" />
+	<Meitnerium Sekce="Skupina" Info="9. skupina" />
+	<Meitnerium Sekce="Perioda" Info="7. perioda" />
+	<Meitnerium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Meitnerium Sekce="Relativní atomová hmotnost" Info="276,15" />
+	<!--Nikl-->
+	<Nikl Sekce="Název" Info="Nikl" />
+	<Nikl Sekce="Chemická značka" Info="Ni" />
+	<Nikl Sekce="Protonové číslo" Info="28" />
+	<Nikl Sekce="Latinsky" Info="Niccolum" />
+	<Nikl Sekce="Skupina" Info="10. skupina" />
+	<Nikl Sekce="Perioda" Info="4. perioda" />
+	<Nikl Sekce="Vlastnosti" Info="Bílý, lesklý kov" />
+	<Nikl Sekce="Relativní atomová hmotnost" Info="58,6934" />
+	<!--Palladium-->
+	<Palladium Sekce="Název" Info="Palladium" />
+	<Palladium Sekce="Chemická značka" Info="Pd" />
+	<Palladium Sekce="Protonové číslo" Info="46" />
+	<Palladium Sekce="Latinsky" Info="Palladium" />
+	<Palladium Sekce="Skupina" Info="10. skupina" />
+	<Palladium Sekce="Perioda" Info="5. perioda" />
+	<Palladium Sekce="Vlastnosti" Info="Šedivě bílý kov" />
+	<Palladium Sekce="Relativní atomová hmotnost" Info="106,42" />
+	<!--Platina-->
+	<Platina Sekce="Název" Info="Platina" />
+	<Platina Sekce="Chemická značka" Info="Pt" />
+	<Platina Sekce="Protonové číslo" Info="78" />
+	<Platina Sekce="Latinsky" Info="Platinum" />
+	<Platina Sekce="Skupina" Info="10. skupina" />
+	<Platina Sekce="Perioda" Info="6. perioda" />
+	<Platina Sekce="Vlastnosti" Info="Šedobílý kov" />
+	<Platina Sekce="Relativní atomová hmotnost" Info="195,084" />
+	<!--Darmstadtium-->
+	<Darmstadtium Sekce="Název" Info="Darmstadtium" />
+	<Darmstadtium Sekce="Chemická značka" Info="Ds" />
+	<Darmstadtium Sekce="Protonové číslo" Info="110" />
+	<Darmstadtium Sekce="Latinsky" Info="Darmstadtium" />
+	<Darmstadtium Sekce="Skupina" Info="10. skupina" />
+	<Darmstadtium Sekce="Perioda" Info="7. perioda" />
+	<Darmstadtium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Darmstadtium Sekce="Relativní atomová hmotnost" Info="281,16" />
+	<!--Měď-->
+	<Měď Sekce="Název" Info="Měď" />
+	<Měď Sekce="Chemická značka" Info="Cu" />
+	<Měď Sekce="Protonové číslo" Info="29" />
+	<Měď Sekce="Latinsky" Info="Cuprum" />
+	<Měď Sekce="Skupina" Info="11. skupina" />
+	<Měď Sekce="Perioda" Info="4. perioda" />
+	<Měď Sekce="Vlastnosti" Info="Ušlechtilý kov načervenalé barvy" />
+	<Měď Sekce="Relativní atomová hmotnost" Info="63,546" />
+	<!--Stříbro-->
+	<Stříbro Sekce="Název" Info="Stříbro" />
+	<Stříbro Sekce="Chemická značka" Info="Ag" />
+	<Stříbro Sekce="Protonové číslo" Info="47" />
+	<Stříbro Sekce="Latinsky" Info="Argentum" />
+	<Stříbro Sekce="Skupina" Info="11. skupina" />
+	<Stříbro Sekce="Perioda" Info="5. perioda" />
+	<Stříbro Sekce="Vlastnosti" Info="Stříbřitě lesklý kov" />
+	<Stříbro Sekce="Relativní atomová hmotnost" Info="107,8682" />
+	<!--Zlato-->
+	<Zlato Sekce="Název" Info="Zlato" />
+	<Zlato Sekce="Chemická značka" Info="Au" />
+	<Zlato Sekce="Protonové číslo" Info="79" />
+	<Zlato Sekce="Latinsky" Info="Aurum" />
+	<Zlato Sekce="Skupina" Info="11. skupina" />
+	<Zlato Sekce="Perioda" Info="6. perioda" />
+	<Zlato Sekce="Vlastnosti" Info="Kovově žlutá" />
+	<Zlato Sekce="Relativní atomová hmotnost" Info="196,97" />
+	<!--Roentgenium-->
+	<Roentgenium Sekce="Název" Info="Roentgenium" />
+	<Roentgenium Sekce="Chemická značka" Info="Rg" />
+	<Roentgenium Sekce="Protonové číslo" Info="111" />
+	<Roentgenium Sekce="Latinsky" Info="Roentgenium" />
+	<Roentgenium Sekce="Skupina" Info="11. skupina" />
+	<Roentgenium Sekce="Perioda" Info="7. perioda" />
+	<Roentgenium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Roentgenium Sekce="Relativní atomová hmotnost" Info="280,16" />
+	<!--Zinek-->
+	<Zinek Sekce="Název" Info="Zinek" />
+	<Zinek Sekce="Chemická značka" Info="Zn" />
+	<Zinek Sekce="Protonové číslo" Info="30" />
+	<Zinek Sekce="Latinsky" Info="Zincum" />
+	<Zinek Sekce="Skupina" Info="12. skupina" />
+	<Zinek Sekce="Perioda" Info="4. perioda" />
+	<Zinek Sekce="Vlastnosti" Info="Modrobílý kovový prvek se silným leskem" />
+	<Zinek Sekce="Relativní atomová hmotnost" Info="65,409" />
+	<!--Kadmium-->
+	<Kadmium Sekce="Název" Info="Kadmium" />
+	<Kadmium Sekce="Chemická značka" Info="Cd" />
+	<Kadmium Sekce="Protonové číslo" Info="48" />
+	<Kadmium Sekce="Latinsky" Info="Cadmium" />
+	<Kadmium Sekce="Skupina" Info="12. skupina" />
+	<Kadmium Sekce="Perioda" Info="5. perioda" />
+	<Kadmium Sekce="Vlastnosti" Info="Stříbřitě lesklý kov" />
+	<Kadmium Sekce="Relativní atomová hmotnost" Info="112,411" />
+	<!--Rtuť-->
+	<Rtuť Sekce="Název" Info="Rtuť" />
+	<Rtuť Sekce="Chemická značka" Info="Hg" />
+	<Rtuť Sekce="Protonové číslo" Info="80" />
+	<Rtuť Sekce="Latinsky" Info="hydrargyrum" />
+	<Rtuť Sekce="Skupina" Info="12. skupina" />
+	<Rtuť Sekce="Perioda" Info="6. perioda" />
+	<Rtuť Sekce="Vlastnosti" Info="Stříbrný kapalný kov" />
+	<Rtuť Sekce="Relativní atomová hmotnost" Info="200,59" />
+	<!--Kopernicium-->
+	<Kopernicium Sekce="Název" Info="Kopernicium" />
+	<Kopernicium Sekce="Chemická značka" Info="Cn" />
+	<Kopernicium Sekce="Protonové číslo" Info="112" />
+	<Kopernicium Sekce="Latinsky" Info="Kopernicium" />
+	<Kopernicium Sekce="Skupina" Info="12. skupina" />
+	<Kopernicium Sekce="Perioda" Info="7. perioda" />
+	<Kopernicium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Kopernicium Sekce="Relativní atomová hmotnost" Info="285,17" />
+	<!--Bor-->
+	<Bor Sekce="Název" Info="Bor" />
+	<Bor Sekce="Chemická značka" Info="B" />
+	<Bor Sekce="Protonové číslo" Info="5" />
+	<Bor Sekce="Latinsky" Info="Borium nebo Borum" />
+	<Bor Sekce="Skupina" Info="13. skupina" />
+	<Bor Sekce="Perioda" Info="2. perioda" />
+	<Bor Sekce="Vlastnosti" Info="Hnědočerná pevná látka" />
+	<Bor Sekce="Relativní atomová hmotnost" Info="10,811" />
+	<!--Hliník-->
+	<Hliník Sekce="Název" Info="Hliník" />
+	<Hliník Sekce="Chemická značka" Info="Al" />
+	<Hliník Sekce="Protonové číslo" Info="13" />
+	<Hliník Sekce="Latinsky" Info="Aluminium" />
+	<Hliník Sekce="Skupina" Info="13. skupina" />
+	<Hliník Sekce="Perioda" Info="3. perioda" />
+	<Hliník Sekce="Vlastnosti" Info="Kov bělavě šedé barvy" />
+	<Hliník Sekce="Relativní atomová hmotnost" Info="26,9815386" />
+	<!--Gallium-->
+	<Gallium Sekce="Název" Info="Gallium" />
+	<Gallium Sekce="Chemická značka" Info="Ga" />
+	<Gallium Sekce="Protonové číslo" Info="31" />
+	<Gallium Sekce="Latinsky" Info="Gallium" />
+	<Gallium Sekce="Skupina" Info="13. skupina" />
+	<Gallium Sekce="Perioda" Info="4. perioda" />
+	<Gallium Sekce="Vlastnosti" Info="Stříbrolesklý kov" />
+	<Gallium Sekce="Relativní atomová hmotnost" Info="69,7234" />
+	<!--Indium-->
+	<Indium Sekce="Název" Info="Indium" />
+	<Indium Sekce="Chemická značka" Info="In" />
+	<Indium Sekce="Protonové číslo" Info="49" />
+	<Indium Sekce="Latinsky" Info="Indium" />
+	<Indium Sekce="Skupina" Info="13. skupina" />
+	<Indium Sekce="Perioda" Info="5. perioda" />
+	<Indium Sekce="Vlastnosti" Info="Bílá barva, měkký a dobře tažný" />
+	<Indium Sekce="Relativní atomová hmotnost" Info="114,818" />
+	<!--Thallium-->
+	<Thallium Sekce="Název" Info="Thallium" />
+	<Thallium Sekce="Chemická značka" Info="Tl" />
+	<Thallium Sekce="Protonové číslo" Info="81" />
+	<Thallium Sekce="Latinsky" Info="Thallium" />
+	<Thallium Sekce="Skupina" Info="13. skupina" />
+	<Thallium Sekce="Perioda" Info="6. perioda" />
+	<Thallium Sekce="Vlastnosti" Info="Značně toxický, měkký, lesklý kov bílé barvy" />
+	<Thallium Sekce="Relativní atomová hmotnost" Info="204,3833" />
+	<!--Nihonium-->
+	<Nihonium Sekce="Název" Info="Nihonium" />
+	<Nihonium Sekce="Chemická značka" Info="Nh" />
+	<Nihonium Sekce="Protonové číslo" Info="113" />
+	<Nihonium Sekce="Anglicky" Info="Nihonium" />
+	<Nihonium Sekce="Skupina" Info="13. skupina" />
+	<Nihonium Sekce="Perioda" Info="7. perioda" />
+	<Nihonium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Nihonium Sekce="Relativní atomová hmotnost" Info="284,18" />
+	<!--Uhlík-->
+	<Uhlík Sekce="Název" Info="Uhlík" />
+	<Uhlík Sekce="Chemická značka" Info="C" />
+	<Uhlík Sekce="Protonové číslo" Info="6" />
+	<Uhlík Sekce="Latinsky" Info="Carbonium" />
+	<Uhlík Sekce="Skupina" Info="14. skupina" />
+	<Uhlík Sekce="Perioda" Info="2. perioda" />
+	<Uhlík Sekce="Vlastnosti" Info="Černá látka nebo bezbarvá, průhledná látka" />
+	<Uhlík Sekce="Relativní atomová hmotnost" Info="12,0107" />
+	<!--Křemík-->
+	<Křemík Sekce="Název" Info="Křemík" />
+	<Křemík Sekce="Chemická značka" Info="Si" />
+	<Křemík Sekce="Protonové číslo" Info="14" />
+	<Křemík Sekce="Latinsky" Info="Silicium" />
+	<Křemík Sekce="Skupina" Info="14. skupina" />
+	<Křemík Sekce="Perioda" Info="3. perioda" />
+	<Křemík Sekce="Vlastnosti" Info="Stříbřitě modrošedá látka" />
+	<Křemík Sekce="Relativní atomová hmotnost" Info="28,0855" />
+	<!--Germanium-->
+	<Germanium Sekce="Název" Info="Germanium" />
+	<Germanium Sekce="Chemická značka" Info="Ge" />
+	<Germanium Sekce="Protonové číslo" Info="32" />
+	<Germanium Sekce="Latinsky" Info="Germanium" />
+	<Germanium Sekce="Skupina" Info="14. skupina" />
+	<Germanium Sekce="Perioda" Info="4. perioda" />
+	<Germanium Sekce="Vlastnosti" Info="Šedobílý pevný kov" />
+	<Germanium Sekce="Relativní atomová hmotnost" Info="72,64" />
+	<!--Cín-->
+	<Cín Sekce="Název" Info="Cín" />
+	<Cín Sekce="Chemická značka" Info="Sn" />
+	<Cín Sekce="Protonové číslo" Info="50" />
+	<Cín Sekce="Latinsky" Info="Stannum" />
+	<Cín Sekce="Skupina" Info="14. skupina" />
+	<Cín Sekce="Perioda" Info="5. perioda" />
+	<Cín Sekce="Vlastnosti" Info="Stříbrobílý lesklý kov, není příliš tvrdý, ale je značně tažný" />
+	<Cín Sekce="Relativní atomová hmotnost" Info="118,710" />
+	<!--Olovo-->
+	<Olovo Sekce="Název" Info="Olovo" />
+	<Olovo Sekce="Chemická značka" Info="Pb" />
+	<Olovo Sekce="Protonové číslo" Info="82" />
+	<Olovo Sekce="Latinsky" Info="Plumbum" />
+	<Olovo Sekce="Skupina" Info="14. skupina" />
+	<Olovo Sekce="Perioda" Info="6. perioda" />
+	<Olovo Sekce="Vlastnosti" Info="Šedý kov" />
+	<Olovo Sekce="Relativní atomová hmotnost" Info="207,2" />
+	<!--Flerovium-->
+	<Flerovium Sekce="Název" Info="Flerovium" />
+	<Flerovium Sekce="Chemická značka" Info="Fl" />
+	<Flerovium Sekce="Protonové číslo" Info="114" />
+	<Flerovium Sekce="Anglicky" Info="Flerovium" />
+	<Flerovium Sekce="Skupina" Info="14. skupina" />
+	<Flerovium Sekce="Perioda" Info="7. perioda" />
+	<Flerovium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Flerovium Sekce="Relativní atomová hmotnost" Info="289,19" />
+	<!--Dusík-->
+	<Dusík Sekce="Název" Info="Dusík" />
+	<Dusík Sekce="Chemická značka" Info="N" />
+	<Dusík Sekce="Protonové číslo" Info="7" />
+	<Dusík Sekce="Latinsky" Info="Nitrogenium" />
+	<Dusík Sekce="Skupina" Info="15. skupina" />
+	<Dusík Sekce="Perioda" Info="2. perioda" />
+	<Dusík Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Dusík Sekce="Relativní atomová hmotnost" Info="14,0067" />
+	<!--Fosfor-->
+	<Fosfor Sekce="Název" Info="Fosfor" />
+	<Fosfor Sekce="Chemická značka" Info="P" />
+	<Fosfor Sekce="Protonové číslo" Info="15" />
+	<Fosfor Sekce="Latinsky" Info="Phosphorus" />
+	<Fosfor Sekce="Skupina" Info="15. skupina" />
+	<Fosfor Sekce="Perioda" Info="3. perioda" />
+	<Fosfor Sekce="Vlastnosti" Info="Bílý, červený, černý prášek" />
+	<Fosfor Sekce="Relativní atomová hmotnost" Info="30,973" />
+	<!--Arsen-->
+	<Arsen Sekce="Název" Info="Arsen" />
+	<Arsen Sekce="Chemická značka" Info="As" />
+	<Arsen Sekce="Protonové číslo" Info="33" />
+	<Arsen Sekce="Latinsky" Info="Arsenicum" />
+	<Arsen Sekce="Skupina" Info="15. skupina" />
+	<Arsen Sekce="Perioda" Info="4. perioda" />
+	<Arsen Sekce="Vlastnosti" Info="Šedý polokov" />
+	<Arsen Sekce="Relativní atomová hmotnost" Info="74,92160" />
+	<!--Antimon-->
+	<Antimon Sekce="Název" Info="Antimon" />
+	<Antimon Sekce="Chemická značka" Info="Sb" />
+	<Antimon Sekce="Protonové číslo" Info="51" />
+	<Antimon Sekce="Latinsky" Info="Stibium" />
+	<Antimon Sekce="Skupina" Info="15. skupina" />
+	<Antimon Sekce="Perioda" Info="5. perioda" />
+	<Antimon Sekce="Vlastnosti" Info="Stříbřitě lesklá šedá" />
+	<Antimon Sekce="Relativní atomová hmotnost" Info="121,760" />
+	<!--Bismut-->
+	<Bismut Sekce="Název" Info="Bismut" />
+	<Bismut Sekce="Chemická značka" Info="Bi" />
+	<Bismut Sekce="Protonové číslo" Info="83" />
+	<Bismut Sekce="Latinsky" Info="Bismuthum/Bisemutum" />
+	<Bismut Sekce="Skupina" Info="15. skupina" />
+	<Bismut Sekce="Perioda" Info="6. perioda" />
+	<Bismut Sekce="Vlastnosti" Info="Kov" />
+	<Bismut Sekce="Relativní atomová hmotnost" Info="208,98040" />
+	<!--Moscovium-->
+	<Moscovium Sekce="Název" Info="Moscovium" />
+	<Moscovium Sekce="Chemická značka" Info="Mc" />
+	<Moscovium Sekce="Protonové číslo" Info="115" />
+	<Moscovium Sekce="Anglicky" Info="Moscovium" />
+	<Moscovium Sekce="Skupina" Info="15. skupina" />
+	<Moscovium Sekce="Perioda" Info="7. perioda" />
+	<Moscovium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Moscovium Sekce="Relativní atomová hmotnost" Info="288,19" />
+	<!--Kyslík-->
+	<Kyslík Sekce="Název" Info="Kyslík" />
+	<Kyslík Sekce="Chemická značka" Info="O" />
+	<Kyslík Sekce="Protonové číslo" Info="8" />
+	<Kyslík Sekce="Latinsky" Info="Oxygenium" />
+	<Kyslík Sekce="Skupina" Info="16. skupina" />
+	<Kyslík Sekce="Perioda" Info="2. perioda" />
+	<Kyslík Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Kyslík Sekce="Relativní atomová hmotnost" Info="15,9994" />
+	<!--Síra-->
+	<Síra Sekce="Název" Info="Síra" />
+	<Síra Sekce="Chemická značka" Info="S" />
+	<Síra Sekce="Protonové číslo" Info="16" />
+	<Síra Sekce="Latinsky" Info="Sulphur" />
+	<Síra Sekce="Skupina" Info="16. skupina" />
+	<Síra Sekce="Perioda" Info="3. perioda" />
+	<Síra Sekce="Vlastnosti" Info="Žlutá krystalická látka" />
+	<Síra Sekce="Relativní atomová hmotnost" Info="32,065" />
+	<!--Selen-->
+	<Selen Sekce="Název" Info="Selen" />
+	<Selen Sekce="Chemická značka" Info="Se" />
+	<Selen Sekce="Protonové číslo" Info="34" />
+	<Selen Sekce="Latinsky" Info="Selenium" />
+	<Selen Sekce="Skupina" Info="16. skupina" />
+	<Selen Sekce="Perioda" Info="4. perioda" />
+	<Selen Sekce="Vlastnosti" Info="Šedá, černá, nebo červená tuhá látka (v závislosti na modifikaci)" />
+	<Selen Sekce="Relativní atomová hmotnost" Info="78,94" />
+	<!--Tellur-->
+	<Tellur Sekce="Název" Info="Tellur" />
+	<Tellur Sekce="Chemická značka" Info="Te" />
+	<Tellur Sekce="Protonové číslo" Info="52" />
+	<Tellur Sekce="Latinsky" Info="Tellurium" />
+	<Tellur Sekce="Skupina" Info="16. skupina" />
+	<Tellur Sekce="Perioda" Info="5. perioda" />
+	<Tellur Sekce="Vlastnosti" Info="Stříbřitě lesklá šedá" />
+	<Tellur Sekce="Relativní atomová hmotnost" Info="127,60" />
+	<!--Polonium-->
+	<Polonium Sekce="Název" Info="Polonium" />
+	<Polonium Sekce="Chemická značka" Info="Po" />
+	<Polonium Sekce="Protonové číslo" Info="84" />
+	<Polonium Sekce="Latinsky" Info="Polonium" />
+	<Polonium Sekce="Skupina" Info="16. skupina" />
+	<Polonium Sekce="Perioda" Info="6. perioda" />
+	<Polonium Sekce="Vlastnosti" Info="Nestabilní radioaktivní prudce jedovatý prvek" />
+	<Polonium Sekce="Relativní atomová hmotnost" Info="209" />
+	<!--Livermorium-->
+	<Livermorium Sekce="Název" Info="Livermorium" />
+	<Livermorium Sekce="Chemická značka" Info="Lv" />
+	<Livermorium Sekce="Protonové číslo" Info="116" />
+	<Livermorium Sekce="Anglicky" Info="Livermorium" />
+	<Livermorium Sekce="Skupina" Info="16. skupina" />
+	<Livermorium Sekce="Perioda" Info="7. perioda" />
+	<Livermorium Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Livermorium Sekce="Relativní atomová hmotnost" Info="293" />
+	<!--Fluor-->
+	<Fluor Sekce="Název" Info="Fluor" />
+	<Fluor Sekce="Chemická značka" Info="F" />
+	<Fluor Sekce="Protonové číslo" Info="9" />
+	<Fluor Sekce="Latinsky" Info="Fluorum" />
+	<Fluor Sekce="Skupina" Info="17. skupina" />
+	<Fluor Sekce="Perioda" Info="2. perioda" />
+	<Fluor Sekce="Vlastnosti" Info="plyn: velmi světle žlutý, kapalina: jasně žlutá, pevná: alpha je neprůhledný, beta je průhledný" />
+	<Fluor Sekce="Relativní atomová hmotnost" Info="18,998403" />
+	<!--Chlor-->
+	<Chlor Sekce="Název" Info="Chlor" />
+	<Chlor Sekce="Chemická značka" Info="Cl" />
+	<Chlor Sekce="Protonové číslo" Info="17" />
+	<Chlor Sekce="Latinsky" Info="Chlorum" />
+	<Chlor Sekce="Skupina" Info="17. skupina" />
+	<Chlor Sekce="Perioda" Info="3. perioda" />
+	<Chlor Sekce="Vlastnosti" Info="Žlutozelený plyn" />
+	<Chlor Sekce="Relativní atomová hmotnost" Info="35,453" />
+	<!--Brom-->
+	<Brom Sekce="Název" Info="Brom" />
+	<Brom Sekce="Chemická značka" Info="Br" />
+	<Brom Sekce="Protonové číslo" Info="35" />
+	<Brom Sekce="Latinsky" Info="Bromum" />
+	<Brom Sekce="Skupina" Info="17. skupina" />
+	<Brom Sekce="Perioda" Info="4. perioda" />
+	<Brom Sekce="Vlastnosti" Info="Červenohnědá kapalina" />
+	<Brom Sekce="Relativní atomová hmotnost" Info="79,904" />
+	<!--Jod-->
+	<Jod Sekce="Název" Info="Jod" />
+	<Jod Sekce="Chemická značka" Info="I" />
+	<Jod Sekce="Protonové číslo" Info="53" />
+	<Jod Sekce="Latinsky" Info="Iodum" />
+	<Jod Sekce="Skupina" Info="17. skupina" />
+	<Jod Sekce="Perioda" Info="5. perioda" />
+	<Jod Sekce="Vlastnosti" Info="Šedá látka" />
+	<Jod Sekce="Relativní atomová hmotnost" Info="126,90447" />
+	<!--Astat-->
+	<Astat Sekce="Název" Info="Astat" />
+	<Astat Sekce="Chemická značka" Info="At" />
+	<Astat Sekce="Protonové číslo" Info="85" />
+	<Astat Sekce="Latinsky" Info="Astatinum, Astatium" />
+	<Astat Sekce="Skupina" Info="17. skupina" />
+	<Astat Sekce="Perioda" Info="6. perioda" />
+	<Astat Sekce="Vlastnosti" Info="Existuje pouze ve formě nestabilních radioaktivních izotopů" />
+	<Astat Sekce="Relativní atomová hmotnost" Info="210" />
+	<!--Tennessin-->
+	<Tennessin Sekce="Název" Info="Tennessin" />
+	<Tennessin Sekce="Chemická značka" Info="Ts" />
+	<Tennessin Sekce="Protonové číslo" Info="" />
+	<Tennessin Sekce="Anglicky" Info="Tennessine" />
+	<Tennessin Sekce="Skupina" Info="17. skupina" />
+	<Tennessin Sekce="Perioda" Info="7. perioda" />
+	<Tennessin Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Tennessin Sekce="Relativní atomová hmotnost" Info="vypočítaná 292,20773(89)" />
+	<!--Helium-->
+	<Helium Sekce="Název" Info="Helium" />
+	<Helium Sekce="Chemická značka" Info="He" />
+	<Helium Sekce="Protonové číslo" Info="2" />
+	<Helium Sekce="Latinsky" Info="Helium" />
+	<Helium Sekce="Skupina" Info="18. skupina" />
+	<Helium Sekce="Perioda" Info="1. perioda" />
+	<Helium Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Helium Sekce="Relativní atomová hmotnost" Info="4,002 602" />
+	<!--Neon-->
+	<Neon Sekce="Název" Info="Neon" />
+	<Neon Sekce="Chemická značka" Info="Ne" />
+	<Neon Sekce="Protonové číslo" Info="10" />
+	<Neon Sekce="Latinsky" Info="Neonum" />
+	<Neon Sekce="Skupina" Info="18. skupina" />
+	<Neon Sekce="Perioda" Info="2. perioda" />
+	<Neon Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Neon Sekce="Relativní atomová hmotnost" Info="20,183" />
+	<!--Argon-->
+	<Argon Sekce="Název" Info="Argon" />
+	<Argon Sekce="Chemická značka" Info="Ar" />
+	<Argon Sekce="Protonové číslo" Info="18" />
+	<Argon Sekce="Latinsky" Info="Argon" />
+	<Argon Sekce="Skupina" Info="18. skupina" />
+	<Argon Sekce="Perioda" Info="3. perioda" />
+	<Argon Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Argon Sekce="Relativní atomová hmotnost" Info="39,944" />
+	<!--Krypton-->
+	<Krypton Sekce="Název" Info="Krypton" />
+	<Krypton Sekce="Chemická značka" Info="Kr" />
+	<Krypton Sekce="Protonové číslo" Info="36" />
+	<Krypton Sekce="Latinsky" Info="Krypton" />
+	<Krypton Sekce="Skupina" Info="18. skupina" />
+	<Krypton Sekce="Perioda" Info="4. perioda" />
+	<Krypton Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Krypton Sekce="Relativní atomová hmotnost" Info="83,798" />
+	<!--Xenon-->
+	<Xenon Sekce="Název" Info="Xenon" />
+	<Xenon Sekce="Chemická značka" Info="Xe" />
+	<Xenon Sekce="Protonové číslo" Info="54" />
+	<Xenon Sekce="Latinsky" Info="Xenon" />
+	<Xenon Sekce="Skupina" Info="18. skupina" />
+	<Xenon Sekce="Perioda" Info="5. perioda" />
+	<Xenon Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Xenon Sekce="Relativní atomová hmotnost" Info="131,293" />
+	<!--Radon-->
+	<Radon Sekce="Název" Info="Radon" />
+	<Radon Sekce="Chemická značka" Info="Rn" />
+	<Radon Sekce="Protonové číslo" Info="86" />
+	<Radon Sekce="Latinsky" Info="Radonum/Radon" />
+	<Radon Sekce="Skupina" Info="18. skupina" />
+	<Radon Sekce="Perioda" Info="6. perioda" />
+	<Radon Sekce="Vlastnosti" Info="Bezbarvý plyn" />
+	<Radon Sekce="Relativní atomová hmotnost" Info="222" />
+	<!--Oganesson-->
+	<Oganesson Sekce="Název" Info="Oganesson" />
+	<Oganesson Sekce="Chemická značka" Info="Og" />
+	<Oganesson Sekce="Protonové číslo" Info="118" />
+	<Oganesson Sekce="Anglicky" Info="Oganesson" />
+	<Oganesson Sekce="Skupina" Info="1. skupina" />
+	<Oganesson Sekce="Perioda" Info="7. perioda" />
+	<Oganesson Sekce="Vlastnosti" Info="Uměle vytvořený radioaktivní prvek" />
+	<Oganesson Sekce="Relativní atomová hmotnost" Info="Vypočítaná 293,21495(99) " />
+	<!--Lanthan-->
+	<Lanthan Sekce="Název" Info="Lanthan" />
+	<Lanthan Sekce="Chemická značka" Info="La" />
+	<Lanthan Sekce="Protonové číslo" Info="57" />
+	<Lanthan Sekce="Latinsky" Info="Lanthanum" />
+	<Lanthan Sekce="Perioda" Info="6. perioda" />
+	<Lanthan Sekce="Vlastnosti" Info="Stříbřitě lesklý" />
+	<Lanthan Sekce="Relativní atomová hmotnost" Info="138,905" />
+	<!--Cer-->
+	<Cer Sekce="Název" Info="Cer" />
+	<Cer Sekce="Chemická značka" Info="Ce" />
+	<Cer Sekce="Protonové číslo" Info="58" />
+	<Cer Sekce="Latinsky" Info="Cerium" />
+	<Cer Sekce="Perioda" Info="6. perioda" />
+	<Cer Sekce="Vlastnosti" Info="Šedobílá látka" />
+	<Cer Sekce="Relativní atomová hmotnost" Info="140,116" />
+	<!--Praseodym-->
+	<Praseodym Sekce="Název" Info="Praseodym" />
+	<Praseodym Sekce="Chemická značka" Info="Pr" />
+	<Praseodym Sekce="Protonové číslo" Info="59" />
+	<Praseodym Sekce="Latinsky" Info="Praseodymium" />
+	<Praseodym Sekce="Perioda" Info="6. perioda" />
+	<Praseodym Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý" />
+	<Praseodym Sekce="Relativní atomová hmotnost" Info="140,90765(2)" />
+	<!--Neodym-->
+	<Neodym Sekce="Název" Info="Neodym" />
+	<Neodym Sekce="Chemická značka" Info="Nd" />
+	<Neodym Sekce="Protonové číslo" Info="60" />
+	<Neodym Sekce="Latinsky" Info="Neodymium" />
+	<Neodym Sekce="Perioda" Info="6. perioda" />
+	<Neodym Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý" />
+	<Neodym Sekce="Relativní atomová hmotnost" Info="144,242(3)" />
+	<!--Promethium-->
+	<Promethium Sekce="Název" Info="Promethium" />
+	<Promethium Sekce="Chemická značka" Info="Pm" />
+	<Promethium Sekce="Protonové číslo" Info="61" />
+	<Promethium Sekce="Latinsky" Info="Promethium" />
+	<Promethium Sekce="Perioda" Info="6. perioda" />
+	<Promethium Sekce="Vlastnosti" Info="Nemá stabilní izotop a v přírodě se prakticky nevyskytuje" />
+	<Promethium Sekce="Relativní atomová hmotnost" Info="145" />
+	<!--Samarium-->
+	<Samarium Sekce="Název" Info="Samarium" />
+	<Samarium Sekce="Chemická značka" Info="Sm" />
+	<Samarium Sekce="Protonové číslo" Info="62" />
+	<Samarium Sekce="Latinsky" Info="Samarium" />
+	<Samarium Sekce="Perioda" Info="6. perioda" />
+	<Samarium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Samarium Sekce="Relativní atomová hmotnost" Info="150,36(2)" />
+	<!--Europium-->
+	<Europium Sekce="Název" Info="Europium" />
+	<Europium Sekce="Chemická značka" Info="Eu" />
+	<Europium Sekce="Protonové číslo" Info="63" />
+	<Europium Sekce="Latinsky" Info="Europium" />
+	<Europium Sekce="Perioda" Info="6. perioda" />
+	<Europium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, vnitřně přechodný kovový prvek" />
+	<Europium Sekce="Relativní atomová hmotnost" Info="151,964" />
+	<!--Gadolinium-->
+	<Gadolinium Sekce="Název" Info="Gadolinium" />
+	<Gadolinium Sekce="Chemická značka" Info="Gd" />
+	<Gadolinium Sekce="Protonové číslo" Info="64" />
+	<Gadolinium Sekce="Latinsky" Info="Gadolinium" />
+	<Gadolinium Sekce="Perioda" Info="6. perioda" />
+	<Gadolinium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, vnitřně přechodný kovový feromagnetický prvek" />
+	<Gadolinium Sekce="Relativní atomová hmotnost" Info="157,25(3)" />
+	<!--Terbium-->
+	<Terbium Sekce="Název" Info="Terbium" />
+	<Terbium Sekce="Chemická značka" Info="Tb" />
+	<Terbium Sekce="Protonové číslo" Info="65" />
+	<Terbium Sekce="Latinsky" Info="Terbium" />
+	<Terbium Sekce="Perioda" Info="6. perioda" />
+	<Terbium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, vnitřně přechodný kovový prvek" />
+	<Terbium Sekce="Relativní atomová hmotnost" Info="158,92535(2)" />
+	<!--Dysprosium-->
+	<Dysprosium Sekce="Název" Info="Dysprosium" />
+	<Dysprosium Sekce="Chemická značka" Info="Dy" />
+	<Dysprosium Sekce="Protonové číslo" Info="66" />
+	<Dysprosium Sekce="Latinsky" Info="Dysprosium" />
+	<Dysprosium Sekce="Perioda" Info="6. perioda" />
+	<Dysprosium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Dysprosium Sekce="Relativní atomová hmotnost" Info="162,500(1)" />
+	<!--Holmium-->
+	<Holmium Sekce="Název" Info="Holmium" />
+	<Holmium Sekce="Chemická značka" Info="Ho" />
+	<Holmium Sekce="Protonové číslo" Info="67" />
+	<Holmium Sekce="Latinsky" Info="Holmium" />
+	<Holmium Sekce="Perioda" Info="6. perioda" />
+	<Holmium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Holmium Sekce="Relativní atomová hmotnost" Info="164,93032(2)" />
+	<!--Erbium-->
+	<Erbium Sekce="Název" Info="Erbium" />
+	<Erbium Sekce="Chemická značka" Info="Er" />
+	<Erbium Sekce="Protonové číslo" Info="68" />
+	<Erbium Sekce="Latinsky" Info="Erbium" />
+	<Erbium Sekce="Perioda" Info="6. perioda" />
+	<Erbium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Erbium Sekce="Relativní atomová hmotnost" Info="167,259(3)" />
+	<!--Thulium-->
+	<Thulium Sekce="Název" Info="Thulium" />
+	<Thulium Sekce="Chemická značka" Info="Tm" />
+	<Thulium Sekce="Protonové číslo" Info="69" />
+	<Thulium Sekce="Latinsky" Info="Thulium" />
+	<Thulium Sekce="Perioda" Info="6. perioda" />
+	<Thulium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Thulium Sekce="Relativní atomová hmotnost" Info="168,93421(2)" />
+	<!--Ytterbium-->
+	<Ytterbium Sekce="Název" Info="Ytterbium" />
+	<Ytterbium Sekce="Chemická značka" Info="Yb" />
+	<Ytterbium Sekce="Protonové číslo" Info="70" />
+	<Ytterbium Sekce="Latinsky" Info="Ytterbium" />
+	<Ytterbium Sekce="Perioda" Info="6. perioda" />
+	<Ytterbium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, přechodný kovový prvek" />
+	<Ytterbium Sekce="Relativní atomová hmotnost" Info="173,045(10)" />
+	<!--Lutecium-->
+	<Lutecium Sekce="Název" Info="Lutecium" />
+	<Lutecium Sekce="Chemická značka" Info="Lu" />
+	<Lutecium Sekce="Protonové číslo" Info="71" />
+	<Lutecium Sekce="Latinsky" Info="Lutecium" />
+	<Lutecium Sekce="Perioda" Info="6. perioda" />
+	<Lutecium Sekce="Vlastnosti" Info="Měkký, stříbřitě bílý, vnitřně přechodný kovový prvek pevného skupenství" />
+	<Lutecium Sekce="Relativní atomová hmotnost" Info="174,947(1)" />
+	<!--Aktinium-->
+	<Aktinium Sekce="Název" Info="Aktinium" />
+	<Aktinium Sekce="Chemická značka" Info="Ac" />
+	<Aktinium Sekce="Protonové číslo" Info="89" />
+	<Aktinium Sekce="Latinsky" Info="Actinium" />
+	<Aktinium Sekce="Perioda" Info="7. perioda" />
+	<Aktinium Sekce="Vlastnosti" Info="Stříbrný kov, radioaktivní" />
+	<Aktinium Sekce="Relativní atomová hmotnost" Info="(227,027 8)" />
+	<!--Thorium-->
+	<Thorium Sekce="Název" Info="Thorium" />
+	<Thorium Sekce="Chemická značka" Info="Th" />
+	<Thorium Sekce="Protonové číslo" Info="90" />
+	<Thorium Sekce="Latinsky" Info="Thorium" />
+	<Thorium Sekce="Perioda" Info="7. perioda" />
+	<Thorium Sekce="Vlastnosti" Info="Stříbrobílý kov (na povrchu obvykle zčernalý), radioaktivní" />
+	<Thorium Sekce="Relativní atomová hmotnost" Info="232,038 1" />
+	<!--Protaktinium-->
+	<Protaktinium Sekce="Název" Info="Protaktinium" />
+	<Protaktinium Sekce="Chemická značka" Info="Pa" />
+	<Protaktinium Sekce="Protonové číslo" Info="91" />
+	<Protaktinium Sekce="Latinsky" Info="Protactinium" />
+	<Protaktinium Sekce="Perioda" Info="7. perioda" />
+	<Protaktinium Sekce="Vlastnosti" Info="Stříbrný kov, radioaktivní" />
+	<Protaktinium Sekce="Relativní atomová hmotnost" Info="(231,035 9)" />
+	<!--Uran-->
+	<Uran Sekce="Název" Info="Uran" />
+	<Uran Sekce="Chemická značka" Info="U" />
+	<Uran Sekce="Protonové číslo" Info="92" />
+	<Uran Sekce="Latinsky" Info="Uranium" />
+	<Uran Sekce="Perioda" Info="7. perioda" />
+	<Uran Sekce="Vlastnosti" Info="Stříbrobílý, vlivem oxidace našedlý kov, radioaktivní" />
+	<Uran Sekce="Relativní atomová hmotnost" Info="238,029" />
+	<!--Neptunium-->
+	<Neptunium Sekce="Název" Info="Neptunium" />
+	<Neptunium Sekce="Chemická značka" Info="Np" />
+	<Neptunium Sekce="Protonové číslo" Info="93" />
+	<Neptunium Sekce="Latinsky" Info="Neptunium" />
+	<Neptunium Sekce="Perioda" Info="7. perioda" />
+	<Neptunium Sekce="Vlastnosti" Info="Stříbrobílý kov, radioaktivní" />
+	<Neptunium Sekce="Relativní atomová hmotnost" Info="(230,048 2)" />
+	<!--Plutonium-->
+	<Plutonium Sekce="Název" Info="Plutonium" />
+	<Plutonium Sekce="Chemická značka" Info="Pu" />
+	<Plutonium Sekce="Protonové číslo" Info="94" />
+	<Plutonium Sekce="Latinsky" Info="Plutonium" />
+	<Plutonium Sekce="Perioda" Info="7. perioda" />
+	<Plutonium Sekce="Vlastnosti" Info="Stříbrobílý kov, radioaktivní" />
+	<Plutonium Sekce="Relativní atomová hmotnost" Info="244,064" />
+	<!--Americium-->
+	<Americium Sekce="Název" Info="Americium" />
+	<Americium Sekce="Chemická značka" Info="Am" />
+	<Americium Sekce="Protonové číslo" Info="95" />
+	<Americium Sekce="Latinsky" Info="Americium" />
+	<Americium Sekce="Perioda" Info="7. perioda" />
+	<Americium Sekce="Vlastnosti" Info="Stříbřitě bílý, radioaktivní" />
+	<Americium Sekce="Relativní atomová hmotnost" Info="(241,056 7)" />
+	<!--Curium-->
+	<Curium Sekce="Název" Info="Curium" />
+	<Curium Sekce="Chemická značka" Info="Cm" />
+	<Curium Sekce="Protonové číslo" Info="96" />
+	<Curium Sekce="Latinsky" Info="Curium" />
+	<Curium Sekce="Perioda" Info="7. perioda" />
+	<Curium Sekce="Vlastnosti" Info="Stříbřitý, radioaktivní" />
+	<Curium Sekce="Relativní atomová hmotnost" Info="247,070" />
+	<!--Berkelium-->
+	<Berkelium Sekce="Název" Info="Berkelium" />
+	<Berkelium Sekce="Chemická značka" Info="Bk" />
+	<Berkelium Sekce="Protonové číslo" Info="97" />
+	<Berkelium Sekce="Latinsky" Info="Berkelium" />
+	<Berkelium Sekce="Perioda" Info="7. perioda" />
+	<Berkelium Sekce="Vlastnosti" Info="Stříbrnobílý, radioaktivní" />
+	<Berkelium Sekce="Relativní atomová hmotnost" Info="247,070 2" />
+	<!--Kalifornium-->
+	<Kalifornium Sekce="Název" Info="Kalifornium" />
+	<Kalifornium Sekce="Chemická značka" Info="Cf" />
+	<Kalifornium Sekce="Protonové číslo" Info="98" />
+	<Kalifornium Sekce="Latinsky" Info="Californium" />
+	<Kalifornium Sekce="Perioda" Info="7. perioda" />
+	<Kalifornium Sekce="Vlastnosti" Info="Kovově stříbrný, radioaktivní" />
+	<Kalifornium Sekce="Relativní atomová hmotnost" Info="251,080" />
+	<!--Einsteinium-->
+	<Einsteinium Sekce="Název" Info="Einsteinium" />
+	<Einsteinium Sekce="Chemická značka" Info="Es" />
+	<Einsteinium Sekce="Protonové číslo" Info="99" />
+	<Einsteinium Sekce="Latinsky" Info="Einsteinium" />
+	<Einsteinium Sekce="Perioda" Info="7. perioda" />
+	<Einsteinium Sekce="Vlastnosti" Info="Kovově stříbrný, radioaktivní" />
+	<Einsteinium Sekce="Relativní atomová hmotnost" Info="254,088" />
+	<!--Fermium-->
+	<Fermium Sekce="Název" Info="Fermium" />
+	<Fermium Sekce="Chemická značka" Info="Fm" />
+	<Fermium Sekce="Protonové číslo" Info="100" />
+	<Fermium Sekce="Latinsky" Info="Fermium" />
+	<Fermium Sekce="Perioda" Info="7. perioda" />
+	<Fermium Sekce="Vlastnosti" Info="Silně radioaktivní kovový prvek" />
+	<Fermium Sekce="Relativní atomová hmotnost" Info="257,092" />
+	<!--Mendelevium-->
+	<Mendelevium Sekce="Název" Info="Mendelevium" />
+	<Mendelevium Sekce="Chemická značka" Info="Md" />
+	<Mendelevium Sekce="Protonové číslo" Info="101" />
+	<Mendelevium Sekce="Latinsky" Info="Mendelevium" />
+	<Mendelevium Sekce="Perioda" Info="7. perioda" />
+	<Mendelevium Sekce="Vlastnosti" Info="Silně radioaktivní kovový prvek" />
+	<Mendelevium Sekce="Relativní atomová hmotnost" Info="258,10" />
+	<!--Nobelium-->
+	<Nobelium Sekce="Název" Info="Nobelium" />
+	<Nobelium Sekce="Chemická značka" Info="No" />
+	<Nobelium Sekce="Protonové číslo" Info="102" />
+	<Nobelium Sekce="Latinsky" Info="Nobelium" />
+	<Nobelium Sekce="Perioda" Info="7. perioda" />
+	<Nobelium Sekce="Vlastnosti" Info="Silně radioaktivní kovový prvek" />
+	<Nobelium Sekce="Relativní atomová hmotnost" Info="259,10" />
+	<!--Lawrencium-->
+	<Lawrencium Sekce="Název" Info="Lawrencium" />
+	<Lawrencium Sekce="Chemická značka" Info="Lr" />
+	<Lawrencium Sekce="Protonové číslo" Info="103" />
+	<Lawrencium Sekce="Latinsky" Info="Lawrencium" />
+	<Lawrencium Sekce="Perioda" Info="7. perioda" />
+	<Lawrencium Sekce="Vlastnosti" Info="Silně radioaktivní kovový prvek" />
+	<Lawrencium Sekce="Relativní atomová hmotnost" Info="262,11" />
+</infooprvku>

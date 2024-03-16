@@ -1,0 +1,177 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+         AllowsTransparency="True"
+ WindowStyle="None"
+ Padding="0"
+ WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="768" Width="1024" >
+    <Grid Width="1024" ScrollViewer.VerticalScrollBarVisibility="Disabled" Height="768" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1024"/>
+
+        </Grid.ColumnDefinitions>
+        <Label Content="Chemie" Width="1024" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFB9D1EA"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="994,0,0,0" VerticalAlignment="Top" Click="Button_Click" Width="30" Height="30" Background="#00000000" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
+        <Button Content="?" HorizontalAlignment="Left" Margin="934,0,0,738" VerticalAlignment="Bottom" Width="30" Height="30" Click="Button_Click_2" Background="{x:Null}" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
+        <Button Content="_" HorizontalAlignment="Left" Margin="964,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="Button_Click_1" Background="#00000000" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
+        <Button Content="H" HorizontalAlignment="Left" Margin="117,142,0,0" VerticalAlignment="Top" Width="45" Height="45" Click="button2_Click" Background="#FFFDFDB8" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Li" Margin="117,187,862,0" VerticalAlignment="Top" Height="45" Width="45" Click="button3_Click" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Na" HorizontalAlignment="Left" Margin="117,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14" Click="button4_Click"/>
+        <Button Content="K"  Click="button5_Click" HorizontalAlignment="Left" Margin="117,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Rb" Click="button6_Click" HorizontalAlignment="Left" Margin="117,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cs" Click="button7_Click" HorizontalAlignment="Left" Margin="117,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Fr" Click="button8_Click" HorizontalAlignment="Left" Margin="117,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFA7FFF5" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Be" Click="button9_Click" HorizontalAlignment="Left" Margin="162,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFB8B8" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Mg" Click="button10_Click" HorizontalAlignment="Left" Margin="162,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFB8B8" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ca" Click="button11_Click" HorizontalAlignment="Left" Margin="162,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFE0E0" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sr" Click="button12_Click" HorizontalAlignment="Left" Margin="162,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFE0E0" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ba" Click="button13_Click" HorizontalAlignment="Left" Margin="162,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFE0E0" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ra" Click="button14_Click" HorizontalAlignment="Left" Margin="162,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFFE0E0" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sc" Click="button15_Click" HorizontalAlignment="Left" Margin="207,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Y" Click="button16_Click" HorizontalAlignment="Left" Margin="207,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ti" Click="button17_Click" HorizontalAlignment="Left" Margin="252,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Zr" Click="button18_Click" HorizontalAlignment="Left" Margin="252,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Hf" Click="button19_Click" HorizontalAlignment="Left" Margin="252,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Rf" Click="button20_Click" HorizontalAlignment="Left" Margin="252,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="V" Click="button21_Click" HorizontalAlignment="Left" Margin="297,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Nb" Click="button22_Click" HorizontalAlignment="Left" Margin="297,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ta" Click="button23_Click" HorizontalAlignment="Left" Margin="297,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Db" Click="button24_Click" HorizontalAlignment="Left" Margin="297,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Mo" Click="button26_Click" HorizontalAlignment="Left" Margin="342,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cr" Click="button25_Click" HorizontalAlignment="Left" Margin="342,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="W" Click="button27_Click" HorizontalAlignment="Left" Margin="342,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sg" Click="button28_Click" HorizontalAlignment="Left" Margin="342,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Mn" Click="button29_Click" HorizontalAlignment="Left" Margin="387,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Tc" Click="button30_Click" HorizontalAlignment="Left" Margin="387,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Re" Click="button31_Click" HorizontalAlignment="Left" Margin="387,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Bh" Click="button32_Click" HorizontalAlignment="Left" Margin="387,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Fe" Click="button33_Click" HorizontalAlignment="Left" Margin="432,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ru" Click="button34_Click" HorizontalAlignment="Left" Margin="432,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Os" Click="button35_Click" HorizontalAlignment="Left" Margin="432,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Hs" Click="button36_Click" HorizontalAlignment="Left" Margin="432,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Co" Click="button37_Click" HorizontalAlignment="Left" Margin="477,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Rh" Click="button38_Click" HorizontalAlignment="Left" Margin="477,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ir" Click="button39_Click" HorizontalAlignment="Left" Margin="477,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Mt" Click="button40_Click" HorizontalAlignment="Left" Margin="477,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ni" Click="button41_Click" HorizontalAlignment="Left" Margin="522,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pd" Click="button42_Click" HorizontalAlignment="Left" Margin="522,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pt" Click="button43_Click" HorizontalAlignment="Left" Margin="522,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ds" Click="button44_Click" HorizontalAlignment="Left" Margin="522,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cu" Click="button45_Click" HorizontalAlignment="Left" Margin="567,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ag" Click="button46_Click" HorizontalAlignment="Left" Margin="567,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Au" Click="button47_Click" HorizontalAlignment="Left" Margin="567,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Rg" Click="button48_Click" HorizontalAlignment="Left" Margin="567,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Zn" Click="button49_Click" HorizontalAlignment="Left" Margin="612,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cd" Click="button50_Click" HorizontalAlignment="Left" Margin="612,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Hg" Click="button51_Click" HorizontalAlignment="Left" Margin="612,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cn" Click="button52_Click" HorizontalAlignment="Left" Margin="612,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="B" Click="button55_Click" HorizontalAlignment="Left" Margin="657,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Al" Click="button54_Click" HorizontalAlignment="Left" Margin="657,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ga" Click="button53_Click" HorizontalAlignment="Left" Margin="657,277,0,0" VerticalAlignment="Top" Width="45" Height="46" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="In" Click="button56_Click" HorizontalAlignment="Left" Margin="657,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Tl" Click="button57_Click" HorizontalAlignment="Left" Margin="657,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Nh" Click="button58_Click" HorizontalAlignment="Left" Margin="657,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="C" Click="button59_Click" HorizontalAlignment="Left" Margin="702,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Si" Click="button60_Click" HorizontalAlignment="Left" Margin="702,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ge" Click="button61_Click" HorizontalAlignment="Left" Margin="702,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sn" Click="button62_Click" HorizontalAlignment="Left" Margin="702,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pb" Click="button63_Click" HorizontalAlignment="Left" Margin="702,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Fl" Click="button64_Click" HorizontalAlignment="Left" Margin="702,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="N" Click="button65_Click" HorizontalAlignment="Left" Margin="747,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="P" Click="button66_Click" HorizontalAlignment="Left" Margin="747,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="As" Click="button67_Click" HorizontalAlignment="Left" Margin="747,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sb" Click="button68_Click" HorizontalAlignment="Left" Margin="747,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Bi" Click="button69_Click" HorizontalAlignment="Left" Margin="747,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Mc" Click="button70_Click" HorizontalAlignment="Left" Margin="747,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="O" Click="button71_Click" HorizontalAlignment="Left" Margin="792,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="S" Click="button72_Click" HorizontalAlignment="Left" Margin="792,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Se" Click="button73_Click" HorizontalAlignment="Left" Margin="792,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FF8EB9FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Te" Click="button74_Click" HorizontalAlignment="Left" Margin="792,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFF9D58" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Po" Click="button75_Click" HorizontalAlignment="Left" Margin="792,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Lv" Click="button76_Click" HorizontalAlignment="Left" Margin="792,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFADFF25" FontWeight="Bold" FontSize="14"/>
+        <Button Content="F" Click="button77_Click" HorizontalAlignment="Left" Margin="837,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cl" Click="button78_Click" HorizontalAlignment="Left" Margin="837,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Br" Click="button79_Click" HorizontalAlignment="Left" Margin="837,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="I" Click="button80_Click" HorizontalAlignment="Left" Margin="837,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="At" Click="button81_Click" HorizontalAlignment="Left" Margin="837,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ts" Click="button82_Click" HorizontalAlignment="Left" Margin="837,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFFDD9AC" FontWeight="Bold" FontSize="14"/>
+        <Button Content="He" Click="button83_Click" HorizontalAlignment="Left" Margin="882,142,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ne" Click="button84_Click" HorizontalAlignment="Left" Margin="882,187,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ar" Click="button85_Click" HorizontalAlignment="Left" Margin="882,232,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Kr" Click="button86_Click" HorizontalAlignment="Left" Margin="882,277,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Xe" Click="button87_Click" HorizontalAlignment="Left" Margin="882,322,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Rn" Click="button88_Click" HorizontalAlignment="Left" Margin="882,367,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Og" Click="button89_Click" HorizontalAlignment="Left" Margin="882,412,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFB6FFA2" FontWeight="Bold" FontSize="14"/>
+        <Button Content="La" Click="button90_Click" HorizontalAlignment="Left" Margin="207,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ac" Click="button105_Click" HorizontalAlignment="Left" Margin="207,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ce" Click="button91_Click" HorizontalAlignment="Left" Margin="252,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pr" Click="button92_Click" HorizontalAlignment="Left" Margin="297,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Nd" Click="button93_Click" HorizontalAlignment="Left" Margin="342,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pm" Click="button94_Click" HorizontalAlignment="Left" Margin="387,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Sm" Click="button95_Click" HorizontalAlignment="Left" Margin="432,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Eu" Click="button96_Click" HorizontalAlignment="Left" Margin="477,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Gd" Click="button97_Click" HorizontalAlignment="Left" Margin="522,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Tb" Click="button98_Click" HorizontalAlignment="Left" Margin="567,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Dy" Click="button99_Click" HorizontalAlignment="Left" Margin="612,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Ho" Click="button100_Click" HorizontalAlignment="Left" Margin="657,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Er" Click="button101_Click" HorizontalAlignment="Left" Margin="702,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Tm" Click="button102_Click" HorizontalAlignment="Left" Margin="747,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Yb" Click="button103_Click" HorizontalAlignment="Left" Margin="792,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Lu" Click="button104_Click" HorizontalAlignment="Left" Margin="837,490,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Th" Click="button106_Click" HorizontalAlignment="Left" Margin="252,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pa" Click="button107_Click" HorizontalAlignment="Left" Margin="297,535,0,0" VerticalAlignment="Top" Height="45" Width="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="U"  Click="button108_Click" HorizontalAlignment="Left" Margin="342,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Np" Click="button109_Click" HorizontalAlignment="Left" Margin="387,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Pu" Click="button110_Click" HorizontalAlignment="Left" Margin="432,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Am" Click="button111_Click" HorizontalAlignment="Left" Margin="477,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cm" Click="button112_Click" HorizontalAlignment="Left" Margin="522,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Bk" Click="button113_Click" HorizontalAlignment="Left" Margin="567,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Cf" Click="button114_Click" HorizontalAlignment="Left" Margin="612,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Es" Click="button115_Click" HorizontalAlignment="Left" Margin="657,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Fm" Click="button116_Click" HorizontalAlignment="Left" Margin="702,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Md" Click="button117_Click" HorizontalAlignment="Left" Margin="747,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="No" Click="button119_Click" HorizontalAlignment="Left" Margin="792,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Lr" Click="button118_Click" HorizontalAlignment="Left" Margin="837,535,0,0" VerticalAlignment="Top" Width="45" Height="45" Background="#FFF4B3FF" FontWeight="Bold" FontSize="14"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="71,422,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="71,377,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="71,332,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="71,287,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="71,242,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="71,197,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="71,152,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="I. A" HorizontalAlignment="Left" Margin="128,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="II. A" HorizontalAlignment="Left" Margin="169,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="III. B" HorizontalAlignment="Left" Margin="213,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="IV. B" HorizontalAlignment="Left" Margin="258,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="V. B" HorizontalAlignment="Left" Margin="304,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VI.B" HorizontalAlignment="Left" Margin="349,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VII. B" HorizontalAlignment="Left" Margin="391,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="435,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="481,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="526,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="I. B" HorizontalAlignment="Left" Margin="577,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="II. B" HorizontalAlignment="Left" Margin="620,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="III. A" HorizontalAlignment="Left" Margin="663,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="IV. A" HorizontalAlignment="Left" Margin="707,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="V. A" HorizontalAlignment="Left" Margin="754,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VI. A" HorizontalAlignment="Left" Margin="797,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VII. A" HorizontalAlignment="Left" Margin="841,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. A" HorizontalAlignment="Left" Margin="886,55,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="6 - Lanthanoidy" HorizontalAlignment="Left" Margin="79,500,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="7 - Aktinoidy" HorizontalAlignment="Left" Margin="79,545,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Kovy" HorizontalAlignment="Left" Margin="531,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFADFF25"/>
+        <Label Content="Polokovy" HorizontalAlignment="Left" Margin="575,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFF9D58"/>
+        <Label Content="Nekovy" HorizontalAlignment="Left" Margin="646,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FF8EB9FF"/>
+        <Label Content="Kovy alkalických zemin" HorizontalAlignment="Left" Margin="262,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFE0E0"/>
+        <Label Content="Přechodné kovy" HorizontalAlignment="Left" Margin="417,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFF4B3FF"/>
+        <Label Content="Alkalické kovy" HorizontalAlignment="Left" Margin="160,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFA7FFF5"/>
+        <Label Content="Vzácné plyny" HorizontalAlignment="Left" Margin="781,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFB6FFA2"/>
+        <Label Content="Halogeny" HorizontalAlignment="Left" Margin="707,625,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFDD9AC"/>
+
+    </Grid>
+</Window>
