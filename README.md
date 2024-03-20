@@ -1,1 +1,1 @@
-Přepsaná aplikace do WPF
+Přepsaná aplikace Chemie do WPF.
