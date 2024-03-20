@@ -1,4 +1,4 @@
-Projekt aplikace Chemie.
+Projekt aplikace Chemie. (Nová verze)
 Informace o prvcích pocházejí z webu Wikipedia.
 
 Změny:
@@ -6,5 +6,6 @@ Změny:
 1) Vylepšený design aplikace
 2) Nové okno "O aplikaci"
 3) Možnost zavírat okna "O aplikaci" a "Info o prvku" pomocí klávesy ESC.
-4) Možnost přesouvání hlavního okna aplikace po obrazovce
-5) Lepší vykreslování
+4) Lepší vykreslování
+5) Vylepšená stabilita
+6) Přidán tmavý režim
