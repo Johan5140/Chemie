@@ -1,0 +1,1 @@
+Přepsaná aplikace do WPF
