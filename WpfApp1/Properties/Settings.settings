@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Chemie.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="background" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ano</Value>
+    </Setting>
+    <Setting Name="head" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#b9d1ea</Value>
+    </Setting>
+    <Setting Name="theme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Světlý</Value>
+    </Setting>
+    <Setting Name="hdtextcolor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Světlý</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

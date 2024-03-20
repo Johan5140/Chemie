@@ -1,27 +1,40 @@
-﻿<Window x:Class="Chemie.aboutapp"
+﻿<Window x:Class="Chemie.Window1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chemie"
         mc:Ignorable="d"
-        AllowsTransparency="True"
-        WindowStyle="None"
-        Padding="0"
-        WindowStartupLocation="CenterScreen"
-        Title="aboutapp" Height="450" Width="600">
+                                AllowsTransparency="True"
+WindowStyle="None"
+Padding="0"
+WindowStartupLocation="CenterScreen"
+        Title="Color pick" Height="300" Width="400">
     <Window.Resources>
         <SolidColorBrush x:Key="CustomLabelColor" />
         <SolidColorBrush x:Key="ButtonsLabel" />
         <SolidColorBrush x:Key="Buttonsback" />
         <SolidColorBrush x:Key="Buttonshover" />
-        <SolidColorBrush x:Key="comboboxcl" />
-        <SolidColorBrush x:Key="arrowcl"/>
-        <SolidColorBrush x:Key="comboboxfr" />
-        <SolidColorBrush x:Key="arrowfl"/>
-        <SolidColorBrush x:Key="arrowmo"/>
-        <SolidColorBrush x:Key="borderbg"/>
-
+        <SolidColorBrush x:Key="tbbg" />
+        <SolidColorBrush x:Key="tbfg" />
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="{DynamicResource ButtonsLabel}" />
+            <Setter Property="Background" Value="{DynamicResource Buttonsback}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{DynamicResource Buttonshover}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="{DynamicResource CustomLabelColor}" />
         </Style>
@@ -82,16 +95,30 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Label x:Name="Headline" Content="O aplikaci" Width="600" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFB9D1EA"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="X" HorizontalAlignment="Left" Margin="570,0,0,0" VerticalAlignment="Top" Click="Button_Click" Width="30" Height="30" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
-        <Label Content="Název:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Autor:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Aplikace se nachází ve vývoji, proto může být nestabilní!" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Name="Nameapp" Content="Label" HorizontalAlignment="Left" Margin="170,36,0,0" VerticalAlignment="Top"/>
-        <Label Name="Autor" Content="Label" HorizontalAlignment="Left" Margin="170,98,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="abouttext" HorizontalAlignment="Center" Margin="0,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="580" Height="276"/>
-        <Label Content="Verze:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Name="ver" Content="Label" HorizontalAlignment="Left" Margin="170,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Headline" Content="Výběr barvy záhlaví" Width="400" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFB9D1EA"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="370,0,0,0" VerticalAlignment="Top" Click="Button_Click" Width="30" Height="30" Style="{DynamicResource ButtonStyle1}" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
+        <TextBox Name="hexcode" HorizontalAlignment="Left" KeyDown="hexcodee" Margin="325,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <Label Content="#" HorizontalAlignment="Left" Margin="303,145,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="bluecode" HorizontalAlignment="Left" Margin="325,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" IsEnabled="False"/>
+        <TextBox Name="redcode" HorizontalAlignment="Left" Margin="325,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="60" IsEnabled="False"/>
+        <TextBox Name="greencode" HorizontalAlignment="Left" Margin="325,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" IsEnabled="False"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="303,122,0,0" VerticalAlignment="Top"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="302,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="R" HorizontalAlignment="Left" Margin="303,76,0,0" VerticalAlignment="Top"/>
+        <Rectangle Name="preview" HorizontalAlignment="Left" Height="96" Margin="73,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="224"/>
+        <Label Content="Předdefinované barvy" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Button Name="black" Click="black_clck" Background="Black" Foreground="White" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="red" Click="red_clck" Background="#FFF75454" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="default" Click="def_clck" Background="#FFB9D1EA" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="blue" Click="blue_clck" Background="#FF365EFF" Foreground="White" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="green" Click="green_clck" Background="#FF59FF38" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="yellow" Click="yellow_clck" Background="#FFF1FF00" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Name="brown" Click="brown_clck" Foreground="White" Background="#4C3228" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="50" Height="22"/>
+        <Button Name="save" Click="save_clck" Content="Vybrat" HorizontalAlignment="Left" Margin="325,260,0,0" VerticalAlignment="Top" Width="60" Height="30"/>
+        <Label Content="Vlastní barva" HorizontalAlignment="Left" Margin="312,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Barvu je možno vybrat pomocí tlačítka" HorizontalAlignment="Left" Margin="173,179,0,0" VerticalAlignment="Top"/>
+        <Label Content="nebo zadáním HEX kódu do pole (#) a stisknutím ENTER" HorizontalAlignment="Left" Margin="79,210,0,0" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>

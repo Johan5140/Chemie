@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 //using System.Windows.Forms;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.Windows.Media;
 using System.Xml.Linq;
 
 namespace WpfApp1
@@ -32,8 +24,49 @@ namespace WpfApp1
             dataSet.ReadXml(xml.CreateReader());
             DataView dataView = new DataView(dataSet.Tables[kodprvku]);
             dataGrid1.ItemsSource = dataView;
-            Headline.Content = "Informace o prvku: "+kodprvku;
+            Headline.Content = "Informace o prvku: " + kodprvku;
             PreviewKeyDown += (s, e) => { if (e.Key == Key.Escape) this.Close(); };
+            string hdtext = Chemie.Properties.Settings.Default.hdtextcolor;
+            if (hdtext == "Tmavý")
+            {
+                Headline.Foreground = new SolidColorBrush((Color)Colors.Black);
+
+            }
+            else
+            {
+                Headline.Foreground = new SolidColorBrush((Color)Colors.White);
+            }
+            string thmpck = Chemie.Properties.Settings.Default.theme;
+            if (thmpck == "Světlý")
+            {
+                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
+                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
+                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
+                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
+                this.Resources["cellbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
+                /* Část kódu pro pozdější vrácení pozadí */
+                /* if (bgenabled == "Ano")
+                {
+                    this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Chemie;component/data/bglight.png")));
+                }
+                if (bgenabled == "Ne")
+                {
+                    this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
+                } */
+            }
+            if (thmpck == "Tmavý")
+            {
+                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
+                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
+                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
+                this.Resources["cellbg"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+                this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
+                dataGrid1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+                this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+            }
+            Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Chemie.Properties.Settings.Default.head));
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {
