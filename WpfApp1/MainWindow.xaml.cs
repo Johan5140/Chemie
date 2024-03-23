@@ -47,7 +47,6 @@ namespace WpfApp1
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
             {

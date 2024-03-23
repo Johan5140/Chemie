@@ -61,7 +61,7 @@ namespace Chemie
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
@@ -95,6 +95,7 @@ namespace Chemie
             Properties.Settings.Default.head = "#b9d1ea";
             Properties.Settings.Default.theme = "Světlý";
             Properties.Settings.Default.hdtextcolor = "Tmavý";
+            Properties.Settings.Default.background = "Ano";
             Properties.Settings.Default.Save();
             System.Windows.MessageBox.Show("Nastavení vrácena do výchozích hodnot, aplikace se restartuje!");
             System.Windows.Forms.Application.Restart();
