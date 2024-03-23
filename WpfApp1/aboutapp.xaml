@@ -10,77 +10,7 @@
         Padding="0"
         WindowStartupLocation="CenterScreen"
         Title="aboutapp" Height="450" Width="600">
-    <Window.Resources>
-        <SolidColorBrush x:Key="CustomLabelColor" />
-        <SolidColorBrush x:Key="ButtonsLabel" />
-        <SolidColorBrush x:Key="Buttonsback" />
-        <SolidColorBrush x:Key="Buttonshover" />
-        <SolidColorBrush x:Key="comboboxcl" />
-        <SolidColorBrush x:Key="arrowcl"/>
-        <SolidColorBrush x:Key="comboboxfr" />
-        <SolidColorBrush x:Key="arrowfl"/>
-        <SolidColorBrush x:Key="arrowmo"/>
-        <SolidColorBrush x:Key="borderbg"/>
-
-        <Style TargetType="Label">
-            <Setter Property="Foreground" Value="{DynamicResource CustomLabelColor}" />
-        </Style>
-        <Style x:Key="FocusVisual">
-            <Setter Property="Control.Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
-        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
-        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
-        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
-            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
-            <Setter Property="Foreground" Value="{DynamicResource ButtonsLabel}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0" SnapsToDevicePixels="true">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsDefaulted" Value="true">
-                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
-                            </Trigger>
-                            <Trigger Property="IsMouseOver" Value="true">
-                                <Setter Property="Background" TargetName="border" Value="{DynamicResource Buttonshover}"/>
-                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="true">
-                                <Setter Property="Background" TargetName="border" Value="{DynamicResource Buttonshover}"/>
-                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
-                            </Trigger>
-                            <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
-                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
-                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Window.Resources>
+  
     <Grid>
         <Label x:Name="Headline" Content="O aplikaci" Width="600" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFB9D1EA"/>
         <Button Style="{DynamicResource ButtonStyle1}" Content="X" HorizontalAlignment="Left" Margin="570,0,0,0" VerticalAlignment="Top" Click="Button_Click" Width="30" Height="30" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
@@ -89,7 +19,7 @@
         <Label Content="Aplikace se nachází ve vývoji, proto může být nestabilní!" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Name="Nameapp" Content="Label" HorizontalAlignment="Left" Margin="170,36,0,0" VerticalAlignment="Top"/>
         <Label Name="Autor" Content="Label" HorizontalAlignment="Left" Margin="170,98,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="abouttext" HorizontalAlignment="Center" Margin="0,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="580" Height="276"/>
+        <TextBox Name="abouttext" HorizontalAlignment="Center" Margin="0,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="580" Height="276"/>
         <Label Content="Verze:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Name="ver" Content="Label" HorizontalAlignment="Left" Margin="170,67,0,0" VerticalAlignment="Top"/>
 

@@ -31,15 +31,15 @@ namespace Chemie
             {
                 Headline.Foreground = new SolidColorBrush((Color)Colors.White);
             }
-            string thmpck = Chemie.Properties.Settings.Default.theme;
+            string thmpck = Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
                 this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                abouttext.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                abouttext.Foreground = new SolidColorBrush(Colors.Black);
+                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
@@ -48,8 +48,8 @@ namespace Chemie
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
-                abouttext.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                abouttext.Foreground = new SolidColorBrush(Colors.White);
+                this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
             }
             Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Chemie.Properties.Settings.Default.head));

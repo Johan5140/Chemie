@@ -45,15 +45,6 @@ namespace WpfApp1
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
                 this.Resources["cellbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
-                /* Část kódu pro pozdější vrácení pozadí */
-                /* if (bgenabled == "Ano")
-                {
-                    this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Chemie;component/data/bglight.png")));
-                }
-                if (bgenabled == "Ne")
-                {
-                    this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                } */
             }
             if (thmpck == "Tmavý")
             {
