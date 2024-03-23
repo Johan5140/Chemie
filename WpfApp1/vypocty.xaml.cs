@@ -42,7 +42,7 @@ namespace Chemie
                 this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
