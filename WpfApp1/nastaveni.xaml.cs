@@ -25,8 +25,16 @@ namespace Chemie
             headpick.Items.Add("Světlý");
             themepick.Items.Add("Tmavý");
             themepick.Items.Add("Světlý");
-            bakgroundenabled.Items.Add("Ano");
-            bakgroundenabled.Items.Add("Ne");
+            bgenbaled.Items.Add("Ano");
+            bgenbaled.Items.Add("Ne");
+            string bg = Properties.Settings.Default.background;
+            if (bg == "Ano") {
+                bgenbaled.SelectedItem = "Ano";
+            }
+            if (bg == "Ne")
+            {
+                bgenbaled.SelectedItem = "Ne";
+            }
             string hdtext = Properties.Settings.Default.hdtextcolor;
             if (hdtext == "Tmavý")
             {
@@ -37,7 +45,7 @@ namespace Chemie
                 Headline.Foreground = new SolidColorBrush((Color)Colors.White);
                 headpick.SelectedItem = "Světlý";
             }
-            string thmpck = Properties.Settings.Default.theme;
+            string thmpck = Chemie.Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
                 themepick.SelectedItem = "Světlý";
@@ -51,6 +59,9 @@ namespace Chemie
                 this.Resources["arrowfl"] = new SolidColorBrush(Colors.Black);
                 this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#cccccc"));
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
@@ -66,6 +77,9 @@ namespace Chemie
                 this.Resources["arrowfl"] = new SolidColorBrush(Colors.White);
                 this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#a1a1a1"));
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray); 
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
             }
             Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Properties.Settings.Default.head));
@@ -81,7 +95,6 @@ namespace Chemie
             Properties.Settings.Default.head = "#b9d1ea";
             Properties.Settings.Default.theme = "Světlý";
             Properties.Settings.Default.hdtextcolor = "Tmavý";
-            Properties.Settings.Default.background = "Ano";
             Properties.Settings.Default.Save();
             System.Windows.MessageBox.Show("Nastavení vrácena do výchozích hodnot, aplikace se restartuje!");
             System.Windows.Forms.Application.Restart();
@@ -100,7 +113,6 @@ namespace Chemie
                 Properties.Settings.Default.hdtextcolor = "Tmavý";
             }
             var thmset = themepick.SelectedItem.ToString();
-            //var enbalebg = bakgroundenabled.SelectedItem.ToString();
             if (thmset == "Světlý")
             {
                 Properties.Settings.Default.theme = "Světlý";
@@ -109,14 +121,15 @@ namespace Chemie
             {
                 Properties.Settings.Default.theme = "Tmavý";
             }
-           /* if (enbalebg == "Ano")
+            var bgset = bgenbaled.SelectedItem.ToString();  
+            if (bgset == "Ano")
             {
                 Properties.Settings.Default.background = "Ano";
             }
-            if (enbalebg == "Ne")
+            if (bgset == "Ne")
             {
                 Properties.Settings.Default.background = "Ne";
-            } */
+            }
             Properties.Settings.Default.Save();
             System.Windows.MessageBox.Show("Nastavení uložena, aplikace se restartuje! ");
             System.Windows.Forms.Application.Restart();

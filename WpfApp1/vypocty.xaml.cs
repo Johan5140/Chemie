@@ -16,11 +16,10 @@ namespace Chemie
             fncpick.Items.Add("Hmotnostní zlomek");
             fncpick.Items.Add("Objemový zlomek");
             fncpick.Items.Add("Molární hmornost");
-            string hdtext = Chemie.Properties.Settings.Default.hdtextcolor;
+            string hdtext = Properties.Settings.Default.hdtextcolor;
             if (hdtext == "Tmavý")
             {
                 Headline.Foreground = new SolidColorBrush((Color)Colors.Black);
-
             }
             else
             {
@@ -39,8 +38,11 @@ namespace Chemie
                 this.Resources["arrowfl"] = new SolidColorBrush(Colors.Black);
                 this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#cccccc"));
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
             }
             if (thmpck == "Tmavý")
@@ -55,12 +57,14 @@ namespace Chemie
                 this.Resources["arrowfl"] = new SolidColorBrush(Colors.White);
                 this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#a1a1a1"));
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
                 this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
             }
-            Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Chemie.Properties.Settings.Default.head));
-
+            Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Properties.Settings.Default.head));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -113,6 +117,6 @@ namespace Chemie
             tb4.Text = b;
             tb3.Text = v;
             Button_Click_1(sender, e);
-        }
+        } 
     }
 }

@@ -32,8 +32,17 @@ namespace WpfApp1
                 Headline.Foreground = new SolidColorBrush((Color)Colors.White);
             }
             string thmpck = Chemie.Properties.Settings.Default.theme;
+            string bgenabled = Chemie.Properties.Settings.Default.background;
             if (thmpck == "Světlý")
             {
+                 if (bgenabled == "Ano")
+                {
+                    this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Chemie;component/data/bglight.png")));
+                }
+                if (bgenabled == "Ne")
+                {
+                    this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
+                }
                 this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
@@ -42,11 +51,18 @@ namespace WpfApp1
             }
             if (thmpck == "Tmavý")
             {
+                 if (bgenabled == "Ano")
+                {
+                    this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Chemie;component/data/bgdark.png")));
+                }
+                if (bgenabled == "Ne")
+                {
+                    this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+                }
                 this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
-                this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
             }
             Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Chemie.Properties.Settings.Default.head));
         }
