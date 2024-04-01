@@ -1,8 +1,15 @@
-Projekt aplikace Chemie. (Nová verze)
+Projekt aplikace Chemie.
 Informace o prvcích pocházejí z webu Wikipedia.
 
-Změny:
-------
+Změny (v 0.4):
+--------------
+1) Vylepšení tmavého režimu
+2) Přidání výpočtu objemového zlomku
+3) Přidáno pozadí (možno vypnout v nastavení aplikace)
+4) Přidání odkazů na stránku aplikace na githubu
+
+Změny (v 0.3):
+--------------
 1) Vylepšený design aplikace
 2) Nové okno "O aplikaci"
 3) Možnost zavírat okna "O aplikaci" a "Info o prvku" pomocí klávesy ESC.
