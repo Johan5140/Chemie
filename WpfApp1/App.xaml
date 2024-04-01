@@ -21,6 +21,10 @@
         <SolidColorBrush x:Key="cellfg"/>
         <SolidColorBrush x:Key="cbihoverbg" />
         <SolidColorBrush x:Key="cbihoverfg" />
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+        </Style>
         <Style TargetType="Button">
             <Setter Property="Foreground" Value="{DynamicResource ButtonsLabel}" />
             <Setter Property="Background" Value="{DynamicResource Buttonsback}" />
@@ -39,7 +43,7 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-
+        <!-- -->
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="{DynamicResource CustomLabelColor}" />
         </Style>
