@@ -1,4 +1,4 @@
-## Přepsaná aplikace Chemie do WPF. 
+## Aplikace chemie.
 ### Zatím ve vývoji, může se chovat nestabilně
 <p>Původní verze <a href="https://github.com/Johan5140/ChemieApp">zde</a></br>
 Aplikace je pouze v 🇨🇿 jazyce. App is only in Czech language</br>
