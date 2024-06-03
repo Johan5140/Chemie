@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chemie"
         mc:Ignorable="d"
+        BorderBrush="Black"
+BorderThickness="1px"
         AllowsTransparency="True"
         WindowStyle="None"
         Padding="0"

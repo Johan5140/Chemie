@@ -27,6 +27,9 @@ namespace Chemie
             themepick.Items.Add("Světlý");
             bgenbaled.Items.Add("Ano");
             bgenbaled.Items.Add("Ne");
+            devmode.Items.Add("Ano");
+            devmode.Items.Add("Ne");
+            /* Odemknutí vývojářského režimu */
             string bg = Properties.Settings.Default.background;
             if (bg == "Ano") {
                 bgenbaled.SelectedItem = "Ano";
@@ -139,9 +142,8 @@ namespace Chemie
 
         private void Colorpick_Click(object sender, RoutedEventArgs e)
         {
-            Window1 clpick = new Window1();
-            clpick.Show();
-            
+             Window1 clpick = new Window1();
+             clpick.Show();
         }
     }
 }

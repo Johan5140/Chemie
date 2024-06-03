@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chemie"
         mc:Ignorable="d"
+        BorderBrush="Black"
+BorderThickness="1px"
                                 AllowsTransparency="True"
 WindowStyle="None"
 Padding="0"
@@ -32,9 +34,10 @@ WindowStartupLocation="CenterScreen"
         <Button Name="brown" Click="brown_clck" Foreground="White" Background="#4C3228" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="50" Height="22"/>
         <Button Name="save" Click="save_clck" Content="Vybrat" HorizontalAlignment="Left" Margin="325,260,0,0" VerticalAlignment="Top" Width="60" Height="30"/>
         <Label Content="Vlastní barva" HorizontalAlignment="Left" Margin="312,41,0,0" VerticalAlignment="Top"/>
-        <Label Content="Barvu je možno vybrat kliknutím na její pole" HorizontalAlignment="Left" Margin="144,179,0,0" VerticalAlignment="Top"/>
-        <Label Content="nebo zadáním HEX kódu do pole (#) a stisknutím ENTER" HorizontalAlignment="Left" Margin="79,210,0,0" VerticalAlignment="Top"/>
+        <Label Content="Barvu je možno vybrat kliknutím na její pole" HorizontalAlignment="Left" Margin="144,198,0,0" VerticalAlignment="Top"/>
+        <Label Content="nebo zadáním HEX kódu do pole (#) a stisknutím ENTER" HorizontalAlignment="Left" Margin="79,229,0,0" VerticalAlignment="Top"/>
         <TextBox Name="hexcode" KeyDown="hexcodee" HorizontalAlignment="Left" Margin="325,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <Button Content="Více barev" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="Button_Click_1"/>
 
 
     </Grid>

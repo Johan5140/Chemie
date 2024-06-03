@@ -7,6 +7,8 @@
               mc:Ignorable="d"
         AllowsTransparency="True"
         WindowStyle="None"
+        BorderBrush="Black"
+BorderThickness="1px"
         Padding="0"
         WindowStartupLocation="CenterScreen" Width="800" Height="180">
     <Grid Width="800px">
