@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:Chemie"
         mc:Ignorable="d"
         AllowsTransparency="True"
+        BorderBrush="Black"
+BorderThickness="1px"
         WindowStyle="None"
         Padding="0"
         WindowStartupLocation="CenterScreen"
@@ -29,6 +31,8 @@
         <Label Content="(Pro uložení změn nebo resetování nastavení je potřeba resetovat aplikaci!)" HorizontalAlignment="Left" Margin="114,379,0,0" VerticalAlignment="Top"/>
         <Label Content="(ve vývoji!)" HorizontalAlignment="Left" Margin="354,36,0,0" VerticalAlignment="Top"/>
         <ComboBox Name="bgenbaled" IsEditable="True" SelectedItem="Ne" HorizontalAlignment="Left" Margin="229,115,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Povolit pozadí hlavního okna:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="Povolit pozadí hlavního okna:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Label Name="devlabel" Content="Povolit vývojářský režim:" HorizontalAlignment="Left" Margin="12,348,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <ComboBox Name="devmode" HorizontalAlignment="Left" Margin="231,348,0,0" VerticalAlignment="Top" Width="120" IsEditable="True" SelectedItem="Ne" Height="26" Visibility="Hidden"/>
     </Grid>
 </Window>

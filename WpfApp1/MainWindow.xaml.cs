@@ -8,8 +8,10 @@ using Chemie;
 using WpfApp1;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 using System.Data;
+using System.Windows.Input;
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WpfApp1
 {
@@ -21,6 +23,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
             string hdtext = Chemie.Properties.Settings.Default.hdtextcolor;
             if (hdtext == "Tmavý")
             {
@@ -33,7 +36,7 @@ namespace WpfApp1
             }
             string thmpck = Chemie.Properties.Settings.Default.theme;
             string bgenabled = Chemie.Properties.Settings.Default.background;
-            if (thmpck == "Světlý")
+                if (thmpck == "Světlý")
             {
                  if (bgenabled == "Ano")
                 {
@@ -65,8 +68,7 @@ namespace WpfApp1
             }
             Headline.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Chemie.Properties.Settings.Default.head));
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+            private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

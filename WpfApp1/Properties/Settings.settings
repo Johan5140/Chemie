@@ -12,7 +12,7 @@
       <Value Profile="(Default)">Světlý</Value>
     </Setting>
     <Setting Name="hdtextcolor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Světlý</Value>
+      <Value Profile="(Default)">Tmavý</Value>
     </Setting>
   </Settings>
 </SettingsFile>
