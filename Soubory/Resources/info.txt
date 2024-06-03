@@ -1,6 +1,11 @@
 Projekt aplikace Chemie.
 Informace o prvcích pocházejí z webu Wikipedia.
 
+Změny (v 0.5):
+--------------
+1) Nové rozhraní
+2) Přidána protonová čísla na hlavní stránku
+
 Změny (v 0.4):
 --------------
 1) Vylepšení tmavého režimu

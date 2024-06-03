@@ -24,7 +24,7 @@ namespace Chemie
         public info()
         {
             InitializeComponent();
-            ver.Content = "0.4";
+            ver.Content = "0.5";
             abouttext.Text = Soubory.Resource.info;
             string thmpck = Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
