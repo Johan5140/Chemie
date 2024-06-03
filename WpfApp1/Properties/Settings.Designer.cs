@@ -37,7 +37,7 @@ namespace Chemie.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#b9d1ea")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
         public string head {
             get {
                 return ((string)(this["head"]));
