@@ -6,13 +6,13 @@
       <Value Profile="(Default)">Ano</Value>
     </Setting>
     <Setting Name="head" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#b9d1ea</Value>
+      <Value Profile="(Default)">#000000</Value>
     </Setting>
     <Setting Name="theme" Type="System.String" Scope="User">
       <Value Profile="(Default)">Světlý</Value>
     </Setting>
     <Setting Name="hdtextcolor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Světlý</Value>
+      <Value Profile="(Default)">Tmavý</Value>
     </Setting>
   </Settings>
 </SettingsFile>

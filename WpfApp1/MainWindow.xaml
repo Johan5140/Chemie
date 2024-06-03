@@ -7,6 +7,8 @@
         mc:Ignorable="d"
          AllowsTransparency="True"
  WindowStyle="None"
+        BorderBrush="Black"
+        BorderThickness="1px"
  Padding="0"
  WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="768" Width="1024">
@@ -175,9 +177,8 @@
         <Label Foreground="Black" Content="Alkalické kovy" HorizontalAlignment="Left" Margin="78,600,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFA7FFF5"/>
         <Label Foreground="Black" Content="Vzácné plyny" HorizontalAlignment="Left" Margin="699,600,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFB6FFA2"/>
         <Label Foreground="Black" Content="Halogeny" HorizontalAlignment="Left" Margin="625,600,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFDD9AC"/>
-        <Button Content="Nastavení" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="581,728,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="set_click" />
-        <Button Content="Teorie" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="476,728,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="teorie_click" />
-        <Button Content="Vzorce a výpočty" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="371,728,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="calc_click" />
+        <Button Content="Nastavení" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="520,728,0,10" Width="100" Click="set_click" />
+        <Button Content="Vzorce a výpočty" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="412,728,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="calc_click" />
         <Label Content="Lanthanoidy" HorizontalAlignment="Left" Margin="795,600,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFC65F" Foreground="Black"/>
         <Label Content="Aktinoidy" HorizontalAlignment="Left" Margin="886,600,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFE0E0E0" Foreground="Black"/>
 
