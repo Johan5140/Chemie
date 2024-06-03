@@ -7,5 +7,7 @@ Aplikace zobrazuje informace o prvku uložené v xml souboru. Součastí je takt
 Nově přidán tmavý režim a skromné možnosti přizpůsobení.</p>
 
 ### Snímky hlavního okna:
-<img width="1025" alt="Snímek obrazovky 2024-04-02 v 15 27 30" src="https://github.com/Johan5140/Chemie-new/assets/159197308/a4b090fe-8889-4109-9f92-db6037579e03">
-<img width="1023" alt="Snímek obrazovky 2024-04-01 v 20 21 32" src="https://github.com/Johan5140/Chemie-new/assets/159197308/7c39f8d1-1d6c-4ea5-81b9-d740071be826">
+![Snímek obrazovky 2024-06-03 180200](https://github.com/Johan5140/Chemie/assets/159197308/57787051-84df-487c-95a9-9fde58254ddd)
+![Snímek obrazovky 2024-06-03 175321](https://github.com/Johan5140/Chemie/assets/159197308/ee70af13-e868-49b0-8712-636519af39f4)
+
+
