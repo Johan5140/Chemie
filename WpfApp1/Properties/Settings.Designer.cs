@@ -70,5 +70,17 @@ namespace Chemie.Properties {
                 this["hdtextcolor"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CZ")]
+        public string applang {
+            get {
+                return ((string)(this["applang"]));
+            }
+            set {
+                this["applang"] = value;
+            }
+        }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Chemie.vypocty;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chemie
+namespace Chemie.vypocty
 {
     /// <summary>
-    /// Interakční logika pro vzorce.xaml
+    /// Interakční logika pro hustota.xaml
     /// </summary>
-    public partial class vzorce : Page
+    public partial class hustota : Page
     {
-        public vzorce()
+        public hustota()
         {
             InitializeComponent();
-            fncpick.Items.Add("Hmotnostní zlomek");
-            fncpick.Items.Add("Hustota nebo objem látky");
-            fncpick.Items.Add("Objemový zlomek");
-            fncpick.Items.Add("Látkové množství");
-             fncpick.Items.Add("Molární koncentrace");
-             fncpick.Items.Add("Ředění roztoků");
-             fncpick.Items.Add("Chemické rovnice");
             string thmpck = Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
@@ -69,56 +61,78 @@ namespace Chemie
                 this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
             }
         }
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-                if (fncpick.SelectedItem == null)
+             if (tb9.Text != "" && tb10.Text != "" && tb11.Text != "")
+            {
+                MessageBox.Show("Příliš mnoho argumentů - zadejte pouze hodnoty, které znáte");
+            }
+            if (tb9.Text == "")
+            {
+                try
                 {
-                    MessageBox.Show("Vyberte prosím jednu z možností");
+                    decimal.TryParse(tb10.Text, out var v10);
+                    decimal.TryParse(tb11.Text, out var v11);
+                    decimal f = (decimal)v10 / (decimal)v11;
+                    string g = String.Format("{0:#,##0.00000}", f);
+                    tb9.Text = g;
+                    tb9.Foreground = new SolidColorBrush(Colors.Green);
+                    vysledekhustota.Visibility = Visibility.Visible;
+                    vysledekhustota.Content = "V (látky) = " + g + " cm3";
                 }
-                else
+                catch (DivideByZeroException)
                 {
-                    var vybran = fncpick.SelectedItem.ToString();
-                    if (vybran == "Hmotnostní zlomek")
-                    {
-                    vypocty.Source = new Uri("vypocty/hmzl.xaml", UriKind.Relative);
+                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
                 }
-                    if (vybran == "Hustota nebo objem látky")
-                    {
-                    vypocty.Source = new Uri("vypocty/hustota.xaml", UriKind.Relative);
+            }
+            if (tb11.Text == "")
+            {
+                try
+                {
+                    decimal.TryParse(tb9.Text, out var v12);
+                    decimal.TryParse(tb10.Text, out var v13);
+                    decimal h = (decimal)v13 / (decimal)v12;
+                    string ch = String.Format("{0:#,##0.00000}", h);
+                    tb11.Text = ch;
+                    tb11.Foreground = new SolidColorBrush(Colors.Green);
+                    vysledekhustota.Visibility = Visibility.Visible;
+                    vysledekhustota.Content = "ρ (látky) = " + ch + " cm3";
                 }
-                    if (vybran == "Objemový zlomek")
-                    {
-                    vypocty.Source = new Uri("vypocty/objzl.xaml", UriKind.Relative);
+                catch (DivideByZeroException)
+                {
+                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
                 }
+            }
 
-                   /* if (vybran == "Látkové množství")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        latkovemngrid.Visibility = Visibility.Visible;
-                        fnctitle.Content = "Výpočet látkového množství";
-                    }
-                    if (vybran == "Ředění roztoků")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        fnctitle.Content = "Výpočet ředění roztoků";
-                    }
-                    if (vybran == "Chemické rovnice")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        fnctitle.Content = "Chemické rovnice";
-                    } */ 
-                    else
-                    {
-
-                    }
+            if (tb10.Text == "")
+            {
+                try
+                {
+                    decimal.TryParse(tb9.Text, out var v14);
+                    decimal.TryParse(tb11.Text, out var v15);
+                    decimal i = (decimal)v14 * (decimal)v15;
+                    string j = String.Format("{0:#,##0.00000}", i);
+                    tb10.Text = j;
+                    tb10.Foreground = new SolidColorBrush(Colors.Green);
+                    vysledekhustota.Visibility = Visibility.Visible;
+                    vysledekhustota.Content = "m (látky) = " + j + " g";
+                }
+                catch (DivideByZeroException)
+                {
+                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
                 }
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            tb10.Clear();
+            tb11.Clear();
+            tb9.Clear();
+            tb10.Foreground = new SolidColorBrush(Colors.White);
+            tb11.Foreground = new SolidColorBrush(Colors.White);
+            tb9.Foreground = new SolidColorBrush(Colors.White);
+            vysledekhustota.Content = "";
+        }
     }
-   
+}

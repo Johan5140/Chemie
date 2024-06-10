@@ -8,6 +8,7 @@
 	<Vodík Sekce="Perioda" Info="1. perioda" />
 	<Vodík Sekce="Vlastnosti" Info="Bezbarvý plyn" />
 	<Vodík Sekce="Relativní atomová hmotnost" Info="1,007 94" />
+
 	<!--Lithium-->
 	<Lithium Sekce="Název" Info="Lithium" />
 	<Lithium Sekce="Chemická značka" Info="Li" />
@@ -17,6 +18,7 @@
 	<Lithium Sekce="Perioda" Info="2. perioda" />
 	<Lithium Sekce="Vlastnosti" Info="Stříbřitě kovová látka" />
 	<Lithium Sekce="Relativní atomová hmotnost" Info="6,941" />
+	
 	<!--Sodík-->
 	<Sodík Sekce="Název" Info="Sodík" />
 	<Sodík Sekce="Chemická značka" Info="Na" />
@@ -722,7 +724,7 @@
 	<!--Tennessin-->
 	<Tennessin Sekce="Název" Info="Tennessin" />
 	<Tennessin Sekce="Chemická značka" Info="Ts" />
-	<Tennessin Sekce="Protonové číslo" Info="" />
+	<Tennessin Sekce="Protonové číslo" Info="117" />
 	<Tennessin Sekce="Anglicky" Info="Tennessine" />
 	<Tennessin Sekce="Skupina" Info="17. skupina" />
 	<Tennessin Sekce="Perioda" Info="7. perioda" />

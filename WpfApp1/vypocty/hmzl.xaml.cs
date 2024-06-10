@@ -1,5 +1,4 @@
-﻿using Chemie.vypocty;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chemie
+namespace Chemie.vypocty
 {
     /// <summary>
-    /// Interakční logika pro vzorce.xaml
+    /// Interakční logika pro hmzl.xaml
     /// </summary>
-    public partial class vzorce : Page
+    public partial class hmzl : Page
     {
-        public vzorce()
+        public hmzl()
         {
             InitializeComponent();
-            fncpick.Items.Add("Hmotnostní zlomek");
-            fncpick.Items.Add("Hustota nebo objem látky");
-            fncpick.Items.Add("Objemový zlomek");
-            fncpick.Items.Add("Látkové množství");
-             fncpick.Items.Add("Molární koncentrace");
-             fncpick.Items.Add("Ředění roztoků");
-             fncpick.Items.Add("Chemické rovnice");
             string thmpck = Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
@@ -68,57 +60,49 @@ namespace Chemie
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
             }
-        }
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+
+    }
+    
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-                if (fncpick.SelectedItem == null)
-                {
-                    MessageBox.Show("Vyberte prosím jednu z možností");
-                }
-                else
-                {
-                    var vybran = fncpick.SelectedItem.ToString();
-                    if (vybran == "Hmotnostní zlomek")
-                    {
-                    vypocty.Source = new Uri("vypocty/hmzl.xaml", UriKind.Relative);
-                }
-                    if (vybran == "Hustota nebo objem látky")
-                    {
-                    vypocty.Source = new Uri("vypocty/hustota.xaml", UriKind.Relative);
-                }
-                    if (vybran == "Objemový zlomek")
-                    {
-                    vypocty.Source = new Uri("vypocty/objzl.xaml", UriKind.Relative);
-                }
 
-                   /* if (vybran == "Látkové množství")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        latkovemngrid.Visibility = Visibility.Visible;
-                        fnctitle.Content = "Výpočet látkového množství";
-                    }
-                    if (vybran == "Ředění roztoků")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        fnctitle.Content = "Výpočet ředění roztoků";
-                    }
-                    if (vybran == "Chemické rovnice")
-                    {
-                        hmzlomek.Visibility = Visibility.Hidden;
-                        objzlmk.Visibility = Visibility.Hidden;
-                        molárníkoncgrid.Visibility = Visibility.Hidden;
-                        fnctitle.Content = "Chemické rovnice";
-                    } */ 
-                    else
-                    {
-
-                    }
-                }
+            try
+            {
+                decimal.TryParse(tb3.Text, out var v1);
+                decimal.TryParse(tb4.Text, out var v2);
+                decimal c = v1 / v2;
+                mlatky.Content = v1.ToString();
+                mroztokulb.Content = v2.ToString();
+                string output = string.Format("{0:#,##0.0000}", c);
+                decimalnumlab.Content = output;
+                decimal d = c * 100;
+                string output1 = string.Format("{0:#,##0.00}", d);
+                percentnumlab.Content = output1 + "%";
+            }
+            catch (DivideByZeroException)
+            {
+                MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+            }
+        }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (tb1.Text == "" && tb2.Text == "")
+            {
+                MessageBox.Show("Zadejte prosím hodnoty!");
+            }
+            if (tb1.Text != "" && tb2.Text != "")
+            {
+                decimal.TryParse(tb1.Text, out var v3);
+                decimal.TryParse(tb2.Text, out var v4);
+                decimal a = v3 + v4;
+                string b = string.Format("{0:#,##0.00}", a);
+                decimal.TryParse(tb1.Text, out var g);
+                string v = g.ToString();
+                mroztoku.Content = b;
+                tb4.Text = b;
+                tb3.Text = v;
+                Button_Click_1(sender, e);
             }
         }
     }
-   
+}

@@ -50,12 +50,6 @@ namespace Chemie
             
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            aboutapp aboutappw = new aboutapp();
-            aboutappw.Show();
-        }
-
         #region Akční tlačítka pro prvky
         private void button2_Click(object sender, EventArgs e)
         {

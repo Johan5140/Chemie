@@ -23,6 +23,7 @@ namespace Chemie
         public Window2()
         {
             InitializeComponent();
+            home.Background = new SolidColorBrush(Colors.DarkGray);
             string hdtext = Chemie.Properties.Settings.Default.hdtextcolor;
             if (hdtext == "Tmavý")
             {
@@ -48,7 +49,7 @@ namespace Chemie
                 this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.White);
+                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
                 this.menu.Background = new SolidColorBrush(Colors.LightGray);
             }
             if (thmpck == "Tmavý")
@@ -81,26 +82,67 @@ namespace Chemie
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             nav.Source = new Uri("main.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.DarkGray);
+            vypocty.Background = new SolidColorBrush(Colors.Transparent);
+            prevody.Background = new SolidColorBrush(Colors.Transparent);
+            teorie.Background = new SolidColorBrush(Colors.Transparent);
+            set.Background = new SolidColorBrush(Colors.Transparent);
+            about.Background = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             nav.Source = new Uri("info.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.Transparent);
+            vypocty.Background = new SolidColorBrush(Colors.Transparent);
+            prevody.Background = new SolidColorBrush(Colors.Transparent);
+            teorie.Background = new SolidColorBrush(Colors.Transparent);
+            set.Background = new SolidColorBrush(Colors.Transparent);
+            about.Background = new SolidColorBrush(Colors.DarkGray);
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             nav.Source = new Uri("settings.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.Transparent);
+            vypocty.Background = new SolidColorBrush(Colors.Transparent);
+            prevody.Background = new SolidColorBrush(Colors.Transparent);
+            teorie.Background = new SolidColorBrush(Colors.Transparent);
+            set.Background = new SolidColorBrush(Colors.DarkGray);
+            about.Background = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
             nav.Source = new Uri("vzorce.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.Transparent);
+            vypocty.Background = new SolidColorBrush(Colors.DarkGray);
+            prevody.Background = new SolidColorBrush(Colors.Transparent);
+            teorie.Background = new SolidColorBrush(Colors.Transparent);
+            set.Background = new SolidColorBrush(Colors.Transparent);
+            about.Background = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Funkce není momentálně dostupná");
+            MessageBox.Show("Převody - tato funkce není nyní dostupná");
+            /* home.Background = new SolidColorBrush(Colors.Transparent);
+            vypocty.Background = new SolidColorBrush(Colors.Transparent);
+            prevody.Background = new SolidColorBrush(Colors.DarkGray);
+            teorie.Background = new SolidColorBrush(Colors.Transparent);
+            set.Background = new SolidColorBrush(Colors.Transparent);
+            about.Background = new SolidColorBrush(Colors.Transparent); */
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Teorie - tato funkce není nyní dostupná");
+            /* home.Background = new SolidColorBrush(Colors.Transparent);
+            vypocty.Background = new SolidColorBrush(Colors.Transparent);
+            prevody.Background = new SolidColorBrush(Colors.Transparent);
+            teorie.Background = new SolidColorBrush(Colors.DarkGray);
+            set.Background = new SolidColorBrush(Colors.Transparent);
+            about.Background = new SolidColorBrush(Colors.Transparent); */
         }
     }
 }

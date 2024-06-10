@@ -14,5 +14,8 @@
     <Setting Name="hdtextcolor" Type="System.String" Scope="User">
       <Value Profile="(Default)">Tmavý</Value>
     </Setting>
+    <Setting Name="applang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CZ</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

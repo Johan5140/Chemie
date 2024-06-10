@@ -1,5 +1,19 @@
 Projekt aplikace Chemie.
 Informace o prvcích pocházejí z webu Wikipedia.
+GHS icons are downloaded from: https://unece.org/transport/dangerous-goods/ghs-pictograms
+
+Novinky (2024-06-10)
+-------
+1) Opravena chyba, která způsobovala pád aplikace při ukládání nastavení, když nebyla zvolena barva záhlaví
+2) Přepracována stránka výpočty
+3) Přidány výpočty hustoty,
+4) Přibylo zvýraznění aktivní stránky v navigaci
+5) U prvků přidány znaky nebezpečí
+6) Začátek prací na stránkách S a R vět
+7) Po najetí myši jsou zobrazovány větší ikony nebezpečí i s popiskem
+8) K prvkům přidány S a R věty
+9) Přidán odkaz na wikipedii (u některých prvků nefunkční)
+10) Přidán zdroj informací o prvcích
 
 Změny (v 0.5):
 --------------
