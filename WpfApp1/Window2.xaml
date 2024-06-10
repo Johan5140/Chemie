@@ -18,35 +18,71 @@
         <Button Content="_" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="993,0,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click_1" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
         <Frame x:Name="nav" x:FieldModifier="public" RenderTransformOrigin="0.8,0.589" Margin="75,40,0,0" Source="/main.xaml" NavigationUIVisibility="Hidden" Background="#00000000"/>
         <Grid Name="menu" Margin="0,40,998,0">
-            <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Height="75" Click="Button_Click_3" BorderThickness="0,0,0,0">
+            <Button Name="home" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" Height="55" Click="Button_Click_3" BorderThickness="0,0,0,0" Margin="0,10,0,0">
                 <StackPanel>
-                    <Image Source="data/home-light.png" Height="52" Width="70"/>
-                    <Label Content="Hlavní strana" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Image Source="data/home-light.png" Height="35" Width="35"/>
+                    <Label Content="Domů" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
                 </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
             </Button>
-            <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Button_Click_6" BorderThickness="0,0,0,0">
-                <StackPanel>
-                    <Image Source="data/vypocty-light.png" Height="54"/>
-                    <Label Content="Výpočty" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="vypocty" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Width="65" Height="55" Click="Button_Click_6" BorderThickness="0,0,0,0">
+                <StackPanel Width="65" Height="55">
+                    <Image Source="data/vypocty-light.png" Height="35" Width="35"/>
+                    <Label Content="Výpočty" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
                 </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
             </Button>
-            <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Button_Click_7" BorderThickness="0,0,0,0">
-                <StackPanel>
-                    <Image Source="data/prevody-light.png" Height="52"/>
-                    <Label Content="Převody" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="prevody" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Width="65" Height="55" Click="Button_Click_7" BorderThickness="0,0,0,0">
+                <StackPanel Width="65" Height="55">
+                    <Image Source="data/prevody-light.png" Height="35" Width="35"/>
+                    <Label Content="Převody" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
                 </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
             </Button>
-            <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,569,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Button_Click_5" BorderThickness="0,0,0,0">
-                <StackPanel>
-                    <Image Source="data/settings-light.png" Height="52"/>
-                    <Label Content="Nastavení" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="teorie" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" Width="65" Height="55" BorderThickness="0,0,0,0" Click="Button_Click_2">
+                <StackPanel Width="65" Height="55">
+                    <Image Source="data/bgdark.png" Height="35" Width="35"/>
+                    <Label Content="Teorie" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
                 </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
             </Button>
-            <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,649,0,0" Width="75" Click="Button_Click_4" BorderThickness="0,0,0,0">
-                <StackPanel>
-                    <Image Source="data/about-light.png" Width="67" Height="51"/>
-                    <Label Content="O aplikaci" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="set" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,601,0,0" VerticalAlignment="Top" Width="65" Height="55" Click="Button_Click_5" BorderThickness="0,0,0,0">
+                <StackPanel Width="65" Height="55">
+                    <Image Source="data/settings-light.png" Height="35" Width="35"/>
+                    <Label Content="Nastavení" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Width="58"/>
                 </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Name="about" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,661,0,10" Width="65" Click="Button_Click_4" BorderThickness="0,0,0,0" Height="55">
+                <StackPanel Width="65" Height="55">
+                    <Image Source="data/about-light.png" Width="35" Height="35"/>
+                    <Label Content="O aplikaci" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
             </Button>
         </Grid>
     </Grid>

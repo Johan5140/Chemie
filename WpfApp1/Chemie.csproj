@@ -25,6 +25,16 @@
     <None Remove="data\home-dark.png" />
     <None Remove="data\home-light.png" />
     <None Remove="data\ico.png" />
+    <None Remove="data\latky\acid_red.gif" />
+    <None Remove="data\latky\Aquatic-pollut-red.gif" />
+    <None Remove="data\latky\bottle.gif" />
+    <None Remove="data\latky\exclam.gif" />
+    <None Remove="data\latky\explos.gif" />
+    <None Remove="data\latky\flamme.gif" />
+    <None Remove="data\latky\radiation.png" />
+    <None Remove="data\latky\rondflam.gif" />
+    <None Remove="data\latky\silhouete.gif" />
+    <None Remove="data\latky\skull.gif" />
     <None Remove="data\prevody-dark.png" />
     <None Remove="data\prevody-light.png" />
     <None Remove="data\settings-light.png" />
@@ -46,6 +56,36 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\home-light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\acid_red.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\Aquatic-pollut-red.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\bottle.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\exclam.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\explos.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\flamme.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\radiation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\rondflam.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\silhouete.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\latky\skull.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ico.ico">

@@ -121,7 +121,16 @@
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\info.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Lithium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Lithium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="prvky" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\prvky.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Sodík" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sodík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Vodík" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vodík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

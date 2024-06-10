@@ -1,0 +1,56 @@
+﻿<Page x:Class="Chemie.vypocty.objzl"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Chemie.vypocty"
+      mc:Ignorable="d" 
+      d:DesignHeight="726" d:DesignWidth="993"
+      Title="objzl">
+
+    <Grid>
+        <Label Content="___________________________________" HorizontalAlignment="Left" Margin="62,197,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Výpočet objemu roztoku" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="(roztoku)" HorizontalAlignment="Left" Margin="13,60,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="52,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="77,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="(látky)" HorizontalAlignment="Left" Margin="80,60,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="+" HorizontalAlignment="Left" Margin="122,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="144,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="(rozpouštědla)" HorizontalAlignment="Left" Margin="144,60,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="310,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="(roztoku)" HorizontalAlignment="Left" Margin="313,60,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="352,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="+" HorizontalAlignment="Left" Margin="461,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox Name="tb5" HorizontalAlignment="Left" Margin="375,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" VerticalContentAlignment="Center" Height="30" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
+        <TextBox Name="tb6" HorizontalAlignment="Left" Margin="486,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="572,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="vroztoku" Content="0" HorizontalAlignment="Left" Margin="597,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Vypočítej" HorizontalAlignment="Left" Margin="734,43,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button_Click_3"/>
+        <Label Content="Objemový zlomek" HorizontalAlignment="Left" Margin="11,142,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="Výsledek:" HorizontalAlignment="Left" Margin="13,281,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="φ" HorizontalAlignment="Left" Margin="16,206,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="42,204,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Name="vroztokulb" Content="0" HorizontalAlignment="Left" Margin="248,297,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Name="decimalnumlab1" Content="0" HorizontalAlignment="Left" Margin="419,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="394,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Name="percentnumlab1" Content="0" HorizontalAlignment="Left" Margin="581,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Name="vlatky" Content="0" HorizontalAlignment="Left" Margin="248,269,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="___________________________________________________" HorizontalAlignment="Left" Margin="176,275,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="148,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="φ" HorizontalAlignment="Left" Margin="119,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="556,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="___________________________________________________" HorizontalAlignment="Left" Margin="453,197,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="421,204,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="φ" HorizontalAlignment="Left" Margin="392,204,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="(látky)" HorizontalAlignment="Left" Margin="110,198,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="(roztoku)" HorizontalAlignment="Left" Margin="112,235,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="109,183,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="V" HorizontalAlignment="Left" Margin="111,219,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox Name="tb7" HorizontalAlignment="Left" Margin="459,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
+        <TextBox Name="tb8" HorizontalAlignment="Left" Margin="459,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Vypočítej" HorizontalAlignment="Left" Margin="733,208,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button_Click_4"/>
+        <Label Name="vysledekhustota" Visibility="Hidden" Content="Label" HorizontalAlignment="Left" Margin="452,217,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+    </Grid>
+</Page>

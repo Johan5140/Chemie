@@ -110,45 +110,48 @@ namespace Chemie
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            var hdset = headpick.SelectedItem.ToString();
-            if (hdset == "Světlý")
+            if (hexcode.Text == "" || hexcode.Text == null)
             {
-                Properties.Settings.Default.hdtextcolor = "Světlý";
+                System.Windows.MessageBox.Show("Nebyla vybrána barva!");
             }
-            if (hdset == "Tmavý")
+            else
             {
-                Properties.Settings.Default.hdtextcolor = "Tmavý";
+                var hdset = headpick.SelectedItem.ToString();
+                if (hdset == "Světlý")
+                {
+                    Properties.Settings.Default.hdtextcolor = "Světlý";
+                }
+                if (hdset == "Tmavý")
+                {
+                    Properties.Settings.Default.hdtextcolor = "Tmavý";
+                }
+                var thmset = themepick.SelectedItem.ToString();
+                if (thmset == "Světlý")
+                {
+                    Properties.Settings.Default.theme = "Světlý";
+                }
+                if (thmset == "Tmavý")
+                {
+                    Properties.Settings.Default.theme = "Tmavý";
+                }
+                var bgset = bgenbaled.SelectedItem.ToString();
+                if (bgset == "Ano")
+                {
+                    Properties.Settings.Default.background = "Ano";
+                }
+                if (bgset == "Ne")
+                {
+                    Properties.Settings.Default.background = "Ne";
+                }
+                Properties.Settings.Default.head = "" + hexcode.Text;
+                Properties.Settings.Default.Save();
+                System.Windows.MessageBox.Show("Nastavení uložena, aplikace se restartuje! ");
+                System.Windows.Forms.Application.Restart();
+                Process.GetCurrentProcess().Kill();
             }
-            var thmset = themepick.SelectedItem.ToString();
-            if (thmset == "Světlý")
-            {
-                Properties.Settings.Default.theme = "Světlý";
-            }
-            if (thmset == "Tmavý")
-            {
-                Properties.Settings.Default.theme = "Tmavý";
-            }
-            var bgset = bgenbaled.SelectedItem.ToString();
-            if (bgset == "Ano")
-            {
-                Properties.Settings.Default.background = "Ano";
-            }
-            if (bgset == "Ne")
-            {
-                Properties.Settings.Default.background = "Ne";
-            }
-            Properties.Settings.Default.head = "#" + hexcode.Text;
-            Properties.Settings.Default.Save();
-            System.Windows.MessageBox.Show("Nastavení uložena, aplikace se restartuje! ");
-            System.Windows.Forms.Application.Restart();
-            Process.GetCurrentProcess().Kill();
-        }
 
-        private void Colorpick_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 clpick = new Window1();
-            clpick.Show();
-        }
+            }
+
         private void hexcodee(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == Key.Return)
@@ -159,12 +162,8 @@ namespace Chemie
         private void colorconvert(object sender, RoutedEventArgs e)
         {
             string hex = hexcode.Text;
-            string clr = "#" + hex;
+            string clr = "" + hex;
             preview.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString(clr));
-            int RGBint = Convert.ToInt32(hex, 16);
-            byte Red = (byte)((RGBint >> 16) & 255);
-            byte Green = (byte)((RGBint >> 8) & 255);
-            byte Blue = (byte)(RGBint & 255);
         }
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
@@ -173,43 +172,43 @@ namespace Chemie
             {
                 preview.Fill = new SolidColorBrush(Color.FromArgb(colorDialog.Color.A, colorDialog.Color.R, colorDialog.Color.G, colorDialog.Color.B));
                 String code = (colorDialog.Color.ToArgb() & 0x00FFFFFF).ToString("X6");
-                hexcode.Text = code;
+                hexcode.Text = "#" + code;
 
             }
         }
         private void black_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "000000";
+            hexcode.Text = "#000000";
             colorconvert(sender, e);
         }
         private void red_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "F75454";
+            hexcode.Text = "#F75454";
             colorconvert(sender, e);
         }
         private void def_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "B9D1EA";
+            hexcode.Text = "#B9D1EA";
             colorconvert(sender, e);
         }
         private void blue_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "365EFF";
+            hexcode.Text = "#365EFF";
             colorconvert(sender, e);
         }
         private void green_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "59FF38";
+            hexcode.Text = "#59FF38";
             colorconvert(sender, e);
         }
         private void yellow_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "F1FF00";
+            hexcode.Text = "#F1FF00";
             colorconvert(sender, e);
         }
         private void brown_clck(object sender, RoutedEventArgs e)
         {
-            hexcode.Text = "4C3228";
+            hexcode.Text = "#4C3228";
             colorconvert(sender, e);
         }
     }
