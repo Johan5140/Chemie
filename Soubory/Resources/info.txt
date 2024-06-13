@@ -1,9 +1,22 @@
-Projekt aplikace Chemie.
+Aplikace Chemie.
+--------------------
+
+Zdroje:
+--------
 Informace o prvcích pocházejí z webu Wikipedia.
 GHS icons are downloaded from: https://unece.org/transport/dangerous-goods/ghs-pictograms
+Popisky k GHS ikonám jsou odsud: https://echa.europa.eu/cs/regulations/clp/clp-pictograms
+
+Novinky ()
+--------------------
+1) Implementace S a R vět
+2) Začátek práce na sekci "teorie"
+3) Začátek práce na sekci "převody"
+4) Menší designové úpravy
+5) Dokončeny stránky popisující piktogramy nebezpečí
 
 Novinky (2024-06-10)
--------
+--------------------
 1) Opravena chyba, která způsobovala pád aplikace při ukládání nastavení, když nebyla zvolena barva záhlaví
 2) Přepracována stránka výpočty
 3) Přidány výpočty hustoty,

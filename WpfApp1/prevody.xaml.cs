@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chemie.strankyovlastnostech
+namespace Chemie
 {
     /// <summary>
-    /// Interakční logika pro ziravina.xaml
+    /// Interakční logika pro prevody.xaml
     /// </summary>
-    public partial class ziravina : Page
+    public partial class prevody : Page
     {
-        public ziravina()
+        public prevody()
         {
             InitializeComponent();
             string thmpck = Chemie.Properties.Settings.Default.theme;
@@ -34,7 +34,6 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.Black);
             }
             if (thmpck == "Tmavý")
             {
@@ -46,13 +45,7 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.DarkGray);
             }
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.GoBack();
-
         }
     }
 }

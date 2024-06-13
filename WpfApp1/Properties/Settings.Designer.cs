@@ -82,5 +82,17 @@ namespace Chemie.Properties {
                 this["applang"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool langseten {
+            get {
+                return ((bool)(this["langseten"]));
+            }
+            set {
+                this["langseten"] = value;
+            }
+        }
     }
 }

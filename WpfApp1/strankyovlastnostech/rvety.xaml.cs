@@ -43,6 +43,7 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.Black);
             }
             if (thmpck == "Tmavý")
             {
@@ -54,26 +55,35 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.DarkGray);
             }
-            /* Zvýraznění S vět v závislosti na prvku */
-            /*
+            /* Zvýraznění R vět v závislosti na prvku */
+            if (kodprvku == "")
+            {
+                rvetyprvku.Content = "Zde jsou vypsány všechny R-věty (angl. Risk phrases - upozorňovaly na nebezpečnost prvku). Dnes jsou nahrazeny H-větami.";
+                headline.Content = "R-věty";
+            }
+            
             if (kodprvku == "Vodík")
             {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S2; S9; S16; S33";
-                rvety.Content = "R12";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R12 (jsou vyznačeny červeně)";
+                R12.Foreground = new SolidColorBrush(Colors.Red);
+                R12.FontWeight = FontWeights.Bold;
+                R12.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Lithium")
             {
-                ziravina.Visibility = Visibility.Visible;
-                ziravinabtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S1/2; S8; S43; S45";
-                rvety.Content = "R14/15; R34";
-
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R14/15; R34 (jsou vyznačeny červeně)";
+                R34.Foreground = new SolidColorBrush(Colors.Red);
+                R34.FontWeight = FontWeights.Bold;
+                R34.BorderBrush = new SolidColorBrush(Colors.Red);
+                R14_15.Foreground = new SolidColorBrush(Colors.Red);
+                R14_15.FontWeight = FontWeights.Bold;
+                R14_15.BorderBrush = new SolidColorBrush(Colors.Red);
             }
+            /*
             if (kodprvku == "Sodík")
             {
                 ziravina.Visibility = Visibility.Visible;

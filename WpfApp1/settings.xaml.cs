@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Runtime.ConstrainedExecution;
+using Chemie.Properties;
 
 namespace Chemie
 {
@@ -33,8 +34,31 @@ namespace Chemie
             bgenbaled.Items.Add("Ano");
             bgenbaled.Items.Add("Ne");
             lang.Items.Add("Český");
-            lang.SelectedItem = "Český";
-            /* Odemknutí vývojářského režimu */
+            lang.Items.Add("English");
+            lang.Items.Add("Русский");
+            string langsel = Properties.Settings.Default.applang;
+            if (langsel == "CZ") {
+                lang.SelectedItem = "Český";
+            }
+            if (langsel == "EN")
+            {
+                lang.SelectedItem = "English";
+            }
+            if (langsel == "RU")
+            {
+                lang.SelectedItem = "Русский";
+            }
+
+            /* Odemknutí výběru jazyka */
+            bool langen = Properties.Settings.Default.langseten;
+            if (langen == false)
+            {
+                lang.IsEnabled = false;
+            }
+            if (langen == true)
+            {
+                lang.IsEnabled = true;
+            }
             string bg = Properties.Settings.Default.background;
             if (bg == "Ano")
             {
@@ -142,6 +166,22 @@ namespace Chemie
                 if (bgset == "Ne")
                 {
                     Properties.Settings.Default.background = "Ne";
+                }
+                var lng = lang.SelectedItem.ToString();
+                if (lng == "" || lng == null)
+                {
+                }
+                if (lng == "Český")
+                {
+                    Properties.Settings.Default.applang = "CZ";
+                }
+                if (lng == "English")
+                {
+                    Properties.Settings.Default.applang = "EN";
+                }
+                if (lng == "Русский")
+                {
+                    Properties.Settings.Default.applang = "RU";
                 }
                 Properties.Settings.Default.head = "" + hexcode.Text;
                 Properties.Settings.Default.Save();

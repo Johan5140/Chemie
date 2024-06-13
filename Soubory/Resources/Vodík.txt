@@ -1,1 +1,14 @@
-Zde bude popis a použití prvku.
+Popis:
+------
+1) Plyn bez chuti, barvy a zápachu
+2) Nejlehčí a nejjednodušší plynný prvek
+3) Převážná část hmoty ve vesmíru
+4) Hoří namodralým plamenem
+
+Využití (příklady):
+-------------------
+1) Raketové palivo
+2) Zdroj energie
+3) Do 30. let 20. století byl používán do vzducholodí 
+4) Chladivo alternátorů v elektrárnách
+5) Výroba Amoniaku

@@ -1435,64 +1435,62 @@ namespace Chemie
         #region ikony_nebezpeci
         private void radiace_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new radiace());
         }
 
         private void ziravina_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new ziravina());
         }
 
         private void latky_nebezpecne_pro_ZP_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new nebezpeciZP());
         }
 
         private void plyn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new plyn());
         }
 
         private void nebezpeci_pro_zdravi_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new nebezpecizdravi());
         }
 
         private void vybusnina_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new vybusny());
         }
 
         private void horlavina_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new horlavy());
         }
 
         private void oxidujici_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new oxidace());
         }
 
         private void vysoka_nebezpecnost_pro_zdravi_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new drazdivy());
         }
 
         private void akutni_toxicita_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
+            NavigationService.Navigate(new jedovaty());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
-            //NavigationService.Navigate(new svety(kodprvku));
+            NavigationService.Navigate(new svety(kodprvku));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("na této funkci se pracuje");
-            //NavigationService.Navigate(new rvety(kodprvku));
+            NavigationService.Navigate(new rvety(kodprvku));
         }
         #endregion
         private void vodik_click(object sender, RoutedEventArgs e)
