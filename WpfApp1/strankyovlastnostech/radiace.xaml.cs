@@ -23,6 +23,36 @@ namespace Chemie.strankyovlastnostech
         public radiace()
         {
             InitializeComponent();
+            string thmpck = Chemie.Properties.Settings.Default.theme;
+            if (thmpck == "Světlý")
+            {
+                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
+                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
+                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
+                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
+                this.Resources["cellbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.Black);
+            }
+            if (thmpck == "Tmavý")
+            {
+                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
+                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
+                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
+                this.Resources["cellbg"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+                this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
+                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.DarkGray);
+            }
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+
         }
     }
 }

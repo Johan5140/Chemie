@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chemie.strankyovlastnostech;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chemie.strankyovlastnostech
+namespace Chemie
 {
     /// <summary>
-    /// Interakční logika pro ziravina.xaml
+    /// Interakční logika pro teorie.xaml
     /// </summary>
-    public partial class ziravina : Page
+    public partial class teorie : Page
     {
-        public ziravina()
+        public teorie()
         {
             InitializeComponent();
             string thmpck = Chemie.Properties.Settings.Default.theme;
@@ -34,7 +35,6 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.Black);
             }
             if (thmpck == "Tmavý")
             {
@@ -46,13 +46,67 @@ namespace Chemie.strankyovlastnostech
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["labelbordercl"] = new SolidColorBrush(Colors.DarkGray);
             }
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
-
+            NavigationService.Navigate(new svety(""));
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new rvety(""));
+        }
+        private void radiace_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new radiace());
+        }
+
+        private void ziravina_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ziravina());
+        }
+
+        private void latky_nebezpecne_pro_ZP_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new nebezpeciZP());
+        }
+
+        private void plyn_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new plyn());
+        }
+
+        private void nebezpeci_pro_zdravi_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new nebezpecizdravi());
+        }
+
+        private void vybusnina_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new vybusny());
+        }
+
+        private void horlavina_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new horlavy());
+        }
+
+        private void oxidujici_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new oxidace());
+        }
+
+        private void vysoka_nebezpecnost_pro_zdravi_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new drazdivy());
+        }
+
+        private void akutni_toxicita_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new jedovaty());
+        }
+
     }
 }

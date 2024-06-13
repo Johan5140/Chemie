@@ -125,24 +125,24 @@ namespace Chemie
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Převody - tato funkce není nyní dostupná");
-            /* home.Background = new SolidColorBrush(Colors.Transparent);
+            nav.Source = new Uri("prevody.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.Transparent);
             vypocty.Background = new SolidColorBrush(Colors.Transparent);
             prevody.Background = new SolidColorBrush(Colors.DarkGray);
             teorie.Background = new SolidColorBrush(Colors.Transparent);
             set.Background = new SolidColorBrush(Colors.Transparent);
-            about.Background = new SolidColorBrush(Colors.Transparent); */
+            about.Background = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Teorie - tato funkce není nyní dostupná");
-            /* home.Background = new SolidColorBrush(Colors.Transparent);
+            nav.Source = new Uri("teorie.xaml", UriKind.Relative);
+            home.Background = new SolidColorBrush(Colors.Transparent);
             vypocty.Background = new SolidColorBrush(Colors.Transparent);
             prevody.Background = new SolidColorBrush(Colors.Transparent);
             teorie.Background = new SolidColorBrush(Colors.DarkGray);
             set.Background = new SolidColorBrush(Colors.Transparent);
-            about.Background = new SolidColorBrush(Colors.Transparent); */
+            about.Background = new SolidColorBrush(Colors.Transparent);
         }
     }
 }

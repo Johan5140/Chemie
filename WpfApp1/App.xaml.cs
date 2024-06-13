@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Globalization;
+using System.Windows;
 
 namespace WpfApp1
 {
@@ -7,7 +8,7 @@ namespace WpfApp1
     /// </summary>
     public partial class App : Application
     {
-   
+
     }
 
 }

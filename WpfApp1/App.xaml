@@ -7,6 +7,7 @@
     <Application.Resources>
         <SolidColorBrush x:Key="CustomLabelColor" />
         <SolidColorBrush x:Key="ButtonsLabel" />
+        <SolidColorBrush x:Key="labelbordercl" />
         <SolidColorBrush x:Key="Buttonsback" />
         <SolidColorBrush x:Key="Buttonshover" />
         <SolidColorBrush x:Key="comboboxcl" />
@@ -66,6 +67,7 @@
         <!-- -->
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="{DynamicResource CustomLabelColor}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource labelbordercl}"/>
         </Style>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
