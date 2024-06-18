@@ -61,25 +61,101 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Projekt aplikace Chemie.
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Baryum {
+            get {
+                return ResourceManager.GetString("Baryum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Beryllium {
+            get {
+                return ResourceManager.GetString("Beryllium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký kov, který lze krájet nožem
+        ///2) Stříbrozlatý
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///4) Nejměkčí prvek periodické soustavy
+        ///5) Druhý nejnižší bod varu a tání (ze všech kovů)
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Přístroje pro noční vidění
+        ///2) Příprava velmi hustých výplachů pro hlubinné vrtání.
+        /// </summary>
+        public static string Cesium {
+            get {
+                return ResourceManager.GetString("Cesium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký kov, který lze krájet nožem
+        ///2) Stříbrolesklý
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba fotoelktrických článků
+        ///2) Redukční reakce v organické syntéze.
+        /// </summary>
+        public static string Draslík {
+            get {
+                return ResourceManager.GetString("Draslík", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Nestabilní, velmi silně radioaktivní prvek
+        ///2) Nejtěžší z alkalických kovů
+        ///.
+        /// </summary>
+        public static string Francium {
+            get {
+                return ResourceManager.GetString("Francium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Hořčík {
+            get {
+                return ResourceManager.GetString("Hořčík", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Aplikace Chemie.
+        ///--------------------
+        ///
+        ///Zdroje:
+        ///--------
         ///Informace o prvcích pocházejí z webu Wikipedia.
+        ///GHS icons are downloaded from: https://unece.org/transport/dangerous-goods/ghs-pictograms
+        ///Popisky k GHS ikonám jsou odsud: https://echa.europa.eu/cs/regulations/clp/clp-pictograms
         ///
-        ///Novinky
-        ///-------
-        ///1) Opravena chyba, která způsobovala pád aplikace při ukládání nastavení, když nebyla zvolena barva záhlaví
-        ///2) Přepracována stránka výpočty
-        ///3) Přidány výpočty hustoty,
-        ///4) Přibylo zvýraznění aktivní stránky v navigaci
-        ///5) U prvků přidány znaky nebezpečí
-        ///
-        ///Změny (v 0.5):
-        ///--------------
-        ///1) Nové rozhraní
-        ///2) Přidána protonová čísla na hlavní stránku
-        ///
-        ///Změny (v 0.4):
-        ///--------------
-        ///1) Vylepšení tmavého režimu        /// [zbytek řetězce byl zkrácen];.
+        ///Novinky ()
+        ///--------------------
+        ///1) Implementace S a R vět
+        ///2) Začátek práce na sekci &quot;teorie&quot;
+        ///3) Začátek práce na sekci &quot;převody&quot;
+        ///4) Menší designové úpravy
+        ///5) Dokončeny stránky popisující piktogramy nebezpečí
+        ///6)  [zbytek řetězce byl zkrácen];.
         /// </summary>
         public static string info {
             get {
@@ -88,7 +164,21 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Velmi lehký, měkký kov
+        ///2) Lze krájet nožem
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///4) Nejmenší hustota ze všech pevných prvků
+        ///5) Lehčí než voda
+        ///6) Reaguje s vodou
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Jaderná energetika (v některých reaktorech slouží k odvodu tepla)
+        ///2) Lithiové baterie
+        ///3) Organické soli jako součást při výrobě léčiv
+        ///.
         /// </summary>
         public static string Lithium {
             get {
@@ -121,6 +211,52 @@ namespace Soubory {
         /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
         /// </summary>
+        public static string Radium {
+            get {
+                return ResourceManager.GetString("Radium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký kov, který lze krájet nožem
+        ///2) Stříbrolesklý
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Zábavní pyrotechnika - barví efekty do fialova
+        ///2) Fotočlánky sloužící k přímé přeměně světelné energie v elektrickou.
+        /// </summary>
+        public static string Rubidium {
+            get {
+                return ResourceManager.GetString("Rubidium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Skandium {
+            get {
+                return ResourceManager.GetString("Skandium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký kov, který lze krájet nožem
+        ///2) Stříbrolesklý
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Jaderná energetika a letecké motory - odvod tepla
+        ///2) Redukční činidlo - používán v organických syntetických reakcích
+        ///3) Přídavek do neonových lamp.
+        /// </summary>
         public static string Sodík {
             get {
                 return ResourceManager.GetString("Sodík", resourceCulture);
@@ -130,9 +266,49 @@ namespace Soubory {
         /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
         /// </summary>
+        public static string Stroncium {
+            get {
+                return ResourceManager.GetString("Stroncium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Vápník {
+            get {
+                return ResourceManager.GetString("Vápník", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Plyn bez chuti, barvy a zápachu
+        ///2) Nejlehčí a nejjednodušší plynný prvek
+        ///3) Převážná část hmoty ve vesmíru
+        ///4) Hoří namodralým plamenem
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Raketové palivo
+        ///2) Zdroj energie
+        ///3) Do 30. let 20. století byl používán do vzducholodí 
+        ///4) Chladivo alternátorů v elektrárnách
+        ///5) Výroba Amoniaku.
+        /// </summary>
         public static string Vodík {
             get {
                 return ResourceManager.GetString("Vodík", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        /// </summary>
+        public static string Yttrium {
+            get {
+                return ResourceManager.GetString("Yttrium", resourceCulture);
             }
         }
     }

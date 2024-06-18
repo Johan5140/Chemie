@@ -5,723 +5,738 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Chemie"
       mc:Ignorable="d" 
-      d:DesignHeight="726" d:DesignWidth="998"
+      d:DesignHeight="726" d:DesignWidth="1040"
       Title="main">
     <Page.Resources>
 
     </Page.Resources>
-    <Grid Width="998" ScrollViewer.VerticalScrollBarVisibility="Disabled" Height="726" >
+    <Grid Width="1040" ScrollViewer.VerticalScrollBarVisibility="Disabled" Height="726" >
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1000"/>
+            <ColumnDefinition Width="1040"/>
 
         </Grid.ColumnDefinitions>
         <!--#region Tlačítka prvků -->
-        <Button Foreground="Black" HorizontalAlignment="Left" Margin="116,92,0,0" VerticalAlignment="Top" Width="45" Height="55" Click="button2_Click" Background="#FFFDFDB8" Cursor="Hand">
+        <Button Foreground="Black" HorizontalAlignment="Left" Margin="38,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Click="button2_Click" Background="#FFFDFDB8" Cursor="Hand">
             <StackPanel>
-                <Label Content="H" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="1" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="H" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="1" Foreground="Black" FontSize="12" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Vodík" Foreground="Black" FontSize="12" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Margin="116,147,839,0" VerticalAlignment="Top" Height="55" Width="45" Click="button3_Click" Background="#FFA7FFF5" Cursor="Hand">
+        <Button Foreground="Black" Margin="38,117,947,0" VerticalAlignment="Top" Height="65" Width="55" Click="button3_Click" Background="#FFA7FFF5" Cursor="Hand">
             <StackPanel>
-                <Label Content="Li" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="3" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Li" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="3" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Lithium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" HorizontalAlignment="Left" Margin="116,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFA7FFF5" Click="button4_Click" Cursor="Hand">
+        <Button Foreground="Black" HorizontalAlignment="Left" Margin="38,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFA7FFF5" Click="button4_Click" Cursor="Hand">
             <StackPanel>
-                <Label Content="Na" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="11" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Na" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="11" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Sodík" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button5_Click" HorizontalAlignment="Left" Margin="116,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFA7FFF5" Cursor="Hand">
+        <Button Foreground="Black" Click="button5_Click" HorizontalAlignment="Left" Margin="38,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFA7FFF5" Cursor="Hand">
             <StackPanel>
-                <Label Content="K" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="19" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="K" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="19" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Draslík" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button6_Click" HorizontalAlignment="Left" Margin="116,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFA7FFF5" RenderTransformOrigin="-0.163,0.132" Cursor="Hand">
+        <Button Foreground="Black" Click="button6_Click" HorizontalAlignment="Left" Margin="38,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFA7FFF5" RenderTransformOrigin="-0.163,0.132" Cursor="Hand">
             <StackPanel>
-                <Label Content="Rb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="37" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Rb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="37" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Rubidium" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button7_Click" HorizontalAlignment="Left" Margin="116,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFA7FFF5" Cursor="Hand">
+        <Button Foreground="Black" Click="button7_Click" HorizontalAlignment="Left" Margin="38,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFA7FFF5" Cursor="Hand">
             <StackPanel>
-                <Label Content="Cs" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="55" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Cs" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="55" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Cesium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button8_Click" HorizontalAlignment="Left" Margin="116,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFA7FFF5" Cursor="Hand">
+        <Button Foreground="Black" Click="button8_Click" HorizontalAlignment="Left" Margin="38,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFA7FFF5" Cursor="Hand">
             <StackPanel>
-                <Label Content="Fr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="87" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Fr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="87" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Francium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button9_Click" HorizontalAlignment="Left" Margin="161,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFB8B8" Cursor="Hand">
+        <Button Foreground="Black" Click="button9_Click" HorizontalAlignment="Left" Margin="93,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFB8B8" Cursor="Hand">
             <StackPanel>
-                <Label Content="Be" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="4" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Be" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="4" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Beryllium" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button10_Click" HorizontalAlignment="Left" Margin="161,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFB8B8" Cursor="Hand">
+        <Button Foreground="Black" Click="button10_Click" HorizontalAlignment="Left" Margin="93,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFB8B8" Cursor="Hand">
             <StackPanel>
-                <Label Content="Mg" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="12" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Mg" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="12" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Hořčík" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button11_Click" HorizontalAlignment="Left" Margin="161,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFE0E0" Cursor="Hand">
+        <Button Foreground="Black" Click="button11_Click" HorizontalAlignment="Left" Margin="93,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFE0E0" Cursor="Hand">
             <StackPanel>
-                <Label Content="Ca" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="20" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Ca" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="20" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Vápník" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button12_Click" HorizontalAlignment="Left" Margin="161,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFE0E0" Cursor="Hand">
+        <Button Foreground="Black" Click="button12_Click" HorizontalAlignment="Left" Margin="93,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFE0E0" Cursor="Hand">
             <StackPanel>
-                <Label Content="Sr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="38" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Sr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="38" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Stroncium" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
             </StackPanel>
         </Button>
-        <Button Foreground="Black" Click="button13_Click" HorizontalAlignment="Left" Margin="161,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFE0E0" Cursor="Hand">
+        <Button Foreground="Black" Click="button13_Click" HorizontalAlignment="Left" Margin="93,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFE0E0" Cursor="Hand">
             <StackPanel>
-                <Label Content="Ba" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="56" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Ba" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="56" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Baryum" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Click="button14_Click" HorizontalAlignment="Left" Margin="161,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFE0E0" Foreground="Black" Cursor="Hand">
+        <Button Click="button14_Click" HorizontalAlignment="Left" Margin="93,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFE0E0" Foreground="Black" Cursor="Hand">
             <StackPanel>
-                <Label Content="Ra" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="88" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Ra" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="88" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Radium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Click="button15_Click" HorizontalAlignment="Left" Margin="206,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button15_Click" HorizontalAlignment="Left" Margin="148,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Sc" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="21" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Sc" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="21" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Skandium" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
             </StackPanel>
         </Button>
-        <Button Click="button16_Click" HorizontalAlignment="Left" Margin="206,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button16_Click" HorizontalAlignment="Left" Margin="148,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Y" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="39" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Y" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="39" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Yttrium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
-        <Button Click="button17_Click" HorizontalAlignment="Left" Margin="251,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button17_Click" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ti" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="22" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button18_Click" HorizontalAlignment="Left" Margin="251,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button18_Click" HorizontalAlignment="Left" Margin="203,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Zr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="40" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button19_Click" HorizontalAlignment="Left" Margin="251,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button19_Click" HorizontalAlignment="Left" Margin="203,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Hf" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="72" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button20_Click" HorizontalAlignment="Left" Margin="251,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button20_Click" HorizontalAlignment="Left" Margin="203,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Rf" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="104" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button21_Click" HorizontalAlignment="Left" Margin="296,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button21_Click" HorizontalAlignment="Left" Margin="258,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="V" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="23" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button22_Click" HorizontalAlignment="Left" Margin="296,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button22_Click" HorizontalAlignment="Left" Margin="258,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Nb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="41" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button23_Click" HorizontalAlignment="Left" Margin="296,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button23_Click" HorizontalAlignment="Left" Margin="258,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ta" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="73" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button24_Click" HorizontalAlignment="Left" Margin="296,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button24_Click" HorizontalAlignment="Left" Margin="258,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Db" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="105" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button26_Click" HorizontalAlignment="Left" Margin="341,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button26_Click" HorizontalAlignment="Left" Margin="313,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Mo" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="42" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button25_Click" HorizontalAlignment="Left" Margin="341,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button25_Click" HorizontalAlignment="Left" Margin="313,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="24" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button27_Click" HorizontalAlignment="Left" Margin="341,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button27_Click" HorizontalAlignment="Left" Margin="313,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="W" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="74" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button28_Click" HorizontalAlignment="Left" Margin="341,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button28_Click" HorizontalAlignment="Left" Margin="313,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Sg" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="106" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button29_Click" HorizontalAlignment="Left" Margin="386,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button29_Click" HorizontalAlignment="Left" Margin="368,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Mn" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="25" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button30_Click" HorizontalAlignment="Left" Margin="386,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button30_Click" HorizontalAlignment="Left" Margin="368,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Tc" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="43" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button31_Click" HorizontalAlignment="Left" Margin="386,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button31_Click" HorizontalAlignment="Left" Margin="368,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Re" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="75" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button32_Click" HorizontalAlignment="Left" Margin="386,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button32_Click" HorizontalAlignment="Left" Margin="368,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Bh" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="107" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button33_Click" HorizontalAlignment="Left" Margin="431,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button33_Click" HorizontalAlignment="Left" Margin="423,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Fe" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="26" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button34_Click" HorizontalAlignment="Left" Margin="431,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button34_Click" HorizontalAlignment="Left" Margin="423,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ru" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="44" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button35_Click" HorizontalAlignment="Left" Margin="431,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button35_Click" HorizontalAlignment="Left" Margin="423,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Os" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="76" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button36_Click" HorizontalAlignment="Left" Margin="431,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button36_Click" HorizontalAlignment="Left" Margin="423,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Hs" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="108" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button37_Click" HorizontalAlignment="Left" Margin="476,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button37_Click" HorizontalAlignment="Left" Margin="478,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Co" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="27" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button38_Click" HorizontalAlignment="Left" Margin="476,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button38_Click" HorizontalAlignment="Left" Margin="478,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Rh" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="45" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button39_Click" HorizontalAlignment="Left" Margin="476,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button39_Click" HorizontalAlignment="Left" Margin="478,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ir" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="77" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button40_Click" HorizontalAlignment="Left" Margin="476,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button40_Click" HorizontalAlignment="Left" Margin="478,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Mt" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="109" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button41_Click" HorizontalAlignment="Left" Margin="521,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button41_Click" HorizontalAlignment="Left" Margin="533,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ni" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="28" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button42_Click" HorizontalAlignment="Left" Margin="521,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button42_Click" HorizontalAlignment="Left" Margin="533,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pd" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="46" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button43_Click" HorizontalAlignment="Left" Margin="521,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button43_Click" HorizontalAlignment="Left" Margin="533,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pt" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="78" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button44_Click" HorizontalAlignment="Left" Margin="521,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button44_Click" HorizontalAlignment="Left" Margin="533,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ds" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="110" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button45_Click" HorizontalAlignment="Left" Margin="566,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button45_Click" HorizontalAlignment="Left" Margin="588,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cu" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="29" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button46_Click" HorizontalAlignment="Left" Margin="566,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button46_Click" HorizontalAlignment="Left" Margin="588,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ag" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="47" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button47_Click" HorizontalAlignment="Left" Margin="566,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button47_Click" HorizontalAlignment="Left" Margin="588,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Au" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="79" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button48_Click" HorizontalAlignment="Left" Margin="566,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button48_Click" HorizontalAlignment="Left" Margin="588,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Rg" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="111" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button49_Click" HorizontalAlignment="Left" Margin="611,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button49_Click" HorizontalAlignment="Left" Margin="643,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Zn" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="30" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button50_Click" HorizontalAlignment="Left" Margin="611,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button50_Click" HorizontalAlignment="Left" Margin="643,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cd" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="48" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button51_Click" HorizontalAlignment="Left" Margin="611,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button51_Click" HorizontalAlignment="Left" Margin="643,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Hg" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="80" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button52_Click" HorizontalAlignment="Left" Margin="611,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
+        <Button Click="button52_Click" HorizontalAlignment="Left" Margin="643,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cn" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="112" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button55_Click" HorizontalAlignment="Left" Margin="656,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button55_Click" HorizontalAlignment="Left" Margin="698,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="B" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="5" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button  Click="button54_Click" HorizontalAlignment="Left" Margin="656,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button  Click="button54_Click" HorizontalAlignment="Left" Margin="698,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Al" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="13" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button53_Click" HorizontalAlignment="Left" Margin="656,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button53_Click" HorizontalAlignment="Left" Margin="698,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ga" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="31" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button56_Click" HorizontalAlignment="Left" Margin="656,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button56_Click" HorizontalAlignment="Left" Margin="698,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="In" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="49" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button57_Click" HorizontalAlignment="Left" Margin="656,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button57_Click" HorizontalAlignment="Left" Margin="698,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Tl" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="81" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button58_Click" HorizontalAlignment="Left" Margin="656,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button58_Click" HorizontalAlignment="Left" Margin="698,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Nh" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="113" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button59_Click" HorizontalAlignment="Left" Margin="701,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button59_Click" HorizontalAlignment="Left" Margin="753,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="C" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="6" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button60_Click" HorizontalAlignment="Left" Margin="701,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button60_Click" HorizontalAlignment="Left" Margin="753,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Si" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="14" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button61_Click" HorizontalAlignment="Left" Margin="701,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button61_Click" HorizontalAlignment="Left" Margin="753,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ge" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="32" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button62_Click" HorizontalAlignment="Left" Margin="701,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button62_Click" HorizontalAlignment="Left" Margin="753,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Sn" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="50" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button63_Click" HorizontalAlignment="Left" Margin="701,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button63_Click" HorizontalAlignment="Left" Margin="753,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="82" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button64_Click" HorizontalAlignment="Left" Margin="701,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button64_Click" HorizontalAlignment="Left" Margin="753,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Fl" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="114" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button65_Click" HorizontalAlignment="Left" Margin="746,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button65_Click" HorizontalAlignment="Left" Margin="808,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="N" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="7" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button66_Click" HorizontalAlignment="Left" Margin="746,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button66_Click" HorizontalAlignment="Left" Margin="808,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="P" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="15" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button67_Click" HorizontalAlignment="Left" Margin="746,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button67_Click" HorizontalAlignment="Left" Margin="808,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="As" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="33" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button68_Click" HorizontalAlignment="Left" Margin="746,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button68_Click" HorizontalAlignment="Left" Margin="808,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Sb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="51" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button69_Click" HorizontalAlignment="Left" Margin="746,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button69_Click" HorizontalAlignment="Left" Margin="808,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Bi" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="83" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button70_Click" HorizontalAlignment="Left" Margin="746,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button70_Click" HorizontalAlignment="Left" Margin="808,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Mc" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="115" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button71_Click" HorizontalAlignment="Left" Margin="791,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button71_Click" HorizontalAlignment="Left" Margin="863,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="O" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="8" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button72_Click" HorizontalAlignment="Left" Margin="791,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button72_Click" HorizontalAlignment="Left" Margin="863,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="S" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="16" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button73_Click" HorizontalAlignment="Left" Margin="791,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button73_Click" HorizontalAlignment="Left" Margin="863,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FF8EB9FF" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Se" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="34" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button74_Click" HorizontalAlignment="Left" Margin="791,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button74_Click" HorizontalAlignment="Left" Margin="863,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFF9D58" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Te" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="52" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button75_Click" HorizontalAlignment="Left" Margin="791,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button75_Click" HorizontalAlignment="Left" Margin="863,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Po" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="84" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button76_Click" HorizontalAlignment="Left" Margin="791,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button76_Click" HorizontalAlignment="Left" Margin="863,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFADFF25" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Lv" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="116" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button77_Click" HorizontalAlignment="Left" Margin="836,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button77_Click" HorizontalAlignment="Left" Margin="918,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="F" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="9" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button78_Click" HorizontalAlignment="Left" Margin="836,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button78_Click" HorizontalAlignment="Left" Margin="918,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cl" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="17" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button79_Click" HorizontalAlignment="Left" Margin="836,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button79_Click" HorizontalAlignment="Left" Margin="918,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Br" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="35" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button80_Click" HorizontalAlignment="Left" Margin="836,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button80_Click" HorizontalAlignment="Left" Margin="918,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="I" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="53" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button81_Click" HorizontalAlignment="Left" Margin="836,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button81_Click" HorizontalAlignment="Left" Margin="918,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="At" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="85" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button82_Click" HorizontalAlignment="Left" Margin="836,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFDD9AC" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button82_Click" HorizontalAlignment="Left" Margin="918,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFDD9AC" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ts" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="117" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button83_Click" HorizontalAlignment="Left" Margin="881,92,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="Black" Cursor="Hand">
+        <Button Click="button83_Click" HorizontalAlignment="Left" Margin="973,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="Black" Cursor="Hand">
             <StackPanel>
                 <Label Content="He" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="2" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button84_Click" HorizontalAlignment="Left" Margin="881,147,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button84_Click" HorizontalAlignment="Left" Margin="973,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ne" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="10" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button85_Click" HorizontalAlignment="Left" Margin="881,202,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button85_Click" HorizontalAlignment="Left" Margin="973,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ar" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="18" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button86_Click" HorizontalAlignment="Left" Margin="881,257,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button86_Click" HorizontalAlignment="Left" Margin="973,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Kr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="36" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button87_Click" HorizontalAlignment="Left" Margin="881,312,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
+        <Button Click="button87_Click" HorizontalAlignment="Left" Margin="973,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF1B1B1B" Cursor="Hand">
             <StackPanel>
                 <Label Content="Xe" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="54" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button88_Click" HorizontalAlignment="Left" Margin="881,367,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button88_Click" HorizontalAlignment="Left" Margin="973,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Rn" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="86" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button89_Click" HorizontalAlignment="Left" Margin="881,422,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFB6FFA2" Foreground="#FF171717" Cursor="Hand">
+        <Button Click="button89_Click" HorizontalAlignment="Left" Margin="973,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFB6FFA2" Foreground="#FF171717" Cursor="Hand">
             <StackPanel>
                 <Label Content="Og" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="118" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button90_Click" HorizontalAlignment="Left" Margin="206,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button90_Click" HorizontalAlignment="Left" Margin="148,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="La" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="57" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button105_Click" HorizontalAlignment="Left" Margin="206,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button105_Click" HorizontalAlignment="Left" Margin="148,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ac" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="89" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button91_Click" HorizontalAlignment="Left" Margin="251,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button91_Click" HorizontalAlignment="Left" Margin="203,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ce" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="58" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button92_Click" HorizontalAlignment="Left" Margin="296,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button92_Click" HorizontalAlignment="Left" Margin="258,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="59" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button93_Click" HorizontalAlignment="Left" Margin="341,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button93_Click" HorizontalAlignment="Left" Margin="313,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Nd" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="60" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button94_Click" HorizontalAlignment="Left" Margin="386,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button94_Click" HorizontalAlignment="Left" Margin="368,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pm" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="61" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button95_Click" HorizontalAlignment="Left" Margin="431,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button95_Click" HorizontalAlignment="Left" Margin="423,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Sm" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="62" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button96_Click" HorizontalAlignment="Left" Margin="476,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button96_Click" HorizontalAlignment="Left" Margin="478,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Eu" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="63" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button97_Click" HorizontalAlignment="Left" Margin="521,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button97_Click" HorizontalAlignment="Left" Margin="533,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Gd" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="64" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button98_Click" HorizontalAlignment="Left" Margin="566,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button98_Click" HorizontalAlignment="Left" Margin="588,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Tb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="65" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button99_Click" HorizontalAlignment="Left" Margin="611,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button99_Click" HorizontalAlignment="Left" Margin="643,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Dy" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="66" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button100_Click" HorizontalAlignment="Left" Margin="656,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button100_Click" HorizontalAlignment="Left" Margin="698,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Ho" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="67" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button101_Click" HorizontalAlignment="Left" Margin="701,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button101_Click" HorizontalAlignment="Left" Margin="753,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Er" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="68" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button102_Click" HorizontalAlignment="Left" Margin="746,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button102_Click" HorizontalAlignment="Left" Margin="808,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Tm" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="69" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button103_Click" HorizontalAlignment="Left" Margin="791,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button103_Click" HorizontalAlignment="Left" Margin="863,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Yb" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="70" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button104_Click" HorizontalAlignment="Left" Margin="836,527,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button104_Click" HorizontalAlignment="Left" Margin="918,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFFFC65F" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Lu" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="71" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button106_Click" HorizontalAlignment="Left" Margin="251,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button106_Click" HorizontalAlignment="Left" Margin="203,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Th" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="90" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button107_Click" HorizontalAlignment="Left" Margin="296,582,0,0" VerticalAlignment="Top" Height="55" Width="45" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button107_Click" HorizontalAlignment="Left" Margin="258,595,0,0" VerticalAlignment="Top" Height="65" Width="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pa" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="91" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button108_Click" HorizontalAlignment="Left" Margin="341,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button108_Click" HorizontalAlignment="Left" Margin="313,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="U" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="92" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button109_Click" HorizontalAlignment="Left" Margin="386,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button109_Click" HorizontalAlignment="Left" Margin="368,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Np" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="93" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button110_Click" HorizontalAlignment="Left" Margin="431,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button110_Click" HorizontalAlignment="Left" Margin="423,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Pu" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="94" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button111_Click" HorizontalAlignment="Left" Margin="476,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button111_Click" HorizontalAlignment="Left" Margin="478,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Am" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="95" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button112_Click" HorizontalAlignment="Left" Margin="521,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button112_Click" HorizontalAlignment="Left" Margin="533,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cm" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="96" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button113_Click" HorizontalAlignment="Left" Margin="566,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button113_Click" HorizontalAlignment="Left" Margin="588,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Bk" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="97" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button114_Click" HorizontalAlignment="Left" Margin="611,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button114_Click" HorizontalAlignment="Left" Margin="643,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Cf" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="98" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button115_Click" HorizontalAlignment="Left" Margin="656,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button115_Click" HorizontalAlignment="Left" Margin="698,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Es" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="99" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button116_Click" HorizontalAlignment="Left" Margin="701,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button116_Click" HorizontalAlignment="Left" Margin="753,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Fm" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="100" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button117_Click" HorizontalAlignment="Left" Margin="746,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button117_Click" HorizontalAlignment="Left" Margin="808,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Md" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="101" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button119_Click" HorizontalAlignment="Left" Margin="791,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button119_Click" HorizontalAlignment="Left" Margin="863,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="No" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="102" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
         </Button>
-        <Button Click="button118_Click" HorizontalAlignment="Left" Margin="836,582,0,0" VerticalAlignment="Top" Width="45" Height="55" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
+        <Button Click="button118_Click" HorizontalAlignment="Left" Margin="918,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFE0E0E0" Foreground="#FF232323" Cursor="Hand">
             <StackPanel>
                 <Label Content="Lr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Label Content="103" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
@@ -729,43 +744,43 @@
         </Button>
         <!--#endregion-->
         <!--#region Popisky skupin a period -->
-        <Label Content="7" HorizontalAlignment="Left" Margin="30,437,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="6" HorizontalAlignment="Left" Margin="30,382,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="5" HorizontalAlignment="Left" Margin="30,327,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="4" HorizontalAlignment="Left" Margin="30,272,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="3" HorizontalAlignment="Left" Margin="30,217,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="2" HorizontalAlignment="Left" Margin="30,162,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="1" HorizontalAlignment="Left" Margin="30,107,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="I. A" HorizontalAlignment="Left" Margin="124,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="II. A" HorizontalAlignment="Left" Margin="167,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="III. B" HorizontalAlignment="Left" Margin="211,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="IV. B" HorizontalAlignment="Left" Margin="261,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="V. B" HorizontalAlignment="Left" Margin="303,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VI.B" HorizontalAlignment="Left" Margin="347,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VII. B" HorizontalAlignment="Left" Margin="389,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="432,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VIII. B" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="522,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="I. B" HorizontalAlignment="Left" Margin="574,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="II. B" HorizontalAlignment="Left" Margin="618,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="III. A" HorizontalAlignment="Left" Margin="660,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="IV. A" HorizontalAlignment="Left" Margin="706,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="V. A" HorizontalAlignment="Left" Margin="753,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VI. A" HorizontalAlignment="Left" Margin="795,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VII. A" HorizontalAlignment="Left" Margin="838,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="VIII. A" HorizontalAlignment="Left" Margin="881,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="6" HorizontalAlignment="Left" Margin="30,542,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="7" HorizontalAlignment="Left" Margin="30,597,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Kovy" HorizontalAlignment="Left" Margin="449,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFADFF25" Foreground="Black"/>
-        <Label Content="Polokovy" HorizontalAlignment="Left" Margin="493,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFF9D58" Foreground="Black"/>
-        <Label Content="Nekovy" HorizontalAlignment="Left" Margin="564,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FF8EB9FF" Foreground="Black"/>
-        <Label Content="Kovy alkalických zemin" HorizontalAlignment="Left" Margin="180,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFE0E0" Foreground="Black"/>
-        <Label Foreground="Black" Content="Přechodné kovy" HorizontalAlignment="Left" Margin="335,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFF4B3FF"/>
-        <Label Foreground="Black" Content="Alkalické kovy" HorizontalAlignment="Left" Margin="78,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFA7FFF5"/>
-        <Label Foreground="Black" Content="Vzácné plyny" HorizontalAlignment="Left" Margin="699,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFB6FFA2"/>
-        <Label Foreground="Black" Content="Halogeny" HorizontalAlignment="Left" Margin="625,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFDD9AC"/>
-        <Label Content="Lanthanoidy" HorizontalAlignment="Left" Margin="795,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFC65F" Foreground="Black"/>
-        <Label Content="Aktinoidy" HorizontalAlignment="Left" Margin="886,669,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFE0E0E0" Foreground="Black"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="10,457,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="10,392,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="10,332,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="I. A" HorizontalAlignment="Left" Margin="51,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="II. A" HorizontalAlignment="Left" Margin="104,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="III. B" HorizontalAlignment="Left" Margin="158,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="IV. B" HorizontalAlignment="Left" Margin="213,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="V. B" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VI.B" HorizontalAlignment="Left" Margin="324,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VII. B" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="429,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="484,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. B" HorizontalAlignment="Left" Margin="539,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="I. B" HorizontalAlignment="Left" Margin="601,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="II. B" HorizontalAlignment="Left" Margin="655,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="III. A" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="IV. A" HorizontalAlignment="Left" Margin="763,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="V. A" HorizontalAlignment="Left" Margin="820,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VI. A" HorizontalAlignment="Left" Margin="872,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VII. A" HorizontalAlignment="Left" Margin="925,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="VIII. A" HorizontalAlignment="Left" Margin="978,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="10,550,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="10,615,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Kovy" HorizontalAlignment="Left" Margin="453,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFADFF25" Foreground="Black"/>
+        <Label Content="Polokovy" HorizontalAlignment="Left" Margin="497,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFF9D58" Foreground="Black"/>
+        <Label Content="Nekovy" HorizontalAlignment="Left" Margin="568,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FF8EB9FF" Foreground="Black"/>
+        <Label Content="Kovy alkalických zemin" HorizontalAlignment="Left" Margin="184,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFE0E0" Foreground="Black"/>
+        <Label Foreground="Black" Content="Přechodné kovy" HorizontalAlignment="Left" Margin="339,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFF4B3FF"/>
+        <Label Foreground="Black" Content="Alkalické kovy" HorizontalAlignment="Left" Margin="82,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFA7FFF5"/>
+        <Label Foreground="Black" Content="Vzácné plyny" HorizontalAlignment="Left" Margin="703,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFB6FFA2"/>
+        <Label Foreground="Black" Content="Halogeny" HorizontalAlignment="Left" Margin="629,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFDD9AC"/>
+        <Label Content="Lanthanoidy" HorizontalAlignment="Left" Margin="799,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFC65F" Foreground="Black"/>
+        <Label Content="Aktinoidy" HorizontalAlignment="Left" Margin="890,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFE0E0E0" Foreground="Black"/>
         <!--#endregion-->
 
     </Grid>

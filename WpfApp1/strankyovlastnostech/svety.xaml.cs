@@ -73,7 +73,8 @@ namespace Chemie.strankyovlastnostech
             }
             if (kodprvku == "Lithium")
             {
-                 svetyprvku.Text = "S-věty pro prvek "+ kodprvku + " jsou: S1/2; S8; S43; S45 (jsou vyznačeny červeně)";
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek "+ kodprvku + " jsou: S1/2; S8; S43; S45 (jsou vyznačeny červeně)";
                 S1_2.Foreground = new SolidColorBrush(Colors.Red);
                 S1_2.FontWeight = FontWeights.Bold;
                 S1_2.BorderBrush = new SolidColorBrush(Colors.Red);
@@ -86,133 +87,152 @@ namespace Chemie.strankyovlastnostech
                 S45.Foreground = new SolidColorBrush(Colors.Red);
                 S45.FontWeight = FontWeights.Bold;
                 S45.BorderBrush = new SolidColorBrush(Colors.Red);
-            }/*
+            }
             if (kodprvku == "Sodík")
             {
-                svetyprvku.Content = "S-věty pro prvek "+ kodprvku + " jsou: S1/2, S8, S43, S45";
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek "+ kodprvku + " jsou: S1/2; S5; S8; S43; S45 (jsou vyznačeny červeně)";
                 S1_2.Foreground = new SolidColorBrush(Colors.Red);
                 S1_2.FontWeight = FontWeights.Bold;
+                S1_2.BorderBrush = new SolidColorBrush(Colors.Red);
+                S5.Foreground = new SolidColorBrush(Colors.Red);
+                S5.FontWeight = FontWeights.Bold;
+                S5.BorderBrush = new SolidColorBrush(Colors.Red);
                 S8.Foreground = new SolidColorBrush(Colors.Red);
                 S8.FontWeight = FontWeights.Bold;
+                S8.BorderBrush = new SolidColorBrush(Colors.Red);
                 S43.Foreground = new SolidColorBrush(Colors.Red);
                 S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
                 S45.Foreground = new SolidColorBrush(Colors.Red);
                 S45.FontWeight = FontWeights.Bold;
+                S45.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Draslík")
-            {
-                svetyprvku.Content = "S-věty pro prvek "+ kodprvku + " jsou: S1/2, S8, S43, S45";
+            {   
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek "+ kodprvku + " jsou: S1/2; S8; S45 (jsou vyznačeny červeně)";
                 S1_2.Foreground = new SolidColorBrush(Colors.Red);
                 S1_2.FontWeight = FontWeights.Bold;
+                S1_2.BorderBrush = new SolidColorBrush(Colors.Red);
                 S8.Foreground = new SolidColorBrush(Colors.Red);
                 S8.FontWeight = FontWeights.Bold;
-                S43.Foreground = new SolidColorBrush(Colors.Red);
-                S43.FontWeight = FontWeights.Bold;
+                S8.BorderBrush = new SolidColorBrush(Colors.Red);
                 S45.Foreground = new SolidColorBrush(Colors.Red);
                 S45.FontWeight = FontWeights.Bold;
-        }
+                S45.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
             if (kodprvku == "Rubidium")
             {
-                ziravina.Visibility = Visibility.Visible;
-                ziravinabtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S7/8; S20; S26; S30; S33; S36/37/39; S43; S45";
-                rvety.Content = "R14/15; R34";
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S7/8; S20; S26; S30; S33; S36/37/39; S43; S45 (jsou vyznačeny červeně)";
+                S7_8.Foreground = new SolidColorBrush(Colors.Red);
+                S7_8.FontWeight = FontWeights.Bold;
+                S7_8.BorderBrush = new SolidColorBrush(Colors.Red);
+                S20.Foreground = new SolidColorBrush(Colors.Red);
+                S20.FontWeight = FontWeights.Bold;
+                S20.BorderBrush = new SolidColorBrush(Colors.Red);
+                S26.Foreground = new SolidColorBrush(Colors.Red);
+                S26.FontWeight = FontWeights.Bold;
+                S26.BorderBrush = new SolidColorBrush(Colors.Red);
+                S30.Foreground = new SolidColorBrush(Colors.Red);
+                S30.FontWeight = FontWeights.Bold;
+                S30.BorderBrush = new SolidColorBrush(Colors.Red);
+                S33.Foreground = new SolidColorBrush(Colors.Red);
+                S33.FontWeight = FontWeights.Bold;
+                S33.BorderBrush = new SolidColorBrush(Colors.Red);
+                S36_37_39.Foreground = new SolidColorBrush(Colors.Red);
+                S36_37_39.FontWeight = FontWeights.Bold;
+                S36_37_39.BorderBrush = new SolidColorBrush(Colors.Red);
+                S43.Foreground = new SolidColorBrush(Colors.Red);
+                S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
+                S45.Foreground = new SolidColorBrush(Colors.Red);
+                S45.FontWeight = FontWeights.Bold;
+                S45.BorderBrush = new SolidColorBrush(Colors.Red);
             }
-            if (kodprvku == "Cesium")
+            if (kodprvku == "Beryllium")
             {
-                ziravina.Visibility = Visibility.Visible;
-                ziravinabtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S53; S45 (jsou vyznačeny červeně)";
+                S53.Foreground = new SolidColorBrush(Colors.Red);
+                S53.FontWeight = FontWeights.Bold;
+                S53.BorderBrush = new SolidColorBrush(Colors.Red);
+                S45.Foreground = new SolidColorBrush(Colors.Red);
+                S45.FontWeight = FontWeights.Bold;
+                S45.BorderBrush = new SolidColorBrush(Colors.Red);
             }
-if (kodprvku == "Francium")
-{
-    radiace.Visibility = Visibility.Visible;
-    radiacebtn.IsEnabled = true;
-    svetybtn.IsEnabled = false;
-    rvetybtn.IsEnabled = false;
-    svety.Content = "Neuvedeno";
-    rvety.Content = "Neuvedeno";
-}
-if (kodprvku == "Beryllium")
-{
-    nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-    nebezpeci_pro_zdravibtn.IsEnabled = true;
-    vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-    vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-    akutni_toxicita.Visibility = Visibility.Visible;
-    akutni_toxicitabtn.IsEnabled = true;
-    svety.Content = "S53; S45";
-}
-if (kodprvku == "Hořčík")
-{
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svety.Content = "S2; S7/8; S43";
-    rvety.Content = "R11; R15; R17";
-}
-if (kodprvku == "Vápník")
-{
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svety.Content = "S2; S8; S24/25; S43";
-    rvety.Content = "R15";
-}
-if (kodprvku == "Stroncium")
-{
-    ziravina.Visibility = Visibility.Visible;
-    ziravinabtn.IsEnabled = true;
-    nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-    nebezpeci_pro_zdravibtn.IsEnabled = true;
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svety.Content = "S8; S24/25; S43";
-    rvety.Content = "R15";
-}
-if (kodprvku == "Baryum")
-{
-    ziravina.Visibility = Visibility.Visible;
-    ziravinabtn.IsEnabled = true;
-    nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-    nebezpeci_pro_zdravibtn.IsEnabled = true;
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svetybtn.IsEnabled = false;
-    rvetybtn.IsEnabled = false;
-    svety.Content = "Neuvedeno";
-    rvety.Content = "Neuvedeno";
-}
-if (kodprvku == "Radium")
-{
-    radiace.Visibility = Visibility.Visible;
-    radiacebtn.IsEnabled = true;
-    svetybtn.IsEnabled = false;
-    rvetybtn.IsEnabled = false;
-    svety.Content = "Neuvedeno";
-    rvety.Content = "Neuvedeno";
-}
-if (kodprvku == "Skandium")
-{
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svety.Content = "S16; S43";
-    rvety.Content = "R11";
-}
-if (kodprvku == "Yttrium")
-{
-    nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-    nebezpeci_pro_zdravibtn.IsEnabled = true;
-    horlavina.Visibility = Visibility.Visible;
-    horlavinabtn.IsEnabled = true;
-    svety.Content = "S7/9; S16; S33";
-    rvety.Content = "R11";
-}
+            if (kodprvku == "Hořčík")
+            {
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S2; S7/8; S43 (jsou vyznačeny červeně)";
+                S2.Foreground = new SolidColorBrush(Colors.Red);
+                S2.FontWeight = FontWeights.Bold;
+                S2.BorderBrush = new SolidColorBrush(Colors.Red);
+                S7_8.Foreground = new SolidColorBrush(Colors.Red);
+                S7_8.FontWeight = FontWeights.Bold;
+                S7_8.BorderBrush = new SolidColorBrush(Colors.Red);
+                S43.Foreground = new SolidColorBrush(Colors.Red);
+                S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+            if (kodprvku == "Vápník")
+            {
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S2; S8; S24/25; S43 (jsou vyznačeny červeně)";
+                S2.Foreground = new SolidColorBrush(Colors.Red);
+                S2.FontWeight = FontWeights.Bold;
+                S2.BorderBrush = new SolidColorBrush(Colors.Red);
+                S8.Foreground = new SolidColorBrush(Colors.Red);
+                S8.FontWeight = FontWeights.Bold;
+                S8.BorderBrush = new SolidColorBrush(Colors.Red);
+                S24_25.Foreground = new SolidColorBrush(Colors.Red);
+                S24_25.FontWeight = FontWeights.Bold;
+                S24_25.BorderBrush = new SolidColorBrush(Colors.Red);
+                S43.Foreground = new SolidColorBrush(Colors.Red);
+                S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+            if (kodprvku == "Stroncium")
+            {
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S8; S24/25; S43 (jsou vyznačeny červeně)";
+                S8.Foreground = new SolidColorBrush(Colors.Red);
+                S8.FontWeight = FontWeights.Bold;
+                S8.BorderBrush = new SolidColorBrush(Colors.Red);
+                S24_25.Foreground = new SolidColorBrush(Colors.Red);
+                S24_25.FontWeight = FontWeights.Bold;
+                S24_25.BorderBrush = new SolidColorBrush(Colors.Red);
+                S43.Foreground = new SolidColorBrush(Colors.Red);
+                S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+            if (kodprvku == "Skandium")
+            {
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S16; S43 (jsou vyznačeny červeně)";
+                S16.Foreground = new SolidColorBrush(Colors.Red);
+                S16.FontWeight = FontWeights.Bold;
+                S16.BorderBrush = new SolidColorBrush(Colors.Red);
+                S43.Foreground = new SolidColorBrush(Colors.Red);
+                S43.FontWeight = FontWeights.Bold;
+                S43.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+            if (kodprvku == "Yttrium")
+            {
+                headline.Content = "S-věty: " + kodprvku;
+                svetyprvku.Text = "S-věty pro prvek " + kodprvku + " jsou: S7/9; S16; S33 (jsou vyznačeny červeně)";
+                S7_9.Foreground = new SolidColorBrush(Colors.Red);
+                S7_9.FontWeight = FontWeights.Bold;
+                S7_9.BorderBrush = new SolidColorBrush(Colors.Red);
+                S16.Foreground = new SolidColorBrush(Colors.Red);
+                S16.FontWeight = FontWeights.Bold;
+                S16.BorderBrush = new SolidColorBrush(Colors.Red);
+                S33.Foreground = new SolidColorBrush(Colors.Red);
+                S33.FontWeight = FontWeights.Bold;
+                S33.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+/*
 if (kodprvku == "Titan")
 {
     nebezpeci_pro_zdravi.Visibility = Visibility.Visible;

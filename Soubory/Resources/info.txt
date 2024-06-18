@@ -14,6 +14,8 @@ Novinky ()
 3) Začátek práce na sekci "převody"
 4) Menší designové úpravy
 5) Dokončeny stránky popisující piktogramy nebezpečí
+6) Vrácena možnost přesouvání okna aplikace po obrazovce
+7) Vylepšen tmavý režim
 
 Novinky (2024-06-10)
 --------------------

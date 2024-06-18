@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Chemie.strankyovlastnostech"
       mc:Ignorable="d" 
-      d:DesignHeight="726" d:DesignWidth="1000"
+      d:DesignHeight="726" d:DesignWidth="1040"
       Title="nebezpeciZP">
 
     <Grid>
-        <Button Margin="22,26,934,656" Click="Button_Click" Cursor="Hand" Width="40" Height="40">
+        <Button Margin="10,27,990,659" Click="Button_Click" Cursor="Hand" Width="40" Height="40">
             <TextBlock Text="←" Margin="0,-10,0,0" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -22,8 +22,8 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label Content="Látky nebezpečné pro životní prostředí (GHS09)" HorizontalAlignment="Left" Margin="147,27,0,0" VerticalAlignment="Top" FontSize="24" Height="50"/>
-        <Image Source="/data/latky/Aquatic-pollut-red.gif" HorizontalAlignment="Left" Height="50" Margin="92,27,0,0" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Látky nebezpečné pro životní prostředí (GHS09)" HorizontalAlignment="Left" Margin="131,22,0,0" VerticalAlignment="Top" FontSize="24" Height="50"/>
+        <Image Source="/data/latky/Aquatic-pollut-red.gif" HorizontalAlignment="Left" Height="50" Margin="76,22,0,0" VerticalAlignment="Top" Width="50"/>
         <Label Content="Význam:" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
