@@ -5,12 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Chemie"
       mc:Ignorable="d" 
-      d:DesignHeight="726" d:DesignWidth="1000"
+      d:DesignHeight="726" d:DesignWidth="1040"
       Title="prvekinfo">
 
     <Grid>
-        <DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=8}" GridLinesVisibility="None" HeadersVisibility="None" FrozenColumnCount="2" ColumnWidth="*" Margin="10,75,10,483" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" SelectionMode="Single" SelectionUnit="Cell" AreRowDetailsFrozen="True" EnableRowVirtualization="False" IsReadOnly="True" BorderThickness="0,0,0,0" FontSize="14" Background="#00000000" RowBackground="#00000000" FontWeight="Bold"/>
-        <Button Margin="22,26,934,656" Click="Button_Click" Cursor="Hand" Width="40" Height="40">
+        <DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=8}" GridLinesVisibility="None" HeadersVisibility="None" FrozenColumnCount="2" ColumnWidth="*" Margin="30,75,10,483" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" SelectionMode="Single" SelectionUnit="Cell" AreRowDetailsFrozen="True" EnableRowVirtualization="False" IsReadOnly="True" BorderThickness="0,0,0,0" FontSize="14" Background="#00000000" RowBackground="#00000000" FontWeight="Bold"/>
+        <Button Margin="10,24,990,662" Click="Button_Click" Cursor="Hand" Width="40" Height="40">
             <TextBlock Text="←" Margin="0,-10,0,0" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -23,10 +23,10 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label Name="headline" Content="Label" HorizontalAlignment="Left" Margin="85,23,0,0" VerticalAlignment="Top" Height="50" Width="690" FontSize="24"/>
-        <Label Content="Nebezpečí:" HorizontalAlignment="Left" Margin="8,248,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
+        <Label Name="headline" Content="Label" HorizontalAlignment="Left" Margin="63,19,0,0" VerticalAlignment="Top" Height="50" Width="690" FontSize="24"/>
+        <Label Content="Nebezpečí:" HorizontalAlignment="Left" Margin="26,248,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
 
-        <Button Name="radiacebtn" IsEnabled="False" HorizontalAlignment="Left" Margin="500,248,0,0" VerticalAlignment="Top" Height="30" Width="30" Click="radiace_Click" Cursor="Hand">
+        <Button Name="radiacebtn" IsEnabled="False" HorizontalAlignment="Left" Margin="520,248,0,0" VerticalAlignment="Top" Height="30" Width="30" Click="radiace_Click" Cursor="Hand">
             <Image  Name="radiace" Visibility="Hidden" Source="data/latky/radiation.png"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -39,7 +39,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="ziravinabtn" IsEnabled="False" HorizontalAlignment="Left" Margin="535,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="ziravina_Click" Cursor="Hand">
+        <Button Name="ziravinabtn" IsEnabled="False" HorizontalAlignment="Left" Margin="555,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="ziravina_Click" Cursor="Hand">
             <Image Name="ziravina" Visibility="Hidden" Source="data/latky/acid_red.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -52,7 +52,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="latky_nebezpecne_pro_ZPbtn" IsEnabled="False" HorizontalAlignment="Left" Margin="570,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="latky_nebezpecne_pro_ZP_Click" Cursor="Hand">
+        <Button Name="latky_nebezpecne_pro_ZPbtn" IsEnabled="False" HorizontalAlignment="Left" Margin="590,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="latky_nebezpecne_pro_ZP_Click" Cursor="Hand">
             <Image Name="latky_nebezpecne_pro_ZP" Visibility="Hidden" Source="data/latky/Aquatic-pollut-red.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -65,7 +65,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="plynbtn" HorizontalAlignment="Left" IsEnabled="False" Margin="605,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="plyn_Click" Cursor="Hand">
+        <Button Name="plynbtn" HorizontalAlignment="Left" IsEnabled="False" Margin="625,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="plyn_Click" Cursor="Hand">
             <Image Name="plyn" Visibility="Hidden" Source="data/latky/bottle.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -78,7 +78,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="nebezpeci_pro_zdravibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="640,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="nebezpeci_pro_zdravi_Click" Cursor="Hand">
+        <Button Name="nebezpeci_pro_zdravibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="660,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="nebezpeci_pro_zdravi_Click" Cursor="Hand">
             <Image Name="nebezpeci_pro_zdravi" Visibility="Hidden" Source="data/latky/exclam.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -91,7 +91,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="vybusninabtn" HorizontalAlignment="Left" IsEnabled="False" Margin="675,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vybusnina_Click" Cursor="Hand">
+        <Button Name="vybusninabtn" HorizontalAlignment="Left" IsEnabled="False" Margin="695,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vybusnina_Click" Cursor="Hand">
             <Image Name="vybusnina" Visibility="Hidden" Source="data/latky/explos.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -104,7 +104,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="horlavinabtn" HorizontalAlignment="Left" IsEnabled="False" Margin="710,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="horlavina_Click" Cursor="Hand">
+        <Button Name="horlavinabtn" HorizontalAlignment="Left" IsEnabled="False" Margin="730,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="horlavina_Click" Cursor="Hand">
             <Image Name="horlavina" Visibility="Hidden" Source="data/latky/flamme.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -117,7 +117,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="oxidujicibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="745,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="oxidujici_Click" Cursor="Hand">
+        <Button Name="oxidujicibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="765,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="oxidujici_Click" Cursor="Hand">
             <Image Name="oxidujici" Visibility="Hidden" Source="data/latky/rondflam.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -130,7 +130,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="vysoka_nebezpecnost_pro_zdravibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="780,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vysoka_nebezpecnost_pro_zdravi_Click" Cursor="Hand">
+        <Button Name="vysoka_nebezpecnost_pro_zdravibtn" HorizontalAlignment="Left" IsEnabled="False" Margin="800,248,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vysoka_nebezpecnost_pro_zdravi_Click" Cursor="Hand">
             <Image Name="vysoka_nebezpecnost_pro_zdravi" Visibility="Hidden" Source="data/latky/silhouete.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -143,7 +143,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="akutni_toxicitabtn" HorizontalAlignment="Left" Margin="815,248,0,0" IsEnabled="False" VerticalAlignment="Top" Width="30" Height="30" Click="akutni_toxicita_Click" Cursor="Hand">
+        <Button Name="akutni_toxicitabtn" HorizontalAlignment="Left" Margin="835,248,0,0" IsEnabled="False" VerticalAlignment="Top" Width="30" Height="30" Click="akutni_toxicita_Click" Cursor="Hand">
             <Image Name="akutni_toxicita" Visibility="Hidden" Source="data/latky/skull.gif"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -156,7 +156,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="svetybtn" HorizontalAlignment="Left" Margin="500,283,0,0" VerticalAlignment="Top" Height="30" Width="345" Click="Button_Click_1" Cursor="Hand">
+        <Button Name="svetybtn" HorizontalAlignment="Left" Margin="520,283,0,0" VerticalAlignment="Top" Height="30" Width="345" Click="Button_Click_1" Cursor="Hand">
             <Label Name="svety" Content=""/>
             <Button.ToolTip>
                 <ToolTip>
@@ -164,7 +164,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Button Name="rvetybtn" HorizontalAlignment="Left" Margin="500,318,0,0" VerticalAlignment="Top" Height="30" Width="345" Click="Button_Click_2" Cursor="Hand">
+        <Button Name="rvetybtn" HorizontalAlignment="Left" Margin="520,318,0,0" VerticalAlignment="Top" Height="30" Width="345" Click="Button_Click_2" Cursor="Hand">
             <Label Name="rvety" Content=""/>
             <Button.ToolTip>
                 <ToolTip>
@@ -172,18 +172,18 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Label Content="S věty:" HorizontalAlignment="Left" Margin="8,283,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
-        <Label Content="R věty:" HorizontalAlignment="Left" Margin="8,318,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
-        <TextBox Name="infobox" HorizontalAlignment="Center" Margin="0,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="980" Height="294" BorderThickness="0,0,0,0"/>
+        <Label Content="S věty:" HorizontalAlignment="Left" Margin="26,283,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="R věty:" HorizontalAlignment="Left" Margin="26,318,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <TextBox Name="infobox" HorizontalAlignment="Center" Margin="0,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="988" Height="294" BorderThickness="0,0,0,0"/>
         <Label Content="Všechny informace o prvku jsou převzaty z webu Wikipedia.org" HorizontalAlignment="Center" Margin="0,687,0,0" VerticalAlignment="Top" FontStyle="Italic" FontWeight="Bold" FontSize="14"/>
-        <Button Name="wikilink" Content="Více na webu Wikipedia" HorizontalAlignment="Left" Margin="830,33,0,0" VerticalAlignment="Top" Height="30" Width="160" Cursor="Hand">
+        <Button Name="wikilink" Content="Více na webu Wikipedia" HorizontalAlignment="Left" Margin="850,29,0,0" VerticalAlignment="Top" Height="30" Width="160" Cursor="Hand">
             <Button.ToolTip>
                 <ToolTip>
                     Otevře webový prohlížeč
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Label Content="Stručný popis prvku:" HorizontalAlignment="Left" Margin="8,353,0,0" VerticalAlignment="Top" FontSize="14" Height="30" FontWeight="Bold"/>
+        <Label Content="Stručný popis prvku:" HorizontalAlignment="Left" Margin="26,353,0,0" VerticalAlignment="Top" FontSize="14" Height="30" FontWeight="Bold"/>
 
     </Grid>
 </Page>

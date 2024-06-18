@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Chemie.strankyovlastnostech"
       mc:Ignorable="d" 
-      d:DesignHeight="2860" d:DesignWidth="998"
+      d:DesignHeight="2860" d:DesignWidth="1040"
       Title="svety">
     <ScrollViewer>
         <Grid Height="2860">
-            <Button  Click="Button_Click" Cursor="Hand" Margin="22,26,910,2789" Width="40" Height="40">
+            <Button  Click="Button_Click" Cursor="Hand" Margin="10,26,973,2794" Width="40" Height="40">
                 <TextBlock Text="←" Margin="0,-10,0,0" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
                 <Button.ToolTip>
                     <ToolTip>
@@ -22,7 +22,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Label Name="headline" Content="S-věty" HorizontalAlignment="Left" Margin="88,9,0,0" VerticalAlignment="Top" Width="325" FontSize="18" FontWeight="Bold"/>
+            <Label Name="headline" Content="S-věty" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top" Width="325" FontSize="18" FontWeight="Bold"/>
             <Label Content="Jednoduché S-věty:" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
             <!--#region Jednoduché S-věty-->
             <Label Name="S1" HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top" Width="961" BorderThickness="1,1,1,1" FontSize="14">
@@ -296,7 +296,7 @@
                 </TextBlock>
             </Label>
             <!--#endregion-->
-            <Label  HorizontalAlignment="Left" Margin="88,48,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="883" FontStyle="Italic" FontSize="14" Height="52">
+            <Label  HorizontalAlignment="Left" Margin="55,49,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="958" FontStyle="Italic" FontSize="14" Height="52">
                 <TextBlock Name="svetyprvku" TextWrapping="WrapWithOverflow" Text="Zde jsou vypsané všechny S-věty (anglicky Safety advice). Dnes jsou nahrazeny P-větami."/>
 
             </Label>

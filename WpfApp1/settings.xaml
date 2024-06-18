@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Chemie"
       mc:Ignorable="d" 
-      d:DesignHeight="726" d:DesignWidth="993"
+      d:DesignHeight="726" d:DesignWidth="1040"
       Title="settings">
 
     <Grid>
@@ -15,27 +15,27 @@
         <Label Content="Barva záhlaví:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Vzhled popisků v záhlaví:" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Motiv aplikace:" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Button Content="Uložit změny" HorizontalAlignment="Left" Margin="542,670,0,0" VerticalAlignment="Top" Width="78" Height="30" Click="Button_Click_2"/>
-        <Button Content="Obnovit výchozí nastavení" HorizontalAlignment="Left" Margin="387,670,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="Button_Click_1"/>
-        <ComboBox Name="headpick"  HorizontalAlignment="Left" Margin="769,120,0,0" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True"/>
-        <ComboBox Name="themepick" HorizontalAlignment="Left" Margin="769,155,0,0" VerticalAlignment="Top" Width="170" Height="31" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True" />
+        <Button Cursor="Hand" Content="Uložit změny" HorizontalAlignment="Left" Margin="542,670,0,0" VerticalAlignment="Top" Width="78" Height="30" Click="Button_Click_2"/>
+        <Button Cursor="Hand" Content="Obnovit výchozí nastavení" HorizontalAlignment="Left" Margin="387,670,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="Button_Click_1"/>
+        <ComboBox Name="headpick"  HorizontalAlignment="Left" Margin="854,119,0,0" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True"/>
+        <ComboBox Name="themepick" HorizontalAlignment="Left" Margin="854,154,0,0" VerticalAlignment="Top" Width="170" Height="31" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True" />
         <Label Content="(Pro uložení změn nebo resetování nastavení je potřeba resetovat aplikaci!)" HorizontalAlignment="Center" Margin="0,639,0,0" VerticalAlignment="Top"/>
-        <ComboBox Name="bgenbaled" SelectedItem="Ne" HorizontalAlignment="Left" Margin="769,194,0,0" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True"/>
-        <Label Content="Povolit pozadí:" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Button HorizontalAlignment="Left" Click="def_clck" Background="#FFB9D1EA" Margin="31,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="brown_clck" Background="#4C3228" Margin="241,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="yellow_clck" Background="#FFF1FF00" Margin="206,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="green_clck" Background="#FF59FF38" Margin="171,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="blue_clck" Background="#FF365EFF" Margin="136,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="red_clck" Background="#FFF75454" Margin="101,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
-        <Button HorizontalAlignment="Left" Click="black_clck" Background="Black" Margin="66,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <ComboBox Name="bgenbaled" SelectedItem="Ne" HorizontalAlignment="Left" Margin="854,190,0,0" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEditable="True" IsReadOnly="True"/>
+        <Label Content="Povolit pozadí:" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="def_clck" Background="#FFB9D1EA" Margin="31,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="brown_clck" Background="#4C3228" Margin="241,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="yellow_clck" Background="#FFF1FF00" Margin="206,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="green_clck" Background="#FF59FF38" Margin="171,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="blue_clck" Background="#FF365EFF" Margin="136,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="red_clck" Background="#FFF75454" Margin="101,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button Cursor="Hand" HorizontalAlignment="Left" Click="black_clck" Background="Black" Margin="66,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
         <Label Content="Výchozí barvy:" HorizontalAlignment="Left" Margin="12,41,0,0" VerticalAlignment="Top"/>
-        <Label Content="Jazyk aplikace:" HorizontalAlignment="Left" Margin="10,229,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <ComboBox Name="lang" HorizontalAlignment="Left" Margin="769,229,0,0" IsEnabled="False" IsEditable="True" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True"/>
-        <Label Content="Vlastní barva:" HorizontalAlignment="Left" Margin="516,41,0,0" VerticalAlignment="Top"/>
-        <Button Click="Button_Click_4" Content="Vybrat vlastní barvu" HorizontalAlignment="Left" Margin="516,72,0,0" VerticalAlignment="Top" Height="30" Width="130"/>
-        <Rectangle Name="preview" HorizontalAlignment="Left" Height="30" Margin="769,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="170"/>
-        <Label Content="Náhled:" HorizontalAlignment="Left" Margin="699,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Jazyk aplikace:" HorizontalAlignment="Left" Margin="11,225,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <ComboBox Name="lang" HorizontalAlignment="Left" Margin="854,226,0,0" IsEnabled="False" IsEditable="True" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True"/>
+        <Label Content="Vlastní barva:" HorizontalAlignment="Left" Margin="567,41,0,0" VerticalAlignment="Top"/>
+        <Button Cursor="Hand" Click="Button_Click_4" Content="Vybrat vlastní barvu" HorizontalAlignment="Left" Margin="567,73,0,0" VerticalAlignment="Top" Height="30" Width="130"/>
+        <Rectangle Name="preview" HorizontalAlignment="Left" Height="30" Margin="854,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Náhled:" HorizontalAlignment="Left" Margin="798,76,0,0" VerticalAlignment="Top"/>
         <TextBox KeyDown="hexcodee" IsEnabled="False" Name="hexcode" Visibility="Hidden" HorizontalAlignment="Left" Margin="895,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
 

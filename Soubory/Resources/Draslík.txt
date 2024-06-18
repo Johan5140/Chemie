@@ -6,6 +6,5 @@ Popis:
 
 Využití (příklady):
 -------------------
-1) Jaderná energetika a letecké motory - odvod tepla
-2) Redukční činidlo - používán v organických syntetických reakcích
-3) Přídavek do neonových lamp
+1) Výroba fotoelktrických článků
+2) Redukční reakce v organické syntéze

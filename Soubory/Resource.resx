@@ -118,6 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Baryum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Baryum.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Beryllium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Beryllium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Cesium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Cesium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Draslík" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Draslík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Francium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Francium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Hořčík" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Hořčík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\info.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -127,10 +145,28 @@
   <data name="prvky" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\prvky.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Radium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Radium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Rubidium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Rubidium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Skandium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Skandium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Sodík" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Sodík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Stroncium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Stroncium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Vodík" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Vodík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Vápník" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vápník.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Yttrium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Yttrium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>
