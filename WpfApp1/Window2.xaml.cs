@@ -115,11 +115,34 @@ namespace Chemie
         {
             this.WindowState = WindowState.Minimized;
         }
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+
+        /* Vypnutí aero snap*/
+        void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.ChangedButton == MouseButton.Left)
-                this.DragMove();
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                // this prevents win7 aerosnap
+                if (this.ResizeMode != System.Windows.ResizeMode.NoResize)
+                {
+                    this.ResizeMode = System.Windows.ResizeMode.NoResize;
+                    this.UpdateLayout();
+                }
+
+                DragMove();
+            }
         }
+
+        void Window_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (this.ResizeMode == System.Windows.ResizeMode.NoResize)
+            {
+                // restore resize grips
+                this.ResizeMode = System.Windows.ResizeMode.CanResizeWithGrip;
+                this.UpdateLayout();
+            }
+        }
+        
+        /* Navigace */
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             nav.Source = new Uri("main.xaml", UriKind.Relative);

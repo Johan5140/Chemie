@@ -26,6 +26,13 @@
                 <Label Content="Vodík" Foreground="Black" FontSize="12" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
+        <Button IsEnabled="False" Foreground="Black" HorizontalAlignment="Left" Margin="465,120,0,0" VerticalAlignment="Top" Width="55" Height="65" Click="button2_Click" Background="#FFFDFDB8" Cursor="Hand">
+            <StackPanel>
+                <Label Content="H" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="1" Foreground="Black" FontSize="12" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Vodík" Foreground="Black" FontSize="12" Padding="0,0,0,0"/>
+            </StackPanel>
+        </Button>
         <Button Foreground="Black" Margin="38,117,947,0" VerticalAlignment="Top" Height="65" Width="55" Click="button3_Click" Background="#FFA7FFF5" Cursor="Hand">
             <StackPanel>
                 <Label Content="Li" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
@@ -126,26 +133,30 @@
         </Button>
         <Button Click="button17_Click" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Ti" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="22" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Ti" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="22" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Titan" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
         <Button Click="button18_Click" HorizontalAlignment="Left" Margin="203,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Zr" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="40" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Zr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="40" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Zirkonium" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
             </StackPanel>
         </Button>
         <Button Click="button19_Click" HorizontalAlignment="Left" Margin="203,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Hf" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="72" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Hf" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="72" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Hafnium" Foreground="Black" Padding="0,0,0,0"/>
             </StackPanel>
         </Button>
         <Button Click="button20_Click" HorizontalAlignment="Left" Margin="203,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
             <StackPanel>
-                <Label Content="Rf" Foreground="Black" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Label Content="104" Foreground="Black" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Rf" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
+                <Label Content="104" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="Rutherfordium" Foreground="Black" Padding="0,0,0,0" FontSize="8"/>
             </StackPanel>
         </Button>
         <Button Click="button21_Click" HorizontalAlignment="Left" Margin="258,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Background="#FFF4B3FF" Foreground="#FF101010" Cursor="Hand">
@@ -781,6 +792,9 @@
         <Label Foreground="Black" Content="Halogeny" HorizontalAlignment="Left" Margin="629,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFDD9AC"/>
         <Label Content="Lanthanoidy" HorizontalAlignment="Left" Margin="799,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFFFC65F" Foreground="Black"/>
         <Label Content="Aktinoidy" HorizontalAlignment="Left" Margin="890,687,0,0" VerticalAlignment="Top" FontSize="14" Background="#FFE0E0E0" Foreground="Black"/>
+        <Label Content="Chemická značka -->" HorizontalAlignment="Left" Margin="348,126,0,0" VerticalAlignment="Top" Height="19" Padding="0,0,0,0"/>
+        <Label Content="Protonové číslo -->" HorizontalAlignment="Left" Margin="357,145,0,0" VerticalAlignment="Top" Height="19" Padding="0,0,0,0"/>
+        <Label Content="Název prvku -->" HorizontalAlignment="Left" Margin="373,164,0,0" VerticalAlignment="Top" Padding="0,0,0,0" Height="19"/>
         <!--#endregion-->
 
     </Grid>
