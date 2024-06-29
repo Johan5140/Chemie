@@ -17,7 +17,7 @@
         <TextBox Name="abouttext" Margin="10,129,10,10" TextWrapping="Wrap" BorderThickness="0,0,0,0"/>
         <Label Content="Verze:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Name="ver" Content="Label" HorizontalAlignment="Left" Margin="499,67,0,0" VerticalAlignment="Top"/>
-        <TextBlock Margin="554,41,136,0" VerticalAlignment="Top" Height="29" UseLayoutRounding="False"><Hyperlink Name="swpage" NavigateUri="https://github.com/Johan5140/Chemie-new" RequestNavigate="Hyperlink_RequestNavigate">Stránka programu na github.com</Hyperlink></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="554,72,0,0" VerticalAlignment="Top"><Hyperlink Name="reportlink" NavigateUri="https://github.com/Johan5140/Chemie-new/issues" RequestNavigate="Hyperlink_RequestNavigate">Nahlásit chybu</Hyperlink></TextBlock>
+        <Button Cursor="Hand" Content="Stránka programu na github.com" HorizontalAlignment="Left" Margin="593,36,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click"/>
+        <Button Cursor="Hand" Content="Nahlásit chybu" HorizontalAlignment="Left" Margin="593,67,0,0" VerticalAlignment="Top" Height="26" Width="120" Click="Button_Click_1"/>
     </Grid>
 </Page>

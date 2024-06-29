@@ -1,6 +1,12 @@
 Popis:
 ------
-
+1) Stříbřitý až šedobílý
+2) Tvrdý a křehký kov
+3) Vysoký bod tání
+4) Při teplotách pod 0,915 K je supravodič
 
 Využití (příklady):
 -------------------
+1) Metalurgie (výroba speciálních ocelí)
+2) Některé jeho sloučeniny se využívají jako umělá hnojiva
+3) Výroba petrochemických katalyzátorů (slouží k odstranění sirných sloučenin z ropy)

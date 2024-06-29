@@ -94,5 +94,17 @@ namespace Chemie.Properties {
                 this["langseten"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool devmode {
+            get {
+                return ((bool)(this["devmode"]));
+            }
+            set {
+                this["devmode"] = value;
+            }
+        }
     }
 }

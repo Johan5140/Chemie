@@ -1,6 +1,9 @@
 Popis:
 ------
-
+1) Lesklý, světle šedý kov
+2) Velmi tvrdý a křehký
 
 Využití (příklady):
 -------------------
+1) Metalurgie (výroba legovaných ocelí)
+2) Povrchová úprava kovů

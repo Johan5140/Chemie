@@ -124,6 +124,9 @@
   <data name="Beryllium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Beryllium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Bohrium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Bohrium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Cesium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Cesium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -142,6 +145,9 @@
   <data name="Hafnium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Hafnium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Hassium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Hassium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Hořčík" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Hořčík.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -151,11 +157,17 @@
   <data name="Lithium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Lithium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Mangan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mangan.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Molybden" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Molybden.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Niob" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Niob.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Osmium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Osmium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="prvky" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\prvky.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -163,8 +175,14 @@
   <data name="Radium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Radium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Rhenium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Rhenium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Rubidium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Rubidium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ruthenium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Ruthenium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Rutherfordium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Rutherfordium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -183,6 +201,9 @@
   </data>
   <data name="Tantal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Tantal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Technecium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Technecium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Titan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Titan.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -204,5 +225,8 @@
   </data>
   <data name="Zirkonium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Zirkonium.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Železo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Železo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>
