@@ -35,8 +35,8 @@ namespace Chemie
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                reportlink.Foreground = new SolidColorBrush(Colors.Gray);
-                swpage.Foreground = new SolidColorBrush(Colors.Gray);
+                //reportlink.Foreground = new SolidColorBrush(Colors.Gray);
+                //swpage.Foreground = new SolidColorBrush(Colors.Gray);
             }
             if (thmpck == "Tmavý")
             {
@@ -46,8 +46,8 @@ namespace Chemie
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                reportlink.Foreground = new SolidColorBrush(Colors.LightGray);
-                swpage.Foreground = new SolidColorBrush(Colors.LightGray);
+                //reportlink.Foreground = new SolidColorBrush(Colors.LightGray);
+                //swpage.Foreground = new SolidColorBrush(Colors.LightGray);
 
             }
         }
@@ -55,6 +55,24 @@ namespace Chemie
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });
             e.Handled = true;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/Johan5140/Chemie",
+                UseShellExecute = true
+            });
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/Johan5140/Chemie-new/issues",
+                UseShellExecute = true
+            });
         }
     }
 }

@@ -179,345 +179,228 @@ namespace Chemie.strankyovlastnostech
                 R11.FontWeight = FontWeights.Bold;
                 R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
-            /*
             if (kodprvku == "Titan")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S26";
-                rvety.Content = "R17; R36/37/38";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R17; R36/37/38 (jsou vyznačeny červeně)";
+                R17.Foreground = new SolidColorBrush(Colors.Red);
+                R17.FontWeight = FontWeights.Bold;
+                R17.BorderBrush = new SolidColorBrush(Colors.Red);
+                R36_37_38.Foreground = new SolidColorBrush(Colors.Red);
+                R36_37_38.FontWeight = FontWeights.Bold;
+                R36_37_38.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Zirkonium")
             {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S2; S7/8; S43";
-                rvety.Content = "R15; R17";
-            }
-            if (kodprvku == "Hafnium")
-            {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Rutherfordium")
-            {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R15; R17 (jsou vyznačeny červeně)";
+                R15.Foreground = new SolidColorBrush(Colors.Red);
+                R15.FontWeight = FontWeights.Bold;
+                R15.BorderBrush = new SolidColorBrush(Colors.Red);
+                R17.Foreground = new SolidColorBrush(Colors.Red);
+                R17.FontWeight = FontWeights.Bold;
+                R17.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Vanad")
             {
-                svety.Content = "S7; S26; S33; S37; S43; S60";
-                rvety.Content = "R17; R36/37/38";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R17; R36/37/38 (jsou vyznačeny červeně)";
+                R17.Foreground = new SolidColorBrush(Colors.Red);
+                R17.FontWeight = FontWeights.Bold;
+                R17.BorderBrush = new SolidColorBrush(Colors.Red);
+                R36_37_38.Foreground = new SolidColorBrush(Colors.Red);
+                R36_37_38.FontWeight = FontWeights.Bold;
+                R36_37_38.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Niob")
             {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S43";
-                rvety.Content = "R11";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Tantal")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Dubnium")
             {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Chrom")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-                svety.Content = "S7; S33; S36/37; S60";
-                rvety.Content = "R11; R40";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11; R40 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
+                R40.Foreground = new SolidColorBrush(Colors.Red);
+                R40.FontWeight = FontWeights.Bold;
+                R40.BorderBrush = new SolidColorBrush(Colors.Red);
 
-            }
-            if (kodprvku == "Molybden")
-            {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Wolfram")
-            {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Seaborgium")
-            {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+
             }
             if (kodprvku == "Mangan")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S7; S33; S43; S60";
-                rvety.Content = "R11";
-            }
-            if (kodprvku == "Technecium")
-            {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Rhenium")
-            {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Bohrium")
-            {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Železo")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S53; S45; S60; S61";
-                rvety.Content = "R11";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Ruthenium")
             {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S16; S22; S24/25";
-                rvety.Content = "R11";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
-            if (kodprvku == "Osmium")
-            {
-                ziravina.Visibility = Visibility.Visible;
-                ziravinabtn.IsEnabled = true;
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
-            if (kodprvku == "Hassium")
-            {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
-            }
+            /*
             if (kodprvku == "Kobalt")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-                svety.Content = "S2; S22; S24; S37; S61";
-                rvety.Content = "R42/43; R53";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Rhodium")
             {
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S16; S22; S24/25";
-                rvety.Content = "R11";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Iridium")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Meitnerium")
             {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Nikl")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-
-                svety.Content = "S2; S36/37/39; S45; S61";
-                rvety.Content = "R40; R43; R48/23; R52/53";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Palladium")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S7/9; S16; S26; S36";
-                rvety.Content = "R11; R36/37/38";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Platina")
             {
-                nebezpeci_pro_zdravi.Visibility = Visibility.Visible;
-                nebezpeci_pro_zdravibtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                oxidujici.Visibility = Visibility.Visible;
-                oxidujicibtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Darmstadtium")
             {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Měď")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Stříbro")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Zlato")
             {
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Roentgenium")
             {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Zinek")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                svety.Content = "S2; S43; S46; S60; S61";
-                rvety.Content = "R15; R17; R50/53";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Kadmium")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                horlavina.Visibility = Visibility.Visible;
-                horlavinabtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-                akutni_toxicita.Visibility = Visibility.Visible;
-                akutni_toxicitabtn.IsEnabled = true;
-
-                svety.Content = "S1/2; S22; S35; S45; S46; S61";
-                rvety.Content = "R23; R25; R33; R45; R50/53";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Rtuť")
             {
-                latky_nebezpecne_pro_ZP.Visibility = Visibility.Visible;
-                latky_nebezpecne_pro_ZPbtn.IsEnabled = true;
-                vysoka_nebezpecnost_pro_zdravi.Visibility = Visibility.Visible;
-                vysoka_nebezpecnost_pro_zdravibtn.IsEnabled = true;
-                akutni_toxicita.Visibility = Visibility.Visible;
-                akutni_toxicitabtn.IsEnabled = true;
-                svety.Content = "S53; S45; S60; S61";
-                rvety.Content = "R61; R26; R48/23; R50/53";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Kopernicium")
             {
-                radiace.Visibility = Visibility.Visible;
-                radiacebtn.IsEnabled = true;
-                svetybtn.IsEnabled = false;
-                rvetybtn.IsEnabled = false;
-                svety.Content = "Neuvedeno";
-                rvety.Content = "Neuvedeno";
+                headline.Content = "R-věty: " + kodprvku;
+                rvetyprvku.Content = "R-věty pro prvek " + kodprvku + " jsou: R11 (jsou vyznačeny červeně)";
+                R11.Foreground = new SolidColorBrush(Colors.Red);
+                R11.FontWeight = FontWeights.Bold;
+                R11.BorderBrush = new SolidColorBrush(Colors.Red);
             }
             if (kodprvku == "Bor")
             {
@@ -1162,11 +1045,11 @@ namespace Chemie.strankyovlastnostech
                 rvety.Content = "Neuvedeno";
             }
             */
-           /* else
-            {
-                rvetyprvku.Content = "Zde jsou vypsány všechny R-věty (angl. Risk phrases - upozorňovaly na nebezpečnost prvku). Dnes jsou nahrazeny H-větami.";
-                headline.Content = "R-věty";
-            }*/
+            /* else
+             {
+                 rvetyprvku.Content = "Zde jsou vypsány všechny R-věty (angl. Risk phrases - upozorňovaly na nebezpečnost prvku). Dnes jsou nahrazeny H-větami.";
+                 headline.Content = "R-věty";
+             }*/
 
         }
 

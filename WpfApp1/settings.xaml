@@ -30,7 +30,7 @@
         <Button Cursor="Hand" HorizontalAlignment="Left" Click="red_clck" Background="#FFF75454" Margin="101,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
         <Button Cursor="Hand" HorizontalAlignment="Left" Click="black_clck" Background="Black" Margin="66,72,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
         <Label Content="Výchozí barvy:" HorizontalAlignment="Left" Margin="12,41,0,0" VerticalAlignment="Top"/>
-        <Label Content="Jazyk aplikace:" HorizontalAlignment="Left" Margin="11,225,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Jazyk aplikace: (Funkce není zatím dostupná)" HorizontalAlignment="Left" Margin="11,225,0,0" VerticalAlignment="Top" FontSize="16"/>
         <ComboBox Name="lang" HorizontalAlignment="Left" Margin="854,226,0,0" IsEnabled="False" IsEditable="True" VerticalAlignment="Top" Width="170" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True"/>
         <Label Content="Vlastní barva:" HorizontalAlignment="Left" Margin="567,41,0,0" VerticalAlignment="Top"/>
         <Button Cursor="Hand" Click="Button_Click_4" Content="Vybrat vlastní barvu" HorizontalAlignment="Left" Margin="567,73,0,0" VerticalAlignment="Top" Height="30" Width="130"/>

@@ -16,10 +16,10 @@
         Title = "Chemie" Height="768" Width="1115">
     <Grid>
         <Label Name="Headline" Content="Chemie" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="40" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFB9D1EA"/>
-        <Button Content="X" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="1073,0,0,0" VerticalAlignment="Top" Click="Button_Click" Width="40" Height="40" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
-        <Button Content="_" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="1033,0,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click_1" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
-        <Frame x:Name="nav" x:FieldModifier="public" RenderTransformOrigin="0.8,0.589" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Source="/main.xaml" NavigationUIVisibility="Hidden" Background="#00000000" Margin="75,40,0,0" Width="1040"/>
-        <Grid Name="menu" Margin="0,40,1043,0">
+        <Button Content="X" Style="{DynamicResource ButtonStyle2}" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Button_Click" Width="40" Height="40" BorderThickness="0,0,0,0" Padding="0,0,0,0"/>
+        <Button Content="_" Style="{DynamicResource ButtonStyle1}" Margin="0,0,40,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click_1" BorderThickness="0,0,0,0" Padding="0,-10,0,0" HorizontalAlignment="Right" FontFamily="Arial Black" FontWeight="Bold" FontSize="16"/>
+        <Frame x:Name="nav" x:FieldModifier="public" RenderTransformOrigin="0.8,0.589" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Source="/main.xaml" NavigationUIVisibility="Hidden" Background="#00000000" Margin="75,40,0,0" Width="1040"  Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <Grid Name="menu" Margin="0,40,1043,0" Width="70" HorizontalAlignment="Left">
             <Button Name="home" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" Height="60" Click="Button_Click_3" BorderThickness="0,0,0,0" Margin="0,10,0,0">
                 <StackPanel>
                     <Image Name="homeimg" Source="data/home-light.png" Height="30" Width="30"/>
@@ -64,7 +64,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Name="set" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,591,0,0" VerticalAlignment="Top" Width="65" Height="60" Click="Button_Click_5" BorderThickness="0,0,0,0">
+            <Button Name="set" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,591,0,75" Width="65" Height="60" Click="Button_Click_5" BorderThickness="0,0,0,0" VerticalAlignment="Bottom">
                 <StackPanel>
                     <Image Name="setimg"  Source="data/settings-light.png" Height="30" Width="30"/>
                     <Label Content="Nastavení" FontSize="11" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="58"/>
@@ -75,7 +75,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Name="about" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,656,0,10" Width="65" Click="Button_Click_4" BorderThickness="0,0,0,0" Height="60">
+            <Button Name="about" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Center" Margin="0,656,0,10" Width="65" Click="Button_Click_4" BorderThickness="0,0,0,0" Height="60" VerticalAlignment="Bottom">
                 <StackPanel>
                     <Image Name="aboutimg" Source="data/about-light.png" Width="30" Height="30"/>
                     <Label Content="O aplikaci" FontSize="11" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
@@ -87,6 +87,7 @@
                 </Button.Resources>
             </Button>
         </Grid>
+        <Button Visibility="Hidden" Name="maxbtn" Style="{DynamicResource ButtonStyle1}" Content="□" HorizontalAlignment="Right" Margin="0,0,80,0" VerticalAlignment="Top" Width="40" Height="40" BorderThickness="0,0,0,0" Click="Button_Click_8" FontSize="22" Padding="0,-7,0,0"/>
     </Grid>
 </Window>
 

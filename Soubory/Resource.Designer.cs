@@ -61,7 +61,17 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Všechny rozpustné soli prudce jedovaté
+        ///2) Měkký, lehký, reaktivní kov
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///4) Vysoce reaktivní
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba pyrotechniky (barví plamen světle zeleně)
+        ///2) Peroxid barnatý používán k bělení hedvábí.
         /// </summary>
         public static string Baryum {
             get {
@@ -70,11 +80,37 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Tvrdý, křehký kov
+        ///2) Těžce tavitelný
+        ///3) Špatný vodič elektrického proudu a tepla
+        ///4) V prášku vyvolává ekzémy a poškozuje dýchací cesty
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Ve šperkařství jako drahokamy a polodrahokamy
+        ///2) Konstrukce vysokotónových reprodukturů
+        ///3) Výroba nejiskřivého ručního nářadí.
         /// </summary>
         public static string Beryllium {
             get {
                 return ResourceManager.GetString("Beryllium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Bohrium {
+            get {
+                return ResourceManager.GetString("Bohrium", resourceCulture);
             }
         }
         
@@ -101,6 +137,24 @@ namespace Soubory {
         /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Popis:
         ///------
+        ///1) Lesklý, světle šedý kov
+        ///2) Velmi tvrdý a křehký
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Metalurgie (výroba legovaných ocelí)
+        ///2) Povrchová úprava kovů
+        ///.
+        /// </summary>
+        public static string Chrom {
+            get {
+                return ResourceManager.GetString("Chrom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
         ///1) Měkký, lehký kov, který lze krájet nožem
         ///2) Stříbrolesklý
         ///3) Dobrý vodič elektrického proudu a tepla
@@ -119,6 +173,22 @@ namespace Soubory {
         /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Popis:
         ///------
+        ///1) Silně radioaktivní prvek
+        ///2) Příprava v jaderném reaktoru nebo urychlovači částic
+        ///3) Prvek nebyl dostatečně izolován, proto nebylo možné zjistit všechny jeho fyzikální vlastnosti
+        ///4) Mělo by připomínat tantal (díky své poloze v periodické tabulce)
+        ///5) Pojmenováno podle města Dubna, kde bylo poprvé připraveno
+        ///.
+        /// </summary>
+        public static string Dubnium {
+            get {
+                return ResourceManager.GetString("Dubnium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
         ///1) Nestabilní, velmi silně radioaktivní prvek
         ///2) Nejtěžší z alkalických kovů
         ///.
@@ -130,7 +200,52 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Šedý až stříbřitě bílý kov
+        ///2) Chemicky velice podobný Zirkoniu
+        ///3) Středně těžký a tvrdý
+        ///4) Řídký výskyt
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Řídící tyče jaderných ponorek
+        ///2) Elektrody pro plazmové řezání kovů a sváření
+        ///3) Výroba klasických žárovkových vláken
+        ///.
+        /// </summary>
+        public static string Hafnium {
+            get {
+                return ResourceManager.GetString("Hafnium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Hassium {
+            get {
+                return ResourceManager.GetString("Hassium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Středně tvrdý, lehký, tažný kov
+        ///2) Vyšší hustota než voda
+        ///3) Hůře vede elektrický proud a teplo
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Slitiny s hliníkem, mědí a manganem - dural se používají např. v leteckém a automobilovém průmyslu
+        ///2) Redukce v organické syntéze a redukční výroba jiných kovů (např. uranu).
         /// </summary>
         public static string Hořčík {
             get {
@@ -187,6 +302,77 @@ namespace Soubory {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Mangan {
+            get {
+                return ResourceManager.GetString("Mangan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Stříbřitý až šedobílý
+        ///2) Tvrdý a křehký kov
+        ///3) Vysoký bod tání
+        ///4) Při teplotách pod 0,915 K je supravodič
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Metalurgie (výroba speciálních ocelí)
+        ///2) Některé jeho sloučeniny se využívají jako umělá hnojiva
+        ///3) Výroba petrochemických katalyzátorů (slouží k odstranění sirných sloučenin z ropy).
+        /// </summary>
+        public static string Molybden {
+            get {
+                return ResourceManager.GetString("Molybden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Kujný kov
+        ///2) Šedá barva
+        ///3) Při dlouhodobém působení vzduchu modrá
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Svařování obloukem
+        ///2) Díky namodralé barvě ve slitinách piercingu
+        ///3) Klenotnictví
+        ///4) Medicína
+        ///.
+        /// </summary>
+        public static string Niob {
+            get {
+                return ResourceManager.GetString("Niob", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Osmium {
+            get {
+                return ResourceManager.GetString("Osmium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný &lt;infooprvku&gt;
         ///	&lt;!--Vodík--&gt;
         ///	&lt;Vodík Sekce=&quot;Název&quot; Info=&quot;Vodík&quot; /&gt;
@@ -209,11 +395,33 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Mimořádně silný radioaktivní zářič
+        ///2) Bílý, těžký, velmi reaktivní kov
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Dříve při léčbě rakovinných nádorů.
         /// </summary>
         public static string Radium {
             get {
                 return ResourceManager.GetString("Radium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Rhenium {
+            get {
+                return ResourceManager.GetString("Rhenium", resourceCulture);
             }
         }
         
@@ -236,7 +444,62 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Ruthenium {
+            get {
+                return ResourceManager.GetString("Ruthenium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Silně radioaktivní kovový prvek
+        ///2) Připravovaný uměle
+        ///3) Prvek nebyl dostatečně izolován, proto nebylo možné zjistit všechny jeho fyzikální vlastnosti
+        ///4) Pojmenován na základě jaderného fyzika Ernesta Rutherforda
+        ///.
+        /// </summary>
+        public static string Rutherfordium {
+            get {
+                return ResourceManager.GetString("Rutherfordium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Silně radioaktivní prvek
+        ///2) Příprava v cyklotronu nebo urychlovači částic
+        ///3) Prvek nebyl dostatečně izolován, proto nebylo možné zjistit všechny jeho fyzikální vlastnosti
+        ///4) Mělo by připomínat wolfram (díky své poloze v periodické tabulce)
+        ///5) Pojmenováno na počest amerického jaderného fyzika Glena T. Seaborga 
+        ///.
+        /// </summary>
+        public static string Seaborgium {
+            get {
+                return ResourceManager.GetString("Seaborgium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký kov
+        ///2) Stříbřitě bílý
+        ///3) Lehký
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba vysoce intenzivních zdrojů světla
+        ///2) Konstrukční kov v kosmonautice.
         /// </summary>
         public static string Skandium {
             get {
@@ -264,7 +527,16 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký, reaktivní kov
+        ///2) Stříbrolesklý bílý kov
+        ///3) Dobrý vodič elektrického proudu a tepla
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba pyrotechniky (výrazná barevná reakce)
+        ///2) Uhličitan strotnatý (SrCO3) se používá při výrobě barevných televizních obrazovek.
         /// </summary>
         public static string Stroncium {
             get {
@@ -273,7 +545,92 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Vzácný kov
+        ///2) Tvrdý
+        ///3) Modro-šedý
+        ///4) Korozivzdorný
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Elektronické součástky (kondenzátory)
+        ///2) Výroba chirurgických nástrojů a implantátů.
+        /// </summary>
+        public static string Tantal {
+            get {
+                return ResourceManager.GetString("Tantal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Technecium {
+            get {
+                return ResourceManager.GetString("Technecium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Lehký kov
+        ///2) Šedý až stříbřitě bílý
+        ///3) Hojně zastoupený v zemské kůře
+        ///4) V přírodě se vyskytuje pouze jako oxid
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Kosmonautika
+        ///2) Letecký průmysl
+        ///3) Piercingové ozdoby.
+        /// </summary>
+        public static string Titan {
+            get {
+                return ResourceManager.GetString("Titan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Tvrdý, kujný kov
+        ///2) Šedo-bílý
+        ///3) Pod 5,38 K supravodivý
+        ///4) Vysoké teploty tání a varu
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba elektrických článků
+        ///2) Výroba leteckých motorů a speciálních součástek pro konstrukci letadel a kosmických družic
+        ///3) Přidává se do vysoce kvalitních ocelí
+        ///.
+        /// </summary>
+        public static string Vanad {
+            get {
+                return ResourceManager.GetString("Vanad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Měkký, lehký, reaktivní kov
+        ///2) Dobrý vodič elektrického proudu a tepla
+        ///3) Stříbrolesklý
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Díky velké reaktivitě používán v metalurgii k odstraňování síry a kyslíku a při výrobě oceli
+        ///2) Redukce v organické syntéze.
         /// </summary>
         public static string Vápník {
             get {
@@ -304,11 +661,76 @@ namespace Soubory {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Zde bude popis a použití prvku..
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Šedý až stříbřitě bílý kov
+        ///2) Velmi těžký
+        ///3) Obtížně tavitelný 
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Žárovková vlákna
+        ///2) Wolframové elektrody při svařování (metoda TIG)
+        ///.
+        /// </summary>
+        public static string Wolfram {
+            get {
+                return ResourceManager.GetString("Wolfram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Stříbřitě bílý
+        ///2) Středně tvrdý kov
+        ///3) Poměrně vzácný
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Výroba vakuových obrazovek televizorů
+        ///2) Výroba šperků (levná náhrada diamantu)
+        ///.
         /// </summary>
         public static string Yttrium {
             get {
                 return ResourceManager.GetString("Yttrium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///.
+        /// </summary>
+        public static string Železo {
+            get {
+                return ResourceManager.GetString("Železo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Popis:
+        ///------
+        ///1) Šedý až stříbřitě bílý kov
+        ///2) Velice odolný proti korozi
+        ///3) Tvrdý a lehký kov
+        ///
+        ///
+        ///Využití (příklady):
+        ///-------------------
+        ///1) Povrchová ochrana kovů
+        ///2) Při výrobě elektřiny v jaderných elektrárnách
+        ///3) Výroba zápalných bomb pro vojenské účely
+        ///.
+        /// </summary>
+        public static string Zirkonium {
+            get {
+                return ResourceManager.GetString("Zirkonium", resourceCulture);
             }
         }
     }
