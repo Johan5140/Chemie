@@ -26,12 +26,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="ziravinabtn" HorizontalAlignment="Left" Margin="255,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="ziravina_Click" Cursor="Hand">
-            <Image Name="ziravina" Source="data/latky/acid_red.gif"/>
+            <Image Name="ziravina" Source="data/latky/acid_red.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/acid_red.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/acid_red.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Korozivní a žíravé látky (GHS05)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -39,12 +39,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="latky_nebezpecne_pro_ZPbtn" HorizontalAlignment="Left" Margin="290,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="latky_nebezpecne_pro_ZP_Click" Cursor="Hand">
-            <Image Name="latky_nebezpecne_pro_ZP" Source="data/latky/Aquatic-pollut-red.gif"/>
+            <Image Name="latky_nebezpecne_pro_ZP" Source="data/latky/Aquatic-pollut-red.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/Aquatic-pollut-red.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/Aquatic-pollut-red.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Látky nebezpečné pro životní prostředí (GHS09)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -52,12 +52,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="plynbtn" HorizontalAlignment="Left" Margin="325,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="plyn_Click" Cursor="Hand">
-            <Image Name="plyn" Source="data/latky/bottle.gif"/>
+            <Image Name="plyn" Source="data/latky/bottle.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/bottle.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/bottle.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Plyny pod tlakem (GHS04)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -65,12 +65,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="nebezpeci_pro_zdravibtn" HorizontalAlignment="Left" Margin="360,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="nebezpeci_pro_zdravi_Click" Cursor="Hand">
-            <Image Name="nebezpeci_pro_zdravi" Source="data/latky/exclam.gif"/>
+            <Image Name="nebezpeci_pro_zdravi" Source="data/latky/exclam.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/exclam.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/exclam.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Dráždivé látky (GHS07)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -78,12 +78,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="vybusninabtn" HorizontalAlignment="Left" Margin="395,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vybusnina_Click" Cursor="Hand">
-            <Image Name="vybusnina" Source="data/latky/explos.gif"/>
+            <Image Name="vybusnina" Source="data/latky/explos.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/explos.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/explos.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Výbušné látky (GHS01)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -91,12 +91,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="horlavinabtn" HorizontalAlignment="Left" Margin="430,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="horlavina_Click" Cursor="Hand">
-            <Image Name="horlavina" Source="data/latky/flamme.gif"/>
+            <Image Name="horlavina" Source="data/latky/flamme.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/flamme.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/flamme.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Hořlavé látky (GHS02)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -104,12 +104,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="oxidujicibtn" HorizontalAlignment="Left" Margin="465,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="oxidujici_Click" Cursor="Hand">
-            <Image Name="oxidujici" Source="data/latky/rondflam.gif"/>
+            <Image Name="oxidujici" Source="data/latky/rondflam.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/rondflam.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/rondflam.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Oxidační látky (GHS03)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -117,12 +117,12 @@
             </Button.ToolTip>
         </Button>
         <Button Name="vysoka_nebezpecnost_pro_zdravibtn" HorizontalAlignment="Left" Margin="500,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="vysoka_nebezpecnost_pro_zdravi_Click" Cursor="Hand">
-            <Image Name="vysoka_nebezpecnost_pro_zdravi" Source="data/latky/silhouete.gif"/>
+            <Image Name="vysoka_nebezpecnost_pro_zdravi" Source="data/latky/silhouete.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/silhouete.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/silhouete.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Látky nebezpečné pro zdraví (GHS08)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
@@ -130,17 +130,18 @@
             </Button.ToolTip>
         </Button>
         <Button Name="akutni_toxicitabtn" HorizontalAlignment="Left" Margin="535,46,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="akutni_toxicita_Click" Cursor="Hand">
-            <Image Name="akutni_toxicita" Source="data/latky/skull.gif"/>
+            <Image Name="akutni_toxicita" Source="data/latky/skull.png"/>
             <Button.ToolTip>
                 <ToolTip>
                     <StackPanel Width="600">
                         <StackPanel Orientation="Horizontal" Background="IndianRed" Width="600">
-                            <Image Source="data/latky/skull.gif" Margin="10 5" Width="60px" Height="60px"></Image>
+                            <Image Source="data/latky/skull.png" Margin="10 5" Width="60px" Height="60px"></Image>
                             <Label Content="Toxické látky (GHS06)" Margin="10 15" FontSize="20" FontWeight="Bold"></Label>
                         </StackPanel>
                     </StackPanel>
                 </ToolTip>
             </Button.ToolTip>
         </Button>
+        
     </Grid>
 </Page>

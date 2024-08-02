@@ -24,7 +24,7 @@ namespace Chemie.vypocty
         {
             InitializeComponent();
             string thmpck = Properties.Settings.Default.theme;
-            if (thmpck == "Světlý")
+          /*  if (thmpck == "Světlý")
             {
                 this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
@@ -59,13 +59,14 @@ namespace Chemie.vypocty
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
-            }
+            }*/
         }
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             if (tb5.Text == "" || tb6.Text == "")
             {
-                MessageBox.Show("Zadejte prosím hodnoty");
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Zadejte prosím hodnoty!", "Chyba", "Chyba");
             }
             if (tb5.Text != "" && tb6.Text != "")
             {
@@ -101,7 +102,9 @@ namespace Chemie.vypocty
                 }
                 catch (DivideByZeroException)
                 {
-                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+                    MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                    win.Showmessage("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!", "Chyba", "Chyba");
+
                 }
             }
         }

@@ -29,6 +29,7 @@ namespace Chemie
     public partial class prvekinfo : Page
 
     {
+        internal string link;
         public prvekinfo(string kodprvku)
         {
             InitializeComponent();
@@ -48,7 +49,7 @@ namespace Chemie
                 svety.Content = "S2; S9; S16; S33";
                 rvety.Content = "R12";
                 infobox.Text = Soubory.Resource.Vodík;
-                wikilink.Click += new RoutedEventHandler(vodik_click);
+                link = "https://cs.wikipedia.org/wiki/Vod%C3%ADk";
             }
             if(kodprvku == "Lithium")
             {
@@ -59,8 +60,7 @@ namespace Chemie
                 svety.Content = "S1/2; S8; S43; S45";
                 rvety.Content = "R14/15; R34";
                 infobox.Text = Soubory.Resource.Lithium;
-                wikilink.Click += new RoutedEventHandler(Lithium_click);
-
+                link = "https://cs.wikipedia.org/wiki/Lithium";
             }
             if (kodprvku == "Sodík")
             {
@@ -71,7 +71,7 @@ namespace Chemie
                 svety.Content = "S1/2; S5; S8; S43; S45";
                 rvety.Content = "R14/15; R34";
                 infobox.Text = Soubory.Resource.Sodík;
-               wikilink.Click += new RoutedEventHandler(Sodík_click);
+                link = "https://cs.wikipedia.org/wiki/Sod%C3%ADk";
             }
             if (kodprvku == "Draslík")
             {
@@ -82,7 +82,7 @@ namespace Chemie
                 svety.Content = "S1/2; S8; S45";
                 rvety.Content = "R14/15; R34";
                 infobox.Text = Soubory.Resource.Draslík;
-               wikilink.Click += new RoutedEventHandler(Draslík_click);
+                link = "https://cs.wikipedia.org/wiki/Drasl%C3%ADk";
             }
             if (kodprvku == "Rubidium")
             {
@@ -93,7 +93,7 @@ namespace Chemie
                 svety.Content = "S7/8; S20; S26; S30; S33; S36/37/39; S43; S45";
                 rvety.Content = "R14/15; R34";
                 infobox.Text = Soubory.Resource.Rubidium;
-               wikilink.Click += new RoutedEventHandler(Rubidium_click);
+                link = "https://cs.wikipedia.org/wiki/Rubidium";
             }
             if (kodprvku == "Cesium")
             {
@@ -106,7 +106,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Cesium;
-               wikilink.Click += new RoutedEventHandler(Cesium_click);
+                link = "https://cs.wikipedia.org/wiki/Cesium";
             }
             if (kodprvku == "Francium")
             {
@@ -117,7 +117,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Francium;
-               wikilink.Click += new RoutedEventHandler(Francium_click);
+                link = "https://cs.wikipedia.org/wiki/Francium";
             }
             if (kodprvku == "Beryllium")
             {
@@ -130,7 +130,7 @@ namespace Chemie
                 svety.Content = "S53; S45";
                 rvety.Content = "R49; R25; R26; R48/23; R36/37/38; R43";
                 infobox.Text = Soubory.Resource.Beryllium;
-                wikilink.Click += new RoutedEventHandler(Beryllium_click);
+                link = "https://cs.wikipedia.org/wiki/Beryllium";
             }
             if (kodprvku == "Hořčík")
             {
@@ -139,7 +139,7 @@ namespace Chemie
                 svety.Content = "S2; S7/8; S43";
                 rvety.Content = "R11; R15; R17";
                 infobox.Text = Soubory.Resource.Hořčík;
-                wikilink.Click += new RoutedEventHandler(Hořčík_click);
+                link = "https://cs.wikipedia.org/wiki/Ho%C5%99%C4%8D%C3%ADk";
             }
             if (kodprvku == "Vápník")
             {
@@ -148,7 +148,7 @@ namespace Chemie
                 svety.Content = "S2; S8; S24/25; S43";
                 rvety.Content = "R15";
                 infobox.Text = Soubory.Resource.Vápník;
-                wikilink.Click += new RoutedEventHandler(Vápník_click);
+                link = "https://cs.wikipedia.org/wiki/V%C3%A1pn%C3%ADk";
             }
             if (kodprvku == "Stroncium")
             {
@@ -161,7 +161,7 @@ namespace Chemie
                 svety.Content = "S8; S24/25; S43";
                 rvety.Content = "R15";
                 infobox.Text = Soubory.Resource.Stroncium;
-                wikilink.Click += new RoutedEventHandler(Stroncium_click);
+                link = "https://cs.wikipedia.org/wiki/Stroncium";
             }
             if (kodprvku == "Baryum")
             {
@@ -176,7 +176,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Baryum;
-                wikilink.Click += new RoutedEventHandler(Baryum_click);
+                link = "https://cs.wikipedia.org/wiki/Baryum";
             }
             if (kodprvku == "Radium")
             {
@@ -187,7 +187,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Radium;
-                wikilink.Click += new RoutedEventHandler(Radium_click);
+                link = "https://cs.wikipedia.org/wiki/Radium";
             }
             if (kodprvku == "Skandium")
             {               
@@ -196,7 +196,7 @@ namespace Chemie
                 svety.Content = "S16; S43";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Skandium;
-                wikilink.Click += new RoutedEventHandler(Skandium_click);
+                link = "https://cs.wikipedia.org/wiki/Skandium";
             }
             if (kodprvku == "Yttrium")
             {
@@ -207,7 +207,7 @@ namespace Chemie
                 svety.Content = "S7/9; S16; S33";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Yttrium;
-                wikilink.Click += new RoutedEventHandler(Yttrium_click);
+                link = "https://cs.wikipedia.org/wiki/Yttrium";
             }
             if (kodprvku == "Titan")
             {
@@ -218,7 +218,7 @@ namespace Chemie
                 svety.Content = "S26";
                 rvety.Content = "R17; R36/37/38";
                 infobox.Text = Soubory.Resource.Titan;
-               wikilink.Click += new RoutedEventHandler(Titan_click);
+                link = "https://cs.wikipedia.org/wiki/Titan_(prvek)";
             }
             if (kodprvku == "Zirkonium")
             {
@@ -227,7 +227,7 @@ namespace Chemie
                 svety.Content = "S2; S7/8; S43";
                 rvety.Content = "R15; R17";
                 infobox.Text = Soubory.Resource.Zirkonium;
-               wikilink.Click += new RoutedEventHandler(Zirkonium_click);
+                link = "https://cs.wikipedia.org/wiki/Zirkonium";
             }
             if (kodprvku == "Hafnium")
             {
@@ -238,7 +238,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Hafnium;
-               wikilink.Click += new RoutedEventHandler(Hafnium_click);
+                link = "https://cs.wikipedia.org/wiki/Hafnium";
             }
             if (kodprvku == "Rutherfordium")
             {
@@ -249,14 +249,14 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Rutherfordium;
-               wikilink.Click += new RoutedEventHandler(Rutherfordium_click);
+                link = "https://cs.wikipedia.org/wiki/Rutherfordium";
             }
             if (kodprvku == "Vanad")
             {
                 svety.Content = "S7; S26; S33; S37; S43; S60";
                 rvety.Content = "R17; R36/37/38";
                 infobox.Text = Soubory.Resource.Vanad;
-               wikilink.Click += new RoutedEventHandler(Vanad_click);
+                link = "https://cs.wikipedia.org/wiki/Vanad";
             }
             if (kodprvku == "Niob")
             {
@@ -265,7 +265,7 @@ namespace Chemie
                 svety.Content = "S43";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Niob;
-               wikilink.Click += new RoutedEventHandler(Niob_click);
+                link = "https://cs.wikipedia.org/wiki/Niob";
             }
             if (kodprvku == "Tantal")
             {
@@ -278,7 +278,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Tantal;
-               wikilink.Click += new RoutedEventHandler(Tantal_click);
+                link = "https://cs.wikipedia.org/wiki/Tantal";
             }
             if (kodprvku == "Dubnium")
             {
@@ -289,7 +289,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Dubnium;
-               wikilink.Click += new RoutedEventHandler(Dubnium_click);
+                link = "https://cs.wikipedia.org/wiki/Dubnium";
             }
             if (kodprvku == "Chrom")
             {
@@ -302,8 +302,7 @@ namespace Chemie
                 svety.Content = "S7; S33; S36/37; S60";
                 rvety.Content = "R11; R40";
                 infobox.Text = Soubory.Resource.Chrom;
-               wikilink.Click += new RoutedEventHandler(Chrom_click);
-
+                link = "https://cs.wikipedia.org/wiki/Chrom";
             }
             if (kodprvku == "Molybden")
             {
@@ -316,7 +315,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Molybden;
-               wikilink.Click += new RoutedEventHandler(Molybden_click); 
+                link = "https://cs.wikipedia.org/wiki/Molybden";
             }
             if (kodprvku == "Wolfram")
             {
@@ -327,7 +326,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Wolfram;
-                wikilink.Click += new RoutedEventHandler(Wolfram_click);
+                link = "https://cs.wikipedia.org/wiki/Wolfram";
             }
             if (kodprvku == "Seaborgium")
             {
@@ -338,7 +337,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Seaborgium;
-                wikilink.Click += new RoutedEventHandler(Seaborgium_click);
+                link = "https://cs.wikipedia.org/wiki/Seaborgium";
             }
             if (kodprvku == "Mangan")
             {
@@ -351,7 +350,7 @@ namespace Chemie
                 svety.Content = "S7; S33; S43; S60";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Mangan;
-               wikilink.Click += new RoutedEventHandler(Mangan_click);
+                link = "https://cs.wikipedia.org/wiki/Mangan";
             }
             if (kodprvku == "Technecium")
             {
@@ -362,7 +361,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Technecium;
-               wikilink.Click += new RoutedEventHandler(Technecium_click);
+                link = "https://cs.wikipedia.org/wiki/Technecium";
             }
             if (kodprvku == "Rhenium")
             {
@@ -373,7 +372,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Rhenium;
-               wikilink.Click += new RoutedEventHandler(Rhenium_click);
+                link = "https://cs.wikipedia.org/wiki/Rhenium";
             }
             if (kodprvku == "Bohrium")
             {
@@ -384,7 +383,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Bohrium;
-               wikilink.Click += new RoutedEventHandler(Bohrium_click);
+                link = "https://cs.wikipedia.org/wiki/Bohrium";
             }
             if (kodprvku == "Železo")
             {
@@ -395,7 +394,7 @@ namespace Chemie
                 svety.Content = "S53; S45; S60; S61";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Železo;
-               wikilink.Click += new RoutedEventHandler(Železo_click);
+                link = "https://cs.wikipedia.org/wiki/%C5%BDelezo";
             }
             if (kodprvku == "Ruthenium")
             {
@@ -404,7 +403,7 @@ namespace Chemie
                 svety.Content = "S16; S22; S24/25";
                 rvety.Content = "R11";
                 infobox.Text = Soubory.Resource.Ruthenium;
-               wikilink.Click += new RoutedEventHandler(Ruthenium_click);
+                link = "https://cs.wikipedia.org/wiki/Ruthenium";
             }
             if (kodprvku == "Osmium")
             {
@@ -419,7 +418,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Osmium;
-               wikilink.Click += new RoutedEventHandler(Osmium_click);
+                link = "https://cs.wikipedia.org/wiki/Osmium";
             }
             if (kodprvku == "Hassium")
             {
@@ -430,7 +429,7 @@ namespace Chemie
                 svety.Content = "Neuvedeno";
                 rvety.Content = "Neuvedeno";
                 infobox.Text = Soubory.Resource.Hassium;
-               wikilink.Click += new RoutedEventHandler(Hassium_click);
+                link = "https://cs.wikipedia.org/wiki/Hassium";
             }
             if (kodprvku == "Kobalt")
             {
@@ -1397,36 +1396,41 @@ namespace Chemie
                wikilink.Click += new RoutedEventHandler(Lawrencium_click); */
             }
             #endregion;
-
+            
             headline.Content = "Informace o prvku: "+ kodprvku;
             string hdtext = Chemie.Properties.Settings.Default.hdtextcolor;
             string thmpck = Chemie.Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
+                /*this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
                 this.Resources["cellbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
+                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);*/
             }
             if (thmpck == "Tmavý")
             {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+                /*this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
                 this.Resources["cellbg"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
                 this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
+                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);*/
             }
-            string prvek = kodprvku;
+            //string prvek = kodprvku;
             this.kodprvku = kodprvku;
+            //test.Content = link;
+            
+            //this.link = btnlink;
+
         }
         public string kodprvku { get; set; }
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
@@ -1493,969 +1497,13 @@ namespace Chemie
             NavigationService.Navigate(new rvety(kodprvku));
         }
         #endregion
-        #region hotovo
-        private void vodik_click(object sender, RoutedEventArgs e)
+        private void wiki_click(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start(new ProcessStartInfo
             {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
+                FileName = link,
                 UseShellExecute = true
             });
-        }      
-        private void Lithium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Lithium",
-                UseShellExecute = true
-            });
-        }
-        private void Sodík_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Sod%C3%ADk",
-                UseShellExecute = true
-            });
-        } 
-        private void Draslík_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Drasl%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void Rubidium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Rubidium",
-                UseShellExecute = true
-            });
-        }
-        private void Cesium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Cesium",
-                UseShellExecute = true
-            });
-        }
-        private void Francium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Francium",
-                UseShellExecute = true
-            });
-        }
-        private void Beryllium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Beryllium",
-                UseShellExecute = true
-            });
-        }
-        private void Hořčík_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Ho%C5%99%C4%8D%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void Vápník_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/V%C3%A1pn%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void Stroncium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Stroncium",
-                UseShellExecute = true
-            });
-        }
-        private void Baryum_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Baryum",
-                UseShellExecute = true
-            });
-        }
-        private void Radium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Radium",
-                UseShellExecute = true
-            });
-        }
-        private void Skandium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Skandium",
-                UseShellExecute = true
-            });
-        }
-        private void Yttrium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Yttrium",
-                UseShellExecute = true
-            });
-        }
-        private void Titan_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Titan_(prvek)",
-                UseShellExecute = true
-            });
-        }
-        private void Zirkonium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Zirkonium",
-                UseShellExecute = true
-            });
-        }
-        private void Hafnium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Hafnium",
-                UseShellExecute = true
-            });
-        }
-        private void Rutherfordium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Rutherfordium",
-                UseShellExecute = true
-            });
-        }
-        private void Vanad_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vanad",
-                UseShellExecute = true
-            });
-        }
-        private void Niob_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Niob",
-                UseShellExecute = true
-            });
-        }
-        private void Tantal_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Tantal",
-                UseShellExecute = true
-            });
-        }
-        private void Dubnium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Dubnium",
-                UseShellExecute = true
-            });
-        }
-        private void Chrom_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Chrom",
-                UseShellExecute = true
-            });
-        }
-        private void Molybden_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Molybden",
-                UseShellExecute = true
-            });
-        }
-        private void Wolfram_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Wolfram",
-                UseShellExecute = true
-            });
-        }
-        private void Seaborgium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Seaborgium",
-                UseShellExecute = true
-            });
-        }
-        #endregion
-        private void Mangan_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Mangan",
-                UseShellExecute = true
-            });
-        }
-        private void Technecium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Technecium",
-                UseShellExecute = true
-            });
-        }
-        private void Rhenium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Rhenium",
-                UseShellExecute = true
-            });
-        }
-        private void Bohrium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Bohrium",
-                UseShellExecute = true
-            });
-        }
-        private void Železo_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/%C5%BDelezo",
-                UseShellExecute = true
-            });
-        }
-        private void Ruthenium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Ruthenium",
-                UseShellExecute = true
-            });
-        }
-        private void Osmium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Osmium",
-                UseShellExecute = true
-            });
-        }
-        private void Hassium_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Hassium",
-                UseShellExecute = true
-            });
-        }
-        /*
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
-        }
-        private void vodik_click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://cs.wikipedia.org/wiki/Vod%C3%ADk",
-                UseShellExecute = true
-            });
         }
-        */
     }
 }

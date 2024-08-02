@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="chemistry">Chemie</system:String>
+    <system:String x:Key="menu">Menu</system:String>
+    <system:String x:Key="chemdevmode">Chemie (vývojářský režim)</system:String>
+    <system:String x:Key="home">Domů</system:String>
+    <system:String x:Key="calculations">Výpočty</system:String>
+    <system:String x:Key="transfers">Převody</system:String>
+    <system:String x:Key="theory">Teorie</system:String>
+    <system:String x:Key="settings">Nastavení</system:String>
+    <system:String x:Key="about">O aplikaci</system:String>
+    <system:String x:Key="sethead">Nastavení aplikace:</system:String>
+    <system:String x:Key="theme">Motiv:</system:String>
+    <system:String x:Key="dark">Temný</system:String>
+    <system:String x:Key="light">Světlý</system:String>
+    <system:String x:Key="lang">Jazyk:</system:String>
+
+    <system:String x:Key="info">Info:</system:String>
+    <system:String x:Key="error">Chyba:</system:String>
+    <system:String x:Key="saved">Nastavení byla uložena</system:String>
+    <system:String x:Key="freset">Výchozí nastavení úspěšně obnovena</system:String>
+    <system:String x:Key="hide">Skrýt</system:String>
+    <system:String x:Key="save">Uložit</system:String>
+    <system:String x:Key="factoryreset">Obnovení výchozích nastavení</system:String>
+</ResourceDictionary>

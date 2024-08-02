@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="chemistry">Химия</system:String>
+    <system:String x:Key="menu">Меню</system:String>
+    <system:String x:Key="chemdevmode">Химия (режим разработчика)</system:String>
+    <system:String x:Key="home">Домой</system:String>
+    <system:String x:Key="calculations">Расчеты</system:String>
+    <system:String x:Key="transfers">Преобразование</system:String>
+    <system:String x:Key="theory">Теория</system:String>
+    <system:String x:Key="settings">Настройки</system:String>
+    <system:String x:Key="about">О приложении</system:String>
+    <system:String x:Key="sethead">Настройки приложения:</system:String>
+    <system:String x:Key="theme">Тема:</system:String>
+    <system:String x:Key="dark">Тёмная</system:String>
+    <system:String x:Key="light">Светлая</system:String>
+    <system:String x:Key="lang">Язык:</system:String>
+
+    <system:String x:Key="info">Инфо:</system:String>
+    <system:String x:Key="error">Ошибка:</system:String>
+    <system:String x:Key="saved">Настройки сохранены</system:String>
+    <system:String x:Key="freset">Настройки по умолчанию успешно восстановлены</system:String>
+    <system:String x:Key="hide">Скрыть</system:String>
+    <system:String x:Key="save">Сохранить</system:String>
+    <system:String x:Key="factoryreset">Восстановить настройки по умолчанию</system:String>
+</ResourceDictionary>

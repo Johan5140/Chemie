@@ -26,20 +26,22 @@
     <None Remove="data\home-dark.png" />
     <None Remove="data\home-light.png" />
     <None Remove="data\ico.png" />
-    <None Remove="data\latky\acid_red.gif" />
-    <None Remove="data\latky\Aquatic-pollut-red.gif" />
-    <None Remove="data\latky\bottle.gif" />
-    <None Remove="data\latky\exclam.gif" />
-    <None Remove="data\latky\explos.gif" />
-    <None Remove="data\latky\flamme.gif" />
+    <None Remove="data\latky\acid_red.png" />
+    <None Remove="data\latky\Aquatic-pollut-red.png" />
+    <None Remove="data\latky\bottle.png" />
+    <None Remove="data\latky\exclam.png" />
+    <None Remove="data\latky\explos.png" />
+    <None Remove="data\latky\flamme.png" />
     <None Remove="data\latky\radiation.png" />
-    <None Remove="data\latky\rondflam.gif" />
-    <None Remove="data\latky\silhouete.gif" />
-    <None Remove="data\latky\skull.gif" />
+    <None Remove="data\latky\rondflam.png" />
+    <None Remove="data\latky\silhouete.png" />
+    <None Remove="data\latky\skull.png" />
     <None Remove="data\prevody-dark.png" />
     <None Remove="data\prevody-light.png" />
     <None Remove="data\settings-dark.png" />
     <None Remove="data\settings-light.png" />
+    <None Remove="data\teorie-dark.png" />
+    <None Remove="data\teorie-light.png" />
     <None Remove="data\vypocty-dark.png" />
     <None Remove="data\vypocty-light.png" />
   </ItemGroup>
@@ -51,53 +53,41 @@
     <Content Include="data\about-light.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\bgdark.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="data\bglight.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="data\home-dark.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\home-light.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\acid_red.gif">
+    <Content Include="data\latky\acid_red.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\Aquatic-pollut-red.gif">
+    <Content Include="data\latky\Aquatic-pollut-red.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\bottle.gif">
+    <Content Include="data\latky\bottle.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\exclam.gif">
+    <Content Include="data\latky\exclam.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\explos.gif">
+    <Content Include="data\latky\explos.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\flamme.gif">
+    <Content Include="data\latky\flamme.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\latky\radiation.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\rondflam.gif">
+    <Content Include="data\latky\rondflam.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\silhouete.gif">
+    <Content Include="data\latky\silhouete.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\latky\skull.gif">
+    <Content Include="data\latky\skull.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="data\settings-dark.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ico.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="data\prevody-dark.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -105,8 +95,26 @@
     <Content Include="data\prevody-light.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="data\bgdark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\bglight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\settings-dark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\settings-light.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\teorie-dark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\teorie-light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ico.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="data\vypocty-dark.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

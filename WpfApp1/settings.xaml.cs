@@ -17,6 +17,7 @@ using System.Windows.Shapes;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Runtime.ConstrainedExecution;
 using Chemie.Properties;
+using System.Windows.Media.Animation;
 
 namespace Chemie
 {
@@ -27,172 +28,141 @@ namespace Chemie
     {
         public settings()
         {
-            InitializeComponent(); headpick.Items.Add("Tmavý");
-            headpick.Items.Add("Světlý");
-            themepick.Items.Add("Tmavý");
-            themepick.Items.Add("Světlý");
-            bgenbaled.Items.Add("Ano");
-            bgenbaled.Items.Add("Ne");
-            lang.Items.Add("Český");
-            lang.Items.Add("English");
-            lang.Items.Add("Русский");
+            InitializeComponent();
+            
             string langsel = Properties.Settings.Default.applang;
-            if (langsel == "CZ") {
-                lang.SelectedItem = "Český";
-            }
-            if (langsel == "EN")
-            {
-                lang.SelectedItem = "English";
-            }
-            if (langsel == "RU")
-            {
-                lang.SelectedItem = "Русский";
-            }
+     
 
             /* Odemknutí výběru jazyka */
-            bool langen = Properties.Settings.Default.langseten;
-            if (langen == false)
-            {
-                lang.IsEnabled = false;
-            }
-            if (langen == true)
-            {
-                lang.IsEnabled = true;
-            }
-            string bg = Properties.Settings.Default.background;
-            if (bg == "Ano")
-            {
-                bgenbaled.SelectedItem = "Ano";
-            }
-            if (bg == "Ne")
-            {
-                bgenbaled.SelectedItem = "Ne";
-            }
             string hdtext = Properties.Settings.Default.hdtextcolor;
-            if (hdtext == "Tmavý")
-            {
-                headpick.SelectedItem = "Tmavý";
-            }
-            else
-            {
-                headpick.SelectedItem = "Světlý";
-            }
             string thmpck = Chemie.Properties.Settings.Default.theme;
             string headcl = Properties.Settings.Default.head;
+            langpick.Items.Add("Český");
+            langpick.Items.Add("Русский");
+            langpick.Items.Add("English");
             hexcode.Text = headcl;
-            if (thmpck == "Světlý")
+            if (thmpck == "lighttheme")
             {
-                themepick.SelectedItem = "Světlý";
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#e0e0e0"));
-                this.Resources["arrowfl"] = new SolidColorBrush(Colors.Black);
-                this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#cccccc"));
-                this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
+                themepick.SelectedValue = lighttheme; ;
+                /*System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+                {
+                    Source = new Uri("/Chemie;component/data/themes/light.xaml", UriKind.RelativeOrAbsolute)
+                });*/
+                /*System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+                {
+                    Source = new Uri("/Chemie;component/data/themes/app.xaml", UriKind.RelativeOrAbsolute)
+                });*/
+                /*  this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
+                  this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
+                  this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
+                  this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
+                  this.Resources["Buttonshover"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#bfbfbf"));*/
+
             }
-            if (thmpck == "Tmavý")
+            if (thmpck == "darktheme")
             {
-                themepick.SelectedItem = "Tmavý";
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
-                this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#808080"));
-                this.Resources["arrowfl"] = new SolidColorBrush(Colors.White);
-                this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#a1a1a1"));
-                this.Resources["borderbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
+                themepick.SelectedValue = darktheme;
+                /*System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+                {
+                    Source = new Uri("/Chemie;component/data/themes/dark.xaml", UriKind.RelativeOrAbsolute)
+                });*/
+                /*this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
+                    this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+                    this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
+                    this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
+                    this.Resources["Buttonshover"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#333333"));*/
+
             }
-            //Colorpick.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(Properties.Settings.Default.head));
+            string lang = Properties.Settings.Default.applang;
+            if (lang == "CZ")
+            {
+                langpick.SelectedItem = "Český";
+            }
+            if(lang == "EN")
+            {
+                langpick.SelectedItem = "English";
+            }
+            if (lang == "RU")
+            {
+                langpick.SelectedItem = "Русский";
+            }
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Properties.Settings.Default.head = "#b9d1ea";
-            Properties.Settings.Default.theme = "Světlý";
-            Properties.Settings.Default.hdtextcolor = "Tmavý";
-            Properties.Settings.Default.background = "Ano";
+            Properties.Settings.Default.theme = "lighttheme";
+            Properties.Settings.Default.applang = "CZ";
+            themepick.SelectedValue = lighttheme;
+            langpick.SelectedItem = "Český";
             Properties.Settings.Default.Save();
-            System.Windows.MessageBox.Show("Nastavení vrácena do výchozích hodnot, aplikace se restartuje!");
-            System.Windows.Forms.Application.Restart();
-            Process.GetCurrentProcess().Kill();
+            System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+            {
+                Source = new Uri("/Chemie;component/data/themes/light.xaml", UriKind.RelativeOrAbsolute)
+            });
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+            {
+                Source = new Uri("/Chemie;component/data/languages/cz.xaml", UriKind.RelativeOrAbsolute)
+            });
+            MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+            win.Showmessage((String)System.Windows.Application.Current.Resources["freset"], (String)System.Windows.Application.Current.Resources["info"], "Info");
         }
+        private string langfile;
+        private string themefile;
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            if (hexcode.Text == "" || hexcode.Text == null)
+            /*if (hexcode.Text == "" || hexcode.Text == null)
             {
                 System.Windows.MessageBox.Show("Nebyla vybrána barva!");
             }
             else
+            {*/
+            var lngpck = langpick.SelectedItem.ToString();
+            if (lngpck == "Český")
             {
-                var hdset = headpick.SelectedItem.ToString();
-                if (hdset == "Světlý")
-                {
-                    Properties.Settings.Default.hdtextcolor = "Světlý";
-                }
-                if (hdset == "Tmavý")
-                {
-                    Properties.Settings.Default.hdtextcolor = "Tmavý";
-                }
-                var thmset = themepick.SelectedItem.ToString();
-                if (thmset == "Světlý")
-                {
-                    Properties.Settings.Default.theme = "Světlý";
-                }
-                if (thmset == "Tmavý")
-                {
-                    Properties.Settings.Default.theme = "Tmavý";
-                }
-                var bgset = bgenbaled.SelectedItem.ToString();
-                if (bgset == "Ano")
-                {
-                    Properties.Settings.Default.background = "Ano";
-                }
-                if (bgset == "Ne")
-                {
-                    Properties.Settings.Default.background = "Ne";
-                }
-                var lng = lang.SelectedItem.ToString();
-                if (lng == "" || lng == null)
-                {
-                }
-                if (lng == "Český")
-                {
-                    Properties.Settings.Default.applang = "CZ";
-                }
-                if (lng == "English")
-                {
-                    Properties.Settings.Default.applang = "EN";
-                }
-                if (lng == "Русский")
-                {
-                    Properties.Settings.Default.applang = "RU";
-                }
-                Properties.Settings.Default.head = "" + hexcode.Text;
-                Properties.Settings.Default.Save();
-                System.Windows.MessageBox.Show("Nastavení uložena, aplikace se restartuje! ");
-                System.Windows.Forms.Application.Restart();
-                Process.GetCurrentProcess().Kill();
+                Properties.Settings.Default.applang = "CZ";
+                langfile = "cz";
             }
-
+            if (lngpck == "English")
+            {
+                Properties.Settings.Default.applang = "EN";
+                langfile = "en";
             }
+            if (lngpck == "Русский")
+            {
+                Properties.Settings.Default.applang = "RU";
+                langfile = "ru";
+            }
+            ComboBoxItem ComboItem = (ComboBoxItem)themepick.SelectedItem;
+            string theme = ComboItem.Name;
+            if (theme == "lighttheme")
+            {
+                themefile = "light";
+            }
+            if (theme == "darktheme")
+            {
+                themefile = "dark";
+            }
+            System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+            {
+                Source = new Uri("/Chemie;component/data/themes/"+themefile+".xaml", UriKind.RelativeOrAbsolute)
+            });
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+            {
+                Source = new Uri("/Chemie;component/data/languages/"+langfile+".xaml", UriKind.RelativeOrAbsolute)
+            });
+            MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+            win.Showmessage((String)System.Windows.Application.Current.Resources["saved"], (String)System.Windows.Application.Current.Resources["info"], "Info");
+            Properties.Settings.Default.theme = theme;
+            Properties.Settings.Default.Save();
+            //System.Windows.Forms.Application.Restart();
+            //Process.GetCurrentProcess().Kill();*/
 
-        private void hexcodee(object sender, System.Windows.Input.KeyEventArgs e)
+        }
+            private void hexcodee(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == Key.Return)
             {
@@ -203,23 +173,57 @@ namespace Chemie
         {
             string hex = hexcode.Text;
             string clr = "" + hex;
-            preview.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString(clr));
+            //preview.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString(clr));
         }
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             System.Windows.Forms.ColorDialog colorDialog = new System.Windows.Forms.ColorDialog();
             if (colorDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                preview.Fill = new SolidColorBrush(Color.FromArgb(colorDialog.Color.A, colorDialog.Color.R, colorDialog.Color.G, colorDialog.Color.B));
+                //preview.Fill = new SolidColorBrush(Color.FromArgb(colorDialog.Color.A, colorDialog.Color.R, colorDialog.Color.G, colorDialog.Color.B));
                 String code = (colorDialog.Color.ToArgb() & 0x00FFFFFF).ToString("X6");
                 hexcode.Text = "#" + code;
 
             }
         }
+        private void ThemeButton_click(object sender, RoutedEventArgs e)
+        {
+            /*if (themeswitch.IsChecked == true)
+            {
+                themeswitch.Content = "Tmavý";
+                Properties.Settings.Default.theme = "Tmavý";
+                Properties.Settings.Default.Save();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+                {
+                    Source = new Uri("/Chemie;component/data/themes/dark.xaml", UriKind.RelativeOrAbsolute)
+                });
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Úspěšně nastaven tmavý režim", "Info");
+            }
+            else
+            {
+                themeswitch.Content = "Světlý";
+                Properties.Settings.Default.theme = "Světlý";
+                Properties.Settings.Default.Save();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+                {
+                    Source = new Uri("/Chemie;component/data/themes/light.xaml", UriKind.RelativeOrAbsolute)
+                });
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Úspěšně nastaven světlý režim", "Info");
+            }*/
+        }
         private void black_clck(object sender, RoutedEventArgs e)
         {
             hexcode.Text = "#000000";
             colorconvert(sender, e);
+        }
+        private void ok_clck(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.Application.Restart();
+            Process.GetCurrentProcess().Kill();
         }
         private void red_clck(object sender, RoutedEventArgs e)
         {

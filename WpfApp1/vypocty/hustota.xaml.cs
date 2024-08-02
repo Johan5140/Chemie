@@ -24,27 +24,10 @@ namespace Chemie.vypocty
         {
             InitializeComponent();
             string thmpck = Properties.Settings.Default.theme;
-            if (thmpck == "Světlý")
-            {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#e0e0e0"));
-                this.Resources["arrowfl"] = new SolidColorBrush(Colors.Black);
-                this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#cccccc"));
-                this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
-            }
+            
             if (thmpck == "Tmavý")
             {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+               /* this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
@@ -58,14 +41,16 @@ namespace Chemie.vypocty
                 this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);*/
             }
         }
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
              if (tb9.Text != "" && tb10.Text != "" && tb11.Text != "")
             {
-                MessageBox.Show("Příliš mnoho argumentů - zadejte pouze hodnoty, které znáte");
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Příliš mnoho argumentů - zadejte pouze hodnoty, které znáte", "Chyba", "Chyba");
+
             }
             if (tb9.Text == "")
             {
@@ -82,7 +67,8 @@ namespace Chemie.vypocty
                 }
                 catch (DivideByZeroException)
                 {
-                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+                    MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                    win.Showmessage("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!", "Chyba", "Chyba");
                 }
             }
             if (tb11.Text == "")
@@ -100,7 +86,8 @@ namespace Chemie.vypocty
                 }
                 catch (DivideByZeroException)
                 {
-                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+                    MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                    win.Showmessage("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!", "Chyba", "Chyba");
                 }
             }
 
@@ -119,7 +106,8 @@ namespace Chemie.vypocty
                 }
                 catch (DivideByZeroException)
                 {
-                    MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+                    MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                    win.Showmessage("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!", "Chyba", "Chyba");
                 }
             }
         }
@@ -129,9 +117,9 @@ namespace Chemie.vypocty
             tb10.Clear();
             tb11.Clear();
             tb9.Clear();
-            tb10.Foreground = new SolidColorBrush(Colors.White);
-            tb11.Foreground = new SolidColorBrush(Colors.White);
-            tb9.Foreground = new SolidColorBrush(Colors.White);
+            tb10.Foreground = (SolidColorBrush)Application.Current.Resources["CustomLabelColor"];
+            tb11.Foreground = (SolidColorBrush)Application.Current.Resources["CustomLabelColor"];
+            tb9.Foreground = (SolidColorBrush)Application.Current.Resources["CustomLabelColor"];
             vysledekhustota.Content = "";
         }
     }

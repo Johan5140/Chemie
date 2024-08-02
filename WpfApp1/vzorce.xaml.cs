@@ -34,7 +34,7 @@ namespace Chemie
             string thmpck = Properties.Settings.Default.theme;
             if (thmpck == "Světlý")
             {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
+             /*   this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
@@ -48,25 +48,25 @@ namespace Chemie
                 this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray); */
             }
             if (thmpck == "Tmavý")
             {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
+             /*   this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
                 this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
                 this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
                 this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
                 this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
+                //this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
                 this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#808080"));
                 this.Resources["arrowfl"] = new SolidColorBrush(Colors.White);
                 this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#a1a1a1"));
                 this.Resources["borderbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
+                //this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
                 this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
                 this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
+                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray); */
             }
         }
         private void Button_Click_3(object sender, RoutedEventArgs e)
