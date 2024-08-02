@@ -1,0 +1,387 @@
+﻿<Page x:Class="Chemie.strankyovlastnostech.svetypage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Chemie.strankyovlastnostech"
+      mc:Ignorable="d" 
+      Width="auto" Height="auto"
+      Title="svetypage">
+
+    <ScrollViewer>
+        <Grid Height="2750">
+            <Label Content="Jednoduché S-věty:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+            <!--#region Jednoduché S-věty-->
+            <Label Name="S1" Margin="10,46,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S1: Uchovávejte uzamčené
+                </TextBlock>
+            </Label>
+            <Label Name="S64" Margin="10,1954,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S64: Při požití vypláchněte ústa velkým množstvím vody (pouze je-li postižený při vědomí)
+                </TextBlock>
+            </Label>
+            <Label Name="S63" Margin="10,1918,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S63: V případě nehody při vdechnutí přeneste postiženého na čerstvý vzduch a ponechte jej v klidu
+                </TextBlock>
+            </Label>
+            <Label Name="S62" Margin="10,1882,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S62: Při požití nevyvolávejte zvracení: okamžitě vyhledejte lékařskou pomoc a ukažte tento obal nebo označení
+                </TextBlock>
+            </Label>
+            <Label Name="S61" Margin="10,1846,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S61: Zabraňte uvolnění do životního prostředí. Viz speciální pokyny nebo bezpečnostní listy
+                </TextBlock>
+            </Label>
+            <Label Name="S60" Margin="10,1810,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S60: Tento materiál a jeho obal musí být zneškodněny jako nebezpečný odpad
+                </TextBlock>
+            </Label>
+            <Label Name="S59" Margin="10,1774,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S59: Informujte se u výrobce nebo dodavatele o regeneraci nebo recyklaci
+                </TextBlock>
+            </Label>
+            <Label Name="S57" Margin="10,1738,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S57: Použijte vhodný obal k zamezení kontaminace životního prostředí
+                </TextBlock>
+            </Label>
+            <Label Name="S56" Margin="10,1702,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S56: Zneškodněte tento materiál a jeho obal ve sběrném místě pro zvláštní nebo nebezpečné odpady
+                </TextBlock>
+            </Label>
+            <Label Name="S53" Margin="10,1666,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S53: Zamezte expozici - před použitím si obstarejte speciální instrukce
+                </TextBlock>
+            </Label>
+            <Label Name="S52" Margin="10,1630,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S52: Nedoporučuje se pro použití v interiéru na velké plochy
+                </TextBlock>
+            </Label>
+            <Label Name="S51" Margin="10,1594,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S51: Používejte pouze v dobře větraných prostorách
+                </TextBlock>
+            </Label>
+            <Label Name="S50" Margin="10,1558,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S50: Nesměšujte s … (specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S49" Margin="10,1522,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S49: Uchovávejte pouze v původním obalu
+                </TextBlock>
+            </Label>
+            <Label Name="S48" Margin="10,1486,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S48: Uchovávejte ve zvlhčeném stavu … (vhodnou látku specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S47" Margin="10,1450,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S47: Uchovávejte při teplotě nepřesahující … °C (specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S46" Margin="10,1414,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S46: Při požití okamžitě vyhledejte lékařskou pomoc a ukažte tento obal nebo označení
+                </TextBlock>
+            </Label>
+            <Label Name="S45" Margin="10,1378,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S45: V případě nehody, nebo necítíte-li se dobře, okamžitě vyhledejte lékařskou pomoc (je-li možno, ukažte toto označení)
+                </TextBlock>
+            </Label>
+            <Label Name="S43" Margin="10,1342,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S43 V případě požáru použijte … (uveďte zde konkrétní typ hasicího zařízení. Pokud zvyšuje riziko voda, připojte „Nikdy nepoužívat vodu“)
+                </TextBlock>
+            </Label>
+            <Label Name="S42" Margin="10,1306,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S42: Při fumigaci nebo rozprašování používejte vhodný ochranný prostředek k ochraně dýchacích orgánů (specifikaci uvede výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S41" Margin="10,1270,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+     S41: V případě požáru nebo výbuchu nevdechujte dýmy
+                </TextBlock>
+            </Label>
+            <Label Name="S40" Margin="10,1234,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S40: Podlahy a předměty znečistěné tímto materiálem čistěte … (specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S39" Margin="10,1198,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+     S39: Používejte osobní ochranné prostředky pro oči a obličej
+                </TextBlock>
+            </Label>
+            <Label Name="S38" Margin="10,1162,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S38: V případě nedostatečného větrání používejte vhodné vybavení pro ochranu dýchacích orgánů
+                </TextBlock>
+            </Label>
+            <Label Name="S37" Margin="10,1126,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+     S37: Používejte vhodné ochranné rukavice
+                </TextBlock>
+            </Label>
+            <Label Name="S36" Margin="10,1090,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+               S36: Používejte vhodný ochranný oděv
+                </TextBlock>
+            </Label>
+            <Label Name="S35" Margin="10,1054,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S35: Tento materiál a jeho obal musí být zneškodněny bezpečným způsobem
+                </TextBlock>
+            </Label>
+            <Label Name="S33" Margin="10,1018,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+               S33: Proveďte preventivní opatření proti výbojům statické elektřiny
+                </TextBlock>
+            </Label>
+            <Label Name="S30" Margin="10,982,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S30: K tomuto výrobku nikdy nepřidávejte vodu
+                </TextBlock>
+            </Label>
+            <Label Name="S29" Margin="10,946,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+               S29: Nevylévejte do kanalizace
+                </TextBlock>
+            </Label>
+            <Label Name="S28" Margin="10,910,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S28: Při styku s kůží okamžitě omyjte velkým množstvím … (vhodnou kapalinu specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S27" Margin="10,874,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S27: Okamžitě odložte veškeré kontaminované oblečení
+                </TextBlock>
+            </Label>
+            <Label Name="S26" Margin="10,838,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S26: Při zasažení očí okamžitě důkladně vypláchněte vodou a vyhledejte lékařskou pomoc
+                </TextBlock>
+            </Label>
+            <Label Name="S25" Margin="10,802,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S25: Zamezte styku s očima
+                </TextBlock>
+            </Label>
+            <Label Name="S24" Margin="10,766,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S24: Zamezte styku s kůží
+                </TextBlock>
+            </Label>
+            <Label Name="S23" Margin="10,730,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14" >
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S23: Nevdechujte plyny/dýmy/páry/aerosoly (příslušný výraz specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S22" Margin="10,694,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14" >
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S22: Nevdechujte prach
+                </TextBlock>
+            </Label>
+            <Label Name="S21" Margin="10,658,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14" >
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S21: Nekuřte při používání
+                </TextBlock>
+            </Label>
+            <Label Name="S20" Margin="10,622,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14" >
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S20: Nejezte a nepijte při používání
+                </TextBlock>
+            </Label>
+            <Label Name="S18" Margin="10,586,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S18: Zacházejte s obalem opatrně a opatrně jej otevírejte
+                </TextBlock>
+            </Label>
+            <Label Name="S17" Margin="10,550,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S17: Uchovávejte mimo dosah hořlavých materiálů
+                </TextBlock>
+            </Label>
+            <Label Name="S16" Margin="10,514,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S16: Uchovávejte mimo dosah zdrojů zapálení - Zákaz kouření
+                </TextBlock>
+            </Label>
+            <Label Name="S15" Margin="10,478,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S15: Chraňte před teplem
+                </TextBlock>
+            </Label>
+            <Label Name="S14" Margin="10,442,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S14: Uchovávejte odděleně od … (vzájemně se vylučující látky uvede výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S13" Margin="10,406,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S13: Uchovávejte odděleně od potravin, nápojů a krmiv
+                </TextBlock>
+            </Label>
+            <Label Name="S12" Margin="10,370,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S12: Neuchovávejte obal těsně uzavřený
+                </TextBlock>
+            </Label>
+            <Label Name="S9" Margin="10,334,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S9: Uchovávejte obal na dobře větraném místě
+                </TextBlock>
+            </Label>
+            <Label Name="S8" Margin="10,298,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S8: Uchovávejte obal suchý
+                </TextBlock>
+            </Label>
+            <Label Name="S7" Margin="10,262,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S7: Uchovávejte obal těsně uzavřený
+                </TextBlock>
+            </Label>
+            <Label Name="S6" Margin="10,226,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S6: Uchovávejte pod … (inertní plyn specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S5" Margin="10,190,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                 S5: Uchovávejte pod … (příslušnou kapalinu specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S4" Margin="10,154,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S4: Uchovávejte mimo obytné objekty
+                </TextBlock>
+            </Label>
+            <Label Name="S3" Margin="10,118,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S3: Uchovávejte na chladném místě
+                </TextBlock>
+            </Label>
+            <Label Name="S2" Margin="10,82,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                S2: Uchovávejte mimo dosah dětí
+                </TextBlock>
+            </Label>
+            <!--#endregion-->
+            <Label Content="Kombinované S-věty:" HorizontalAlignment="Left" Margin="10,1990,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+            <!--#region kombinovane S-vety-->
+            <Label Name="S1_2" Margin="10,2026,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S1/2: Uchovávejte uzamčené a mimo dosah dětí
+                </TextBlock>
+            </Label>
+            <Label Name="S3_7" Margin="10,2062,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S3/7: Uchovávejte obal těsně uzavřený na chladném místě
+                </TextBlock>
+            </Label>
+            <Label Name="S3_9_14" Margin="10,2098,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S3/9/14: Uchovávejte na chladném, dobře větraném místě odděleně od … (vzájemně se vylučující látky uvede výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S3_9_14_49" Margin="10,2134,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S3/9/14/49: Uchovávejte pouze v původním obalu na chladném dobře větraném místě, odděleně od … (vzájemně se vylučující látky uvede výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S3_9_49" Margin="10,2170,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S3/9/49: Uchovávejte pouze v původním obalu na chladném, dobře větraném místě
+                </TextBlock>
+            </Label>
+            <Label Name="S3_14" Margin="10,2206,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S3/14: Uchovávejte na chladném místě, odděleně od (vzájemně se vylučující látky uvede výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S7_8" Margin="10,2242,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S7/8: Uchovávejte obal těsně uzavřený a suchý
+                </TextBlock>
+            </Label>
+            <Label Name="S7_9" Margin="10,2278,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S7/9: Uchovávejte obal těsně uzavřený, na dobře větraném místě
+                </TextBlock>
+            </Label>
+            <Label Name="S7_47" Margin="10,2314,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S7/47: Uchovávejte obal těsně uzavřený, při teplotě nepřesahující … °C (specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S20_21" Margin="10,2350,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S20/21: Nejezte, nepijte a nekuřte při používání
+                </TextBlock>
+            </Label>
+            <Label Name="S24_25" Margin="10,2386,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    S24/25: Zamezte styku s kůží a očima
+                </TextBlock>
+            </Label>
+            <Label Name="S27_28" Margin="10,2422,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S27/28: Po styku s kůží okamžitě odložte veškeré kontaminované oblečení a kůži okamžitě omyjte velkým množstvím … (vhodnou kapalinu specifikuje výrobce)
+                </TextBlock>
+            </Label>
+            <Label Name="S29_35" Margin="10,2458,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S29/35: Nevylévejte do kanalizace, tento materiál a jeho obal musí být zneškodněny bezpečným způsobem
+                </TextBlock>
+            </Label>
+            <Label Name="S29_56" Margin="10,2494,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S29/56: Nevylévejte do kanalizace, zneškodněte tento materiál a jeho obal ve sběrném místě pro zvláštní nebo nebezpečné odpady
+                </TextBlock>
+            </Label>
+            <Label Name="S36_37" Margin="10,2530,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S36/37: Používejte vhodný ochranný oděv a ochranné rukavice
+                </TextBlock>
+            </Label>
+            <Label Name="S36_37_39" Margin="10,2566,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S36/37/39: Používejte vhodný ochranný oděv, ochranné rukavice a ochranné brýle nebo obličejový štít
+                </TextBlock>
+            </Label>
+            <Label Name="S36_39" Margin="10,2602,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S36/39: Používejte vhodný ochranný oděv a ochranné brýle nebo obličejový štít
+                </TextBlock>
+            </Label>
+            <Label Name="S37_39" Margin="10,2638,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+   S37/39: Používejte vhodné ochranné rukavice a ochranné brýle nebo obličejový štít
+                </TextBlock>
+            </Label>
+            <Label Name="S47_49" Margin="10,2674,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
+                <TextBlock TextWrapping="WrapWithOverflow">
+    S47/49: Uchovávejte pouze v původním obalu při teplotě nepřesahující … °C (specifikuje výrobce)
+
+                </TextBlock>
+            </Label>
+            <!--#endregion-->
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -9,7 +9,7 @@
       Title="horlavy">
 
     <Grid>
-        <Button Margin="10,25,990,661" Click="Button_Click" Cursor="Hand" Width="40" Height="40">
+        <Button Margin="10,25,0,0" Click="Button_Click" Cursor="Hand" Width="40" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top">
             <TextBlock Text="←" Margin="0,-10,0,0" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
             <Button.ToolTip>
                 <ToolTip>
@@ -22,46 +22,46 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label Content="Hořlavé látky (GHS02)" HorizontalAlignment="Left" Margin="131,20,0,0" VerticalAlignment="Top" FontSize="24" Height="50"/>
-        <Image Source="/data/latky/flamme.gif" HorizontalAlignment="Left" Height="50" Margin="76,20,0,0" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Hořlavé látky (GHS02)" HorizontalAlignment="Left" Margin="125,20,0,0" VerticalAlignment="Top" FontSize="24" Height="50"/>
+        <Image Source="/data/latky/flamme.png" HorizontalAlignment="Left" Height="50" Margin="70,20,0,0" VerticalAlignment="Top" Width="50"/>
         <Label Content="Význam:" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <Label HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,125,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Extrémně hořlavý plyn
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14" Margin="0,341,0,0">
+        <Label VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14" Margin="10,341,10,0">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Hořlavý plyn
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,305,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Extrémně hořlavý aerosol
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,269,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Hořlavý aerosol
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" Margin="0,233,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,233,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Vysoce hořlavá kapalina a páry
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" Margin="0,161,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,161,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Hořlavá kapalina a páry
             </TextBlock>
         </Label>
-        <Label HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,197,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Hořlavá tuhá látka
             </TextBlock>
         </Label>
         <Label Content="Kde můžeme tento znak například najít?" HorizontalAlignment="Left" Margin="10,377,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <Label HorizontalAlignment="Center" Margin="0,413,0,0" VerticalAlignment="Top" Width="952" BorderThickness="1,1,1,1" FontSize="14">
+        <Label Margin="10,413,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">
             <TextBlock TextWrapping="WrapWithOverflow">
                 Nádoby s ředidly
             </TextBlock>

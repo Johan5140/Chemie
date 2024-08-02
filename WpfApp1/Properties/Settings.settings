@@ -2,14 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Chemie.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="background" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Ano</Value>
-    </Setting>
     <Setting Name="head" Type="System.String" Scope="User">
       <Value Profile="(Default)">#b9d1ea</Value>
     </Setting>
     <Setting Name="theme" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Světlý</Value>
+      <Value Profile="(Default)">lighttheme</Value>
     </Setting>
     <Setting Name="hdtextcolor" Type="System.String" Scope="User">
       <Value Profile="(Default)">Tmavý</Value>
@@ -21,7 +18,7 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="devmode" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

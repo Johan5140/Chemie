@@ -12,12 +12,17 @@
         <Label Content="Název:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Autor:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 
-        <Label Name="Nameapp" Content="Chemie" HorizontalAlignment="Left" Margin="499,36,0,0" VerticalAlignment="Top"/>
-        <Label Content="Johan5140 (GitHub)  2024" HorizontalAlignment="Left" Margin="499,98,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="abouttext" Margin="10,129,10,10" TextWrapping="Wrap" BorderThickness="0,0,0,0"/>
+        <TextBox Name="abouttext" Margin="8,129,12,10" TextWrapping="Wrap" BorderThickness="0,0,0,0"/>
         <Label Content="Verze:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Name="ver" Content="Label" HorizontalAlignment="Left" Margin="499,67,0,0" VerticalAlignment="Top"/>
-        <Button Cursor="Hand" Content="Stránka programu na github.com" HorizontalAlignment="Left" Margin="593,36,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click"/>
-        <Button Cursor="Hand" Content="Nahlásit chybu" HorizontalAlignment="Left" Margin="593,67,0,0" VerticalAlignment="Top" Height="26" Width="120" Click="Button_Click_1"/>
+        <Grid Margin="0,10,0,602" Width="440" HorizontalAlignment="Center">
+            <Label Name="Nameapp" Content="Chemie" HorizontalAlignment="Right" Margin="0,26,225,0" VerticalAlignment="Top" Height="26" Width="50"/>
+            <Label Content="Johan5140 (GitHub)  2024" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,88,125,0" Width="150"/>
+
+            <Label Name="ver" Content="Label" HorizontalAlignment="Right" Margin="0,57,225,0" VerticalAlignment="Top" Width="50" Height="26"/>
+            <Button Cursor="Hand" Content="Stránka programu na github.com" HorizontalAlignment="Right" Margin="0,26,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click"/>
+            <Button Cursor="Hand" Content="Nahlásit chybu" HorizontalAlignment="Right" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click_1" Margin="0,57,0,0"/>
+
+
+        </Grid>
     </Grid>
 </Page>

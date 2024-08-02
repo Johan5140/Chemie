@@ -12,6 +12,6 @@
         <Frame Name="vypocty" Margin="10,76,10,10"/>
         <Label Content="Vyberte prosím jednu z funkcí níže:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Button Cursor="Hand" Content="Zvolit" HorizontalAlignment="Left" Margin="356,46,0,0" VerticalAlignment="Top" Width="120" Height="25" FontSize="14" Click="Button_Click_3"/>
-        <ComboBox Name="fncpick" IsReadOnly="True" IsEditable="True" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="341" Height="25" FontSize="14"/>
+        <ComboBox Name="fncpick" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="341" Height="25" FontSize="14" Cursor="Hand"/>
     </Grid>
 </Page>

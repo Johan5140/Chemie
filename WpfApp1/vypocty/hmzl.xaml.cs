@@ -24,45 +24,8 @@ namespace Chemie.vypocty
         {
             InitializeComponent();
             string thmpck = Properties.Settings.Default.theme;
-            if (thmpck == "Světlý")
-            {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#e0e0e0"));
-                this.Resources["arrowfl"] = new SolidColorBrush(Colors.Black);
-                this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#cccccc"));
-                this.Resources["borderbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.LightGray);
-            }
-            if (thmpck == "Tmavý")
-            {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
-                this.Resources["comboboxcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
-                this.Resources["comboboxfr"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                this.Resources["arrowcl"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#808080"));
-                this.Resources["arrowfl"] = new SolidColorBrush(Colors.White);
-                this.Resources["arrowmo"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#a1a1a1"));
-                this.Resources["borderbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["cbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cbihoverfg"] = new SolidColorBrush(Colors.Gray);
-            }
 
     }
-    
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
@@ -81,14 +44,16 @@ namespace Chemie.vypocty
             }
             catch (DivideByZeroException)
             {
-                MessageBox.Show("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!");
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Nulou nelze dělit! Zkontrolujte si prosím hodnoty!", "Chyba", "Chyba");
             }
         }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             if (tb1.Text == "" && tb2.Text == "")
             {
-                MessageBox.Show("Zadejte prosím hodnoty!");
+                MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+                win.Showmessage("Zadejte prosím hodnoty!", "Chyba", "Chyba");
             }
             if (tb1.Text != "" && tb2.Text != "")
             {
