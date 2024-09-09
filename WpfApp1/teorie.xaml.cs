@@ -25,38 +25,15 @@ namespace Chemie
         {
             InitializeComponent();
             string thmpck = Chemie.Properties.Settings.Default.theme;
-            if (thmpck == "Světlý")
-            {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.LightGray);
-                this.Resources["cellbg"] = new SolidColorBrush(Colors.White);
-                this.Resources["cellfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.White);
-            }
-            if (thmpck == "Tmavý")
-            {
-                this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
-                this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
-                this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
-                this.Resources["Buttonshover"] = new SolidColorBrush(Colors.DarkGray);
-                this.Resources["cellbg"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
-                this.Resources["cellfg"] = new SolidColorBrush(Colors.White);
-                this.Resources["tbbg"] = new SolidColorBrush(Colors.Black);
-                this.Resources["tbfg"] = new SolidColorBrush(Colors.White);
-            }
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new svety(""));
+            NavigationService.Navigate(new svety("n"));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new rvety(""));
+            NavigationService.Navigate(new rvety("n"));
         }
         private void radiace_Click(object sender, RoutedEventArgs e)
         {

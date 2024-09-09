@@ -26,6 +26,8 @@ namespace Chemie
     {
         internal string settheme;
         private string setlang;
+        public ResourceDictionary deftheme;
+        public ResourceDictionary deflang;
         public MainWindow()
         {
             InitializeComponent();
@@ -41,15 +43,53 @@ namespace Chemie
             {
                 settheme = "dark";
             }
+            bool appdevmode = Chemie.Properties.Settings.Default.devmode;
+            if (appdevmode == true)
+            {
+                Headline.Visibility = Visibility.Hidden;
+                devmlabel.Visibility = Visibility.Visible;
+            }
+            if (appdevmode == false)
+            {
+                Headline.Visibility = Visibility.Visible;
+                devmlabel.Visibility = Visibility.Hidden;
+            }
+            /*System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+            var deftheme = new ResourceDictionary();
+            {
+
+                deftheme.Source = new Uri("/Chemie;component/data/themes/" + settheme + ".xaml", UriKind.RelativeOrAbsolute);
+            }
+            var deflang = new ResourceDictionary();
+            {
+
+                deflang.Source = new Uri("/Chemie;component/data/languages/" + sapplang + ".xaml", UriKind.RelativeOrAbsolute);
+            }
+             System.Windows.Application.Current.Resources.MergedDictionaries.Add(deftheme);
+             System.Windows.Application.Current.Resources.MergedDictionaries.Add(deflang);*/
+            Themeset();
+
+        }
+
+
+        public void Themeset()
+        {
+          ResourceDictionary deftheme;
+         ResourceDictionary deflang;
+        string sapplang = Chemie.Properties.Settings.Default.applang.ToLower();
             System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
-            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+            deftheme = new ResourceDictionary();
             {
-                Source = new Uri("/Chemie;component/data/themes/"+settheme+".xaml", UriKind.RelativeOrAbsolute)
-            });
-            System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
+
+                deftheme.Source = new Uri("/Chemie;component/data/themes/" + settheme + ".xaml", UriKind.RelativeOrAbsolute);
+            }
+            deflang = new ResourceDictionary();
             {
-                Source = new Uri("/Chemie;component/data/languages/"+sapplang+".xaml", UriKind.RelativeOrAbsolute)
-            });
+
+                deflang.Source = new Uri("/Chemie;component/data/languages/" + sapplang + ".xaml", UriKind.RelativeOrAbsolute);
+            }
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(deftheme);
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(deflang);
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)

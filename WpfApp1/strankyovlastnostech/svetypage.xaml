@@ -9,7 +9,7 @@
       Title="svetypage">
 
     <ScrollViewer>
-        <Grid Height="2750">
+        <Grid Name="grid" Height="2750">
             <Label Content="Jednoduché S-věty:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
             <!--#region Jednoduché S-věty-->
             <Label Name="S1" Margin="10,46,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">

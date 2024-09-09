@@ -9,18 +9,18 @@
       Title="info">
 
     <Grid Background="#00000000">
-        <Label Content="Název:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Autor:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="{DynamicResource name}" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="{DynamicResource author}" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 
         <TextBox Name="abouttext" Margin="8,129,12,10" TextWrapping="Wrap" BorderThickness="0,0,0,0"/>
-        <Label Content="Verze:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="{DynamicResource version}" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Grid Margin="0,10,0,602" Width="440" HorizontalAlignment="Center">
             <Label Name="Nameapp" Content="Chemie" HorizontalAlignment="Right" Margin="0,26,225,0" VerticalAlignment="Top" Height="26" Width="50"/>
             <Label Content="Johan5140 (GitHub)  2024" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,88,125,0" Width="150"/>
 
             <Label Name="ver" Content="Label" HorizontalAlignment="Right" Margin="0,57,225,0" VerticalAlignment="Top" Width="50" Height="26"/>
-            <Button Cursor="Hand" Content="Stránka programu na github.com" HorizontalAlignment="Right" Margin="0,26,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click"/>
-            <Button Cursor="Hand" Content="Nahlásit chybu" HorizontalAlignment="Right" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click_1" Margin="0,57,0,0"/>
+            <Button Cursor="Hand" Content="{DynamicResource githubpage}" HorizontalAlignment="Right" Margin="0,26,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click"/>
+            <Button Cursor="Hand" Content="{DynamicResource reportbug}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click_1" Margin="0,57,0,0"/>
 
 
         </Grid>

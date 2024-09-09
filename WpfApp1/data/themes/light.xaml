@@ -20,17 +20,17 @@
     <SolidColorBrush x:Key="cellbg" Color="White"/>
     <SolidColorBrush x:Key="cellfg" Color="Black"/>
     <SolidColorBrush x:Key="mainbuttonhover" />
-    <SolidColorBrush x:Key="labelbordercl" />
     <SolidColorBrush x:Key="cbihoverbg" />
     <SolidColorBrush x:Key="menubg" Color="#f5f5f5"/>
     <SolidColorBrush x:Key="mainbg" Color="#FFFFFF"/>
-    <SolidColorBrush x:Key="activemenuitem" Color="#a1a1a1"/>
+    <SolidColorBrush x:Key="activemenuitem" Color="#6b6b6b"/>
     <SolidColorBrush x:Key="mainbtnhover" Color="LightGray"/>
     <SolidColorBrush x:Key="ComboBox.Static.Background" Color="#c9c9c9"/>
     <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#c9c9c9"/>
     <SolidColorBrush x:Key="comboboxhover" Color="#dedede"/>
     <SolidColorBrush x:Key="arrowpr" Color="LightGray"/>
-    <!--<BitmapImage x:Key="menu" UriSource="../Media/Image.png" /> -->
+    <SolidColorBrush x:Key="labelbordercl" Color="Black"/>
+    <BitmapImage x:Key="menuico" UriSource="/Chemie;component/data/menu-light.png" />
     <BitmapImage x:Key="domu" UriSource="/Chemie;component/data/home-light.png" />
     <BitmapImage x:Key="vypocty" UriSource="/Chemie;component/data/vypocty-light.png" />
     <BitmapImage x:Key="teorie" UriSource="/Chemie;component/data/teorie-light.png" />

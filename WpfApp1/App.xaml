@@ -963,7 +963,7 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type Thumb}">
-                        <Border CornerRadius="0" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0" Height="6"  Width="1100" Margin="8,0,-2,0"/>
+                        <Border CornerRadius="0" Background="#000" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0" Height="auto"  Width="1100" Margin="8,0,-2,0"/>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsEnabled" Value="false">
                                 <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
@@ -1036,7 +1036,7 @@
                     </Trigger>
                     <Trigger Property="Orientation" Value="Vertical">
                         <Setter Property="Width" Value="18"/>
-                        <Setter Property="Height" Value="Auto" />
+                        <Setter Property="Height" Value="auto" />
                         <Setter Property="Template" Value="{StaticResource VerticalScrollBar}" />
                     </Trigger>
                 </Style.Triggers>

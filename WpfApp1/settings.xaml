@@ -13,25 +13,23 @@
             <ImageBrush Stretch="None"/>
         </Grid.Background>
         <Label Content="{DynamicResource sethead}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <Label Content="{DynamicResource theme}" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" FontSize="16" Height="30"/>
+        <Label Content="{DynamicResource theme}" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" FontSize="16" Height="33"/>
         <TextBox KeyDown="hexcodee" IsEnabled="False" Name="hexcode" Visibility="Hidden" HorizontalAlignment="Left" Margin="895,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Cursor="Hand" Content="{DynamicResource factoryreset}" Height="30" Click="Button_Click_1" Margin="0,0,140,10" Width="270" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Button Cursor="Hand" Content="{DynamicResource save}" Width="120" Height="30" Click="Button_Click_2" Margin="0,0,10,10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
 
-        <Grid Margin="0,647,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="753">
-            <Button Cursor="Hand" Content="{DynamicResource factoryreset}" Height="30" Click="Button_Click_1" Margin="130,29,381,10"/>
-            <Button Cursor="Hand" Content="{DynamicResource save}" Width="78" Height="30" Click="Button_Click_2" Margin="203,29,125,10"/>
-        </Grid>
         <StackPanel Margin="0,41,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Grid Name="messagepanel" Visibility="Hidden" Margin="0,680,0,0" Background="Red">
             <Button Name="okbtn" Content="Zavřít" x:FieldModifier="public" HorizontalAlignment="Left" Margin="975,0,0,0" VerticalAlignment="Center" Height="30" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Width="55"/>
             <Label Name="zprava" x:FieldModifier="public" Content="Toto je testovací zpráva!" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="14" Height="29" Foreground="White"/>
 
         </Grid>
-        <ComboBox Name="themepick" FontSize="14" VerticalAlignment="Top" VerticalContentAlignment="Center" Margin="0,52,25,0" Width="170" Height="30" HorizontalAlignment="Right" Cursor="Hand">
+        <ComboBox Name="themepick" FontSize="14" VerticalAlignment="Top" VerticalContentAlignment="Center" Margin="0,52,25,0" Width="170" Height="33" HorizontalAlignment="Right" Cursor="Hand">
             <ComboBoxItem x:Name="darktheme" Content="{DynamicResource dark}"></ComboBoxItem>
             <ComboBoxItem x:Name="lighttheme" Content="{DynamicResource light}"></ComboBoxItem>
         </ComboBox>
-        <Label Content="{DynamicResource lang}" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" FontSize="16" Height="30"/>
-        <ComboBox Name="langpick" HorizontalAlignment="Right" Margin="0,88,25,0" VerticalAlignment="Top" Width="170" Height="30" FontSize="14" VerticalContentAlignment="Center" Cursor="Hand"/>
+        <Label Content="{DynamicResource lang}" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" FontSize="16" Height="33"/>
+        <ComboBox Name="langpick" HorizontalAlignment="Right" Margin="0,90,25,0" VerticalAlignment="Top" Width="170" Height="33" FontSize="14" VerticalContentAlignment="Center" Cursor="Hand"/>
 
 
     </Grid>

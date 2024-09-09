@@ -23,7 +23,7 @@
         </Button>
         <Label Name="headline" Content="S-věty" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Width="325" FontSize="18" FontWeight="Bold"/>
         <Label  HorizontalAlignment="Left" Margin="70,49,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="14" Height="52" Width="943">
-            <TextBlock Name="svetyprvku" TextWrapping="WrapWithOverflow" Text="Zde jsou vypsané všechny S-věty (anglicky Safety advice). Dnes jsou nahrazeny P-větami."/>
+            <TextBlock Name="svetyprvku" TextWrapping="WrapWithOverflow" Text=""/>
 
         </Label>
         <Label Content="Všechny S-věty jsou převzaty z webu Wikipedia.org" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="0,0,0,10"/>

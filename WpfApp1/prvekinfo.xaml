@@ -9,12 +9,14 @@
       Title="prvekinfo">
 
     <Grid>
-        <DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=8}" GridLinesVisibility="None" HeadersVisibility="None" FrozenColumnCount="2" ColumnWidth="*" Margin="30,75,10,483" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" SelectionMode="Single" SelectionUnit="Cell" AreRowDetailsFrozen="True" EnableRowVirtualization="False" IsReadOnly="True" BorderThickness="0,0,0,0" FontSize="14" Background="#00000000" RowBackground="#00000000" FontWeight="Bold"/>
+        <!--<DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=8}" GridLinesVisibility="None" HeadersVisibility="None" FrozenColumnCount="2" ColumnWidth="*" Margin="30,75,10,483" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" SelectionMode="Single" SelectionUnit="Cell" AreRowDetailsFrozen="True" EnableRowVirtualization="False" IsReadOnly="True" BorderThickness="0,0,0,0" FontSize="14" Background="#00000000" RowBackground="#00000000" FontWeight="Bold"/>
+        -->
+        <Label Content="{DynamicResource chemname}" HorizontalAlignment="Left" Margin="26,74,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
         <Button Margin="10,25,0,0" Click="Button_Click" Cursor="Hand" Width="40" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top">
             <TextBlock Text="←" Margin="0,-10,0,0" FontSize="36" FontFamily="Segoe UI Variable Text Light" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Button.ToolTip>
                 <ToolTip>
-                    Zpět
+                    <Label Content="{DynamicResource back}" Foreground="Black"/>
                 </ToolTip>
             </Button.ToolTip>
             <Button.Resources>
@@ -23,21 +25,28 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label Name="headline" Content="Label" HorizontalAlignment="Left" Margin="75,19,0,0" VerticalAlignment="Top" Height="50" Width="450" FontSize="24"/>
-        <Label Content="Nebezpečí:" HorizontalAlignment="Left" Margin="26,248,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
-        <Label Content="S věty:" HorizontalAlignment="Left" Margin="26,283,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
-        <Label Content="R věty:" HorizontalAlignment="Left" Margin="26,318,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
-        <TextBox Name="infobox" Margin="30,388,20,45" TextWrapping="Wrap" BorderThickness="0,0,0,0"/>
-        <Label Content="Všechny informace o prvku jsou převzaty z webu Wikipedia.org" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontStyle="Italic" FontWeight="Bold" FontSize="14" Height="30" Margin="0,0,0,10"/>
-        <Button Click="wiki_click" Name="wikilink" Content="Více na webu Wikipedia" HorizontalAlignment="Right" Margin="0,29,20,0" VerticalAlignment="Top" Height="30" Width="160" Cursor="Hand">
+        <Grid Margin="0,74,0,0" HorizontalAlignment="Center" Width="684" VerticalAlignment="Top" Height="240">
+            <Label Name="elementname" Content="Label" HorizontalAlignment="Right" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold" Width="345"/>
+            <Label Name="chmsymbol" Content="---" HorizontalAlignment="Right" Margin="342,30,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+            <Label Name="atmcnbr" Content="---" HorizontalAlignment="Right" Margin="0,65,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+            <Label Name="latn" Content="---" HorizontalAlignment="Right" Margin="0,100,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+            <Label Name="prd" Content="---" HorizontalAlignment="Right" Margin="0,170,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+            <Label Name="atmwght" Content="---" HorizontalAlignment="Right" Margin="0,205,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+            <Label Name="grp" Content="---" HorizontalAlignment="Right" Margin="0,135,0,0" VerticalAlignment="Top" Height="30" Width="345" FontSize="14" FontWeight="Bold"/>
+        </Grid>
+        <Label Name="headline" Content="Label" HorizontalAlignment="Left" Margin="74,24,0,0" VerticalAlignment="Top" Height="50" Width="450" FontSize="24"/>
+        <Label Content="{DynamicResource danger}" HorizontalAlignment="Left" Margin="25,319,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
+        <Label Content="{DynamicResource sphrases}" HorizontalAlignment="Left" Margin="25,354,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource rphrases}" HorizontalAlignment="Left" Margin="25,389,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource wikialert}" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontStyle="Italic" FontWeight="Bold" FontSize="14" Height="30" Margin="0,0,0,10"/>
+        <Button Click="wiki_click" Name="wikilink" Content="{DynamicResource moreonwiki}" HorizontalAlignment="Right" Margin="0,29,20,0" VerticalAlignment="Top" Height="30" Width="160" Cursor="Hand">
             <Button.ToolTip>
                 <ToolTip>
-                    Otevře webový prohlížeč
+                    <Label Content="{DynamicResource openwebbrowser}" Foreground="Black"/>
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <Label Content="Stručný popis prvku:" HorizontalAlignment="Left" Margin="26,353,0,0" VerticalAlignment="Top" FontSize="14" Height="30" FontWeight="Bold"/>
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,263,0,0" Height="105" Width="716">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,319,0,0" Height="105" Width="688">
             <Button Name="radiacebtn" IsEnabled="False" HorizontalAlignment="Right" VerticalAlignment="Top" Height="30" Width="30" Click="radiace_Click" Cursor="Hand" Margin="0,0,315,0">
                 <Image  Name="radiace" Visibility="Hidden" Source="data/latky/radiation.png"/>
                 <Button.ToolTip>
@@ -186,6 +195,13 @@
             </Button>
 
         </Grid>
-
+        <Label Content="{DynamicResource chemsymbol}" HorizontalAlignment="Left" Margin="26,109,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource atomicnumber}" HorizontalAlignment="Left" Margin="26,144,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource latin}" HorizontalAlignment="Left" Margin="26,179,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource group}" HorizontalAlignment="Left" Margin="26,214,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource period}" HorizontalAlignment="Left" Margin="26,249,0,0" VerticalAlignment="Top" Height="30" FontSize="14" FontWeight="Bold"/>
+        <Label Content="{DynamicResource atomicweight}" HorizontalAlignment="Left" Margin="26,284,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30"/>
     </Grid>
+
+
 </Page>

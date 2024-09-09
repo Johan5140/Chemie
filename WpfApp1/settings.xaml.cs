@@ -91,10 +91,9 @@ namespace Chemie
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            string sapplang = Chemie.Properties.Settings.Default.applang.ToLower();
             Properties.Settings.Default.theme = "lighttheme";
-            Properties.Settings.Default.applang = "CZ";
             themepick.SelectedValue = lighttheme;
-            langpick.SelectedItem = "Český";
             Properties.Settings.Default.Save();
             System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
             System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
@@ -103,7 +102,7 @@ namespace Chemie
             });
             System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
             {
-                Source = new Uri("/Chemie;component/data/languages/cz.xaml", UriKind.RelativeOrAbsolute)
+                Source = new Uri("/Chemie;component/data/languages/" + sapplang + ".xaml", UriKind.RelativeOrAbsolute)
             });
             MainWindow win = (MainWindow)MainWindow.GetWindow(this);
             win.Showmessage((String)System.Windows.Application.Current.Resources["freset"], (String)System.Windows.Application.Current.Resources["info"], "Info");
