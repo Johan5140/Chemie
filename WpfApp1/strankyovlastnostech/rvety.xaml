@@ -23,7 +23,7 @@
             </Button.Resources>
         </Button>
         <Label Name="headline" HorizontalAlignment="Left" Margin="70,9,0,0" VerticalAlignment="Top" Width="343" FontSize="18" FontWeight="Bold"/>
-        <Label Name="rvetyprvku" Content="Zde jsou vypsány všechny R-věty. Dnes nahrazeny H-větami" HorizontalAlignment="Left" Margin="70,45,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="953" FontSize="14" FontStyle="Italic"/>
+        <Label Name="rvetyprvku" Content="" HorizontalAlignment="Left" Margin="70,45,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="953" FontSize="14" FontStyle="Italic"/>
         <Label Content="Všechny R-věty jsou převzaty z webu Wikipedia.org" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="0,0,0,10"/>
         <Frame Name="nav2" Content="Frame" Margin="10,79,10,45"/>
 

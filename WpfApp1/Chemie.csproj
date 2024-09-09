@@ -36,6 +36,8 @@
     <None Remove="data\latky\rondflam.png" />
     <None Remove="data\latky\silhouete.png" />
     <None Remove="data\latky\skull.png" />
+    <None Remove="data\menu-dark.png" />
+    <None Remove="data\menu-light.png" />
     <None Remove="data\prevody-dark.png" />
     <None Remove="data\prevody-light.png" />
     <None Remove="data\settings-dark.png" />
@@ -87,6 +89,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\latky\skull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\menu-dark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\menu-light.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\prevody-dark.png">

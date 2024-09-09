@@ -25,70 +25,67 @@ namespace Chemie.controls
         public hamburgermenu()
         {
             InitializeComponent();
-            home.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
             string thmpck = Chemie.Properties.Settings.Default.theme;
         }
         public string theme = Properties.Settings.Default.theme;
+        public void Onload()
+        {
+            homeb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+        }
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            home.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            homeb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
             nav.Source = new Uri("../main.xaml", UriKind.Relative);
-              vypocty.Background = new SolidColorBrush(Colors.Transparent);
-               prevody.Background = new SolidColorBrush(Colors.Transparent);
-               teorie.Background = new SolidColorBrush(Colors.Transparent);
-               set.Background = new SolidColorBrush(Colors.Transparent);
-               about.Background = new SolidColorBrush(Colors.Transparent);
+              vypoctyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+               prevodyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+               teorieb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+               setb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+               aboutb.BorderBrush = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-               nav.Source = new Uri("../info.xaml", UriKind.Relative);
-               home.Background = new SolidColorBrush(Colors.Transparent);
-               vypocty.Background = new SolidColorBrush(Colors.Transparent);
-               prevody.Background = new SolidColorBrush(Colors.Transparent);
-               teorie.Background = new SolidColorBrush(Colors.Transparent);
-               set.Background = new SolidColorBrush(Colors.Transparent);
-               about.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            nav.Source = new Uri("../info.xaml", UriKind.Relative);
+            homeb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            vypoctyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            prevodyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            teorieb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            setb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            aboutb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-                nav.Source = new Uri("../settings.xaml", UriKind.Relative);
-                home.Background = new SolidColorBrush(Colors.Transparent);
-                vypocty.Background = new SolidColorBrush(Colors.Transparent);
-                prevody.Background = new SolidColorBrush(Colors.Transparent);
-                teorie.Background = new SolidColorBrush(Colors.Transparent);
-                about.Background = new SolidColorBrush(Colors.Transparent);
-                set.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            nav.Source = new Uri("../settings.xaml", UriKind.Relative);
+            homeb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            vypoctyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            prevodyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            teorieb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            aboutb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            setb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-               nav.Source = new Uri("../vzorce.xaml", UriKind.Relative);
-               home.Background = new SolidColorBrush(Colors.Transparent);
-               prevody.Background = new SolidColorBrush(Colors.Transparent);
-               teorie.Background = new SolidColorBrush(Colors.Transparent);
-               set.Background = new SolidColorBrush(Colors.Transparent);
-               about.Background = new SolidColorBrush(Colors.Transparent);
-               vypocty.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            nav.Source = new Uri("../vzorce.xaml", UriKind.Relative);
+            homeb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            vypoctyb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            prevodyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            teorieb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            aboutb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            setb.BorderBrush = new SolidColorBrush(Colors.Transparent);
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            /*   nav.Source = new Uri("prevody.xaml", UriKind.Relative);
-               home.Background = new SolidColorBrush(Colors.Transparent);
-               vypocty.Background = new SolidColorBrush(Colors.Transparent);
-               teorie.Background = new SolidColorBrush(Colors.Transparent);
-               set.Background = new SolidColorBrush(Colors.Transparent);
-               about.Background = new SolidColorBrush(Colors.Transparent);
-               if (theme == "Světlý")
-               {
-                   prevody.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#dedcdc"));
-               }
-               if (theme == "Tmavý")
-               {
-                   prevody.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#4d4c4c"));
-               }*/
+        /*       nav.Source = new Uri("prevody.xaml", UriKind.Relative);
+            homeb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            vypoctyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            prevodyb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            teorieb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            aboutb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            setb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+             */
             MainWindow win = (MainWindow)MainWindow.GetWindow(this);
             win.Showmessage("Tato funkce ještě nebyla implementována!", "Chyba", "Chyba");
         }
@@ -96,13 +93,13 @@ namespace Chemie.controls
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
                nav.Source = new Uri("../teorie.xaml", UriKind.Relative);
-               home.Background = new SolidColorBrush(Colors.Transparent);
-               vypocty.Background = new SolidColorBrush(Colors.Transparent);
-               prevody.Background = new SolidColorBrush(Colors.Transparent);
-               set.Background = new SolidColorBrush(Colors.Transparent);
-               about.Background = new SolidColorBrush(Colors.Transparent);
-               teorie.Background = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
 
+            homeb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            vypoctyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            prevodyb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            teorieb.BorderBrush = (SolidColorBrush)Application.Current.Resources["activemenuitem"];
+            aboutb.BorderBrush = new SolidColorBrush(Colors.Transparent);
+            setb.BorderBrush = new SolidColorBrush(Colors.Transparent);
         }
         private void ToggleButton_click(object sender, RoutedEventArgs e)
         {

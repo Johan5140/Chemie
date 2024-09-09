@@ -10,7 +10,7 @@
       Title="rvetypage">
 
     <ScrollViewer>
-        <Grid Height="4650">
+        <Grid Name="grid" Height="4650">
             <Label Content="Jednoduché R-věty:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
             <!--#region Jednoduché R-věty-->
             <Label Name="R1" Margin="10,46,10,0" VerticalAlignment="Top" BorderThickness="1,1,1,1" FontSize="14">

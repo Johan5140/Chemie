@@ -1,7 +1,0 @@
-Popis:
-------
-1) Silně radioaktivní prvek
-2) Příprava v cyklotronu nebo urychlovači částic
-3) Prvek nebyl dostatečně izolován, proto nebylo možné zjistit všechny jeho fyzikální vlastnosti
-4) Mělo by připomínat wolfram (díky své poloze v periodické tabulce)
-5) Pojmenováno na počest amerického jaderného fyzika Glena T. Seaborga 
