@@ -17,6 +17,7 @@
     <system:String x:Key="lang">Jazyk:</system:String>
     <system:String x:Key="info">Info:</system:String>
     <system:String x:Key="error">Chyba:</system:String>
+    <system:String x:Key="empty_cb">Prosím, vyberte jednu z možností!</system:String>
     <system:String x:Key="saved">Nastavení byla uložena</system:String>
     <system:String x:Key="freset">Výchozí nastavení úspěšně obnovena</system:String>
     <system:String x:Key="hide">Skrýt</system:String>
@@ -37,7 +38,38 @@
     <system:String x:Key="rphrases">R-věty:</system:String>
     <system:String x:Key="sphrasesfor">S-věty pro prvek</system:String>
     <system:String x:Key="rphrasesfor">R-věty pro prvek</system:String>
+    
+    <!--#region Not translated-->
+    <system:String x:Key="invalid_input">Neplatné zadání!</system:String>
+    <system:String x:Key="hm">Hmotnostní zlomek</system:String>
+    <system:String x:Key="hol">Hustota nebo objem látky</system:String>
+    <system:String x:Key="oz">Objemový zlomek</system:String>
+    <system:String x:Key="lm">Látkové množství</system:String>
+    <system:String x:Key="mk">Molární koncentrace</system:String>
+    <system:String x:Key="rr">Ředění roztoků</system:String>
+    <system:String x:Key="chr">Chemické rovnice</system:String>
+    <system:String x:Key="chooseoneoption">Prosím, vyberte jednu z možností:</system:String>
+    <system:String x:Key="go">Přejít</system:String>
+    <system:String x:Key="convert">Převést</system:String>
+    <system:String x:Key="lenght">Délka</system:String>
+    <system:String x:Key="pm">pikometr (pm)</system:String>
+    <system:String x:Key="nm">nanometr (nm)</system:String>
+    <system:String x:Key="mcm">mikrometr (μm)</system:String>
+    <system:String x:Key="mm">milimetr (mm)</system:String>
+    <system:String x:Key="cm">centimetr (cm)</system:String>
+    <system:String x:Key="dm">decimetr (dm)</system:String>
+    <system:String x:Key="m">metr (m)</system:String>
+    <system:String x:Key="dcm">dekametr (dam)</system:String>
+    <system:String x:Key="hcm">hektometr (hm)</system:String>
+    <system:String x:Key="km">kilometr (km)</system:String>
 
+
+    <system:String x:Key="sources">Zdroje:</system:String>
+    <system:String x:Key="ghs_icns">GHS ikony:</system:String>
+    <system:String x:Key="ghs_info">Informace k GHS ikonám:</system:String>
+    <system:String x:Key="element_info">Informace o prvcích:</system:String>
+
+    <!--#endregion-->
     <system:String x:Key="chemsymbol">Chemická značka:</system:String>
     <system:String x:Key="atomicnumber">Protonové číslo:</system:String>
     <system:String x:Key="chemname">Název:</system:String>
@@ -46,7 +78,7 @@
     <system:String x:Key="period">Perioda:</system:String>
     <system:String x:Key="atomicweight">Atomová hmotnost:</system:String>
 
-
+    
     <system:String x:Key="Vodík">Vodík</system:String>
     <system:String x:Key="Lithium">Lithium</system:String>
     <system:String x:Key="Sodík">Sodík</system:String>

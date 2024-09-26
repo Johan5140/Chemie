@@ -6,7 +6,7 @@
     <system:String x:Key="chemdevmode">Chemistry (developer mode)</system:String>
     <system:String x:Key="home">Home</system:String>
     <system:String x:Key="calculations">Calculations</system:String>
-    <system:String x:Key="transfers">Transfers</system:String>
+    <system:String x:Key="transfers">Unit converter</system:String>
     <system:String x:Key="theory">Theory</system:String>
     <system:String x:Key="settings">Settings</system:String>
     <system:String x:Key="about">About</system:String>
@@ -17,6 +17,7 @@
     <system:String x:Key="lang">Language:</system:String>
     <system:String x:Key="info">Info:</system:String>
     <system:String x:Key="error">Error:</system:String>
+    <system:String x:Key="empty_cb">Please select one option!</system:String>
     <system:String x:Key="saved">Saved</system:String>
     <system:String x:Key="freset">Default settings have been restored</system:String>
     <system:String x:Key="hide">Hide</system:String>

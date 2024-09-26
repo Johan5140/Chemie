@@ -8,6 +8,7 @@
     <SolidColorBrush x:Key="ButtonsLabel" Color="White"/>
     <SolidColorBrush x:Key="Buttonsback" Color="Black"/>
     <SolidColorBrush x:Key="Buttonshover" Color="#333333"/>
+    <SolidColorBrush x:Key="mButtonshoverb" Color="#6b6b6b"/>
     <SolidColorBrush x:Key="comboboxcl" Color="#000000"/>
     <SolidColorBrush x:Key="comboboxfr" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="arrowcl" Color="#000000"/>
@@ -20,16 +21,17 @@
     <SolidColorBrush x:Key="cbihoverfg" Color="LightGray"/>
     <SolidColorBrush x:Key="cellbg" Color="White"/>
     <SolidColorBrush x:Key="cellfg" Color="White"/>
-    <SolidColorBrush x:Key="mainbuttonhover" />
     <SolidColorBrush x:Key="labelbordercl" Color="DarkGray"/>
     <SolidColorBrush x:Key="cbihoverbg" Color="#555555"/>
     <SolidColorBrush x:Key="menubg" Color="#1a1a1a"/>
     <SolidColorBrush x:Key="mainbg" Color="#555555"/>
-    <SolidColorBrush x:Key="activemenuitem" Color="#6b6b6b"/>
+    <SolidColorBrush x:Key="activemenuitemb" Color="#a3a3a3"/>
+    <SolidColorBrush x:Key="activemenuitem" Color="#363535"/>
     <SolidColorBrush x:Key="mainbtnhover" Color="LightGray"/>
     <SolidColorBrush x:Key="ComboBox.Static.Background" Color="#000000"/>
     <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#000000"/>
     <SolidColorBrush x:Key="comboboxhover" Color="#262626"/>
+    <SolidColorBrush x:Key="linkfg" Color="#ededed"/>
     <!--<BitmapImage x:Key="menu" UriSource="../Media/Image.png" /> -->
     <BitmapImage x:Key="menuico" UriSource="/Chemie;component/data/menu-dark.png" />
     <BitmapImage x:Key="domu" UriSource="/Chemie;component/data/home-dark.png" />
@@ -38,4 +40,5 @@
     <BitmapImage x:Key="prevody" UriSource="/Chemie;component/data/prevody-dark.png" />
     <BitmapImage x:Key="nastaveni" UriSource="/Chemie;component/data/settings-dark.png" />
     <BitmapImage x:Key="oaplikaci" UriSource="/Chemie;component/data/about-dark.png" />
+    <BitmapImage x:Key="maxico" UriSource="/Chemie;component/data/max-dark.png" />
 </ResourceDictionary>

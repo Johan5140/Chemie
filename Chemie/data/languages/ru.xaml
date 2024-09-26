@@ -17,6 +17,7 @@
     <system:String x:Key="lang">Язык:</system:String>
     <system:String x:Key="info">Инфо:</system:String>
     <system:String x:Key="error">Ошибка:</system:String>
+    <system:String x:Key="empty_cb">Пожалуйста, выберите один из вариантов!</system:String>
     <system:String x:Key="saved">Настройки сохранены</system:String>
     <system:String x:Key="freset">Настройки по умолчанию успешно восстановлены</system:String>
     <system:String x:Key="hide">Скрыть</system:String>

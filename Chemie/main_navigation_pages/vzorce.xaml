@@ -1,0 +1,26 @@
+﻿<Page x:Class="Chemie.vzorce"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Chemie"
+      mc:Ignorable="d" 
+      d:DesignHeight="726" d:DesignWidth="993"
+      Title="vzorce">
+
+    <Grid>
+        <Frame Name="vypocty" Margin="10,77,10,10"/>
+        <Label Content="{DynamicResource calculations}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="32"/>
+        <Button Cursor="Hand" Content="{DynamicResource go}" HorizontalAlignment="Left" Margin="355,47,0,0" VerticalAlignment="Top" Width="120" Height="25" FontSize="14" Click="Button_Click_3"/>
+        <ComboBox Name="fncpick" VerticalAlignment="Top" Width="340" Height="25" FontSize="14" Cursor="Hand" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="hm" Content="{DynamicResource hm}"></ComboBoxItem>
+            <ComboBoxItem x:Name="hol" Content="{DynamicResource hol}"></ComboBoxItem>
+            <ComboBoxItem x:Name="oz" Content="{DynamicResource oz}"></ComboBoxItem>
+            <ComboBoxItem x:Name="lm" Content="{DynamicResource lm}"></ComboBoxItem>
+            <ComboBoxItem x:Name="mk" Content="{DynamicResource mk}"></ComboBoxItem>
+            <ComboBoxItem x:Name="rr" Content="{DynamicResource rr}"></ComboBoxItem>
+            <ComboBoxItem x:Name="chr" Content="{DynamicResource chr}"></ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Page>
+
