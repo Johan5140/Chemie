@@ -43,37 +43,11 @@ namespace Chemie
             hexcode.Text = headcl;
             if (thmpck == "lighttheme")
             {
-                themepick.SelectedValue = lighttheme; ;
-                /*System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
-                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
-                {
-                    Source = new Uri("/Chemie;component/data/themes/light.xaml", UriKind.RelativeOrAbsolute)
-                });*/
-                /*System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
-                {
-                    Source = new Uri("/Chemie;component/data/themes/app.xaml", UriKind.RelativeOrAbsolute)
-                });*/
-                /*  this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFFF"));
-                  this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.Black);
-                  this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.Black);
-                  this.Resources["Buttonsback"] = new SolidColorBrush(Colors.White);
-                  this.Resources["Buttonshover"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#bfbfbf"));*/
-
+                themepick.SelectedValue = lighttheme;
             }
             if (thmpck == "darktheme")
             {
                 themepick.SelectedValue = darktheme;
-                /*System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
-                System.Windows.Application.Current.Resources.MergedDictionaries.Add(new ResourceDictionary()
-                {
-                    Source = new Uri("/Chemie;component/data/themes/dark.xaml", UriKind.RelativeOrAbsolute)
-                });*/
-                /*this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#555555"));
-                    this.Resources["CustomLabelColor"] = new SolidColorBrush(Colors.White);
-                    this.Resources["ButtonsLabel"] = new SolidColorBrush(Colors.White);
-                    this.Resources["Buttonsback"] = new SolidColorBrush(Colors.Black);
-                    this.Resources["Buttonshover"] = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#333333"));*/
-
             }
             string lang = Properties.Settings.Default.applang;
             if (lang == "CZ")

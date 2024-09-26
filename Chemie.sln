@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chemie", "WpfApp1\Chemie.csproj", "{2516DFF8-59CB-478C-9716-9E3FB7D61C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chemie", "Chemie\Chemie.csproj", "{2516DFF8-59CB-478C-9716-9E3FB7D61C0D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soubory", "Soubory\Soubory.csproj", "{F244CBB0-B8F7-434A-BEA2-891313C24E89}"
 EndProject

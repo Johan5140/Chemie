@@ -6,6 +6,7 @@
     <SolidColorBrush x:Key="ButtonsLabel" Color="Black"/>
     <SolidColorBrush x:Key="Buttonsback" Color="White"/>
     <SolidColorBrush x:Key="Buttonshover" Color="LightGray"/>
+    <SolidColorBrush x:Key="mButtonshoverb" Color="#999999"/>
     <SolidColorBrush x:Key="comboboxcl" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="comboboxfr" Color="#000000"/>
     <SolidColorBrush x:Key="arrowcl" Color="#e0e0e0"/>
@@ -23,13 +24,15 @@
     <SolidColorBrush x:Key="cbihoverbg" />
     <SolidColorBrush x:Key="menubg" Color="#f5f5f5"/>
     <SolidColorBrush x:Key="mainbg" Color="#FFFFFF"/>
-    <SolidColorBrush x:Key="activemenuitem" Color="#6b6b6b"/>
-    <SolidColorBrush x:Key="mainbtnhover" Color="LightGray"/>
+    <SolidColorBrush x:Key="activemenuitemb" Color="#6b6b6b"/>
+    <SolidColorBrush x:Key="activemenuitem" Color="#dbdbdb"/>
+    <SolidColorBrush x:Key="mainbtnhover" Color="#8b8c8b"/>
     <SolidColorBrush x:Key="ComboBox.Static.Background" Color="#c9c9c9"/>
     <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#c9c9c9"/>
     <SolidColorBrush x:Key="comboboxhover" Color="#dedede"/>
     <SolidColorBrush x:Key="arrowpr" Color="LightGray"/>
     <SolidColorBrush x:Key="labelbordercl" Color="Black"/>
+    <SolidColorBrush x:Key="linkfg" Color="#424242"/>
     <BitmapImage x:Key="menuico" UriSource="/Chemie;component/data/menu-light.png" />
     <BitmapImage x:Key="domu" UriSource="/Chemie;component/data/home-light.png" />
     <BitmapImage x:Key="vypocty" UriSource="/Chemie;component/data/vypocty-light.png" />
@@ -37,4 +40,5 @@
     <BitmapImage x:Key="prevody" UriSource="/Chemie;component/data/prevody-light.png" />
     <BitmapImage x:Key="nastaveni" UriSource="/Chemie;component/data/settings-light.png" />
     <BitmapImage x:Key="oaplikaci" UriSource="/Chemie;component/data/about-light.png" />
+    <BitmapImage x:Key="maxico" UriSource="/Chemie;component/data/max-light.png" />
 </ResourceDictionary>
