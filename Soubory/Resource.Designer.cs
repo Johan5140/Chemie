@@ -63,23 +63,53 @@ namespace Soubory {
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;data xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;ikony&gt;
+        ///    &lt;drazdivy&gt;
+        ///            &lt;dphrases&gt;d1; d2; d3; d4; d5; d6; d7; d8; d9; d10&lt;/dphrases&gt;
+        ///            &lt;wycf&gt;dw1&lt;/wycf&gt;
+        ///    &lt;/drazdivy&gt;
+        ///    &lt;horlavy&gt;
+        ///            &lt;dphrases&gt;h1; h2; h3; h4; h5; h6; h7&lt;/dphrases&gt;
+        ///            &lt;wycf&gt;hw1&lt;/wycf&gt;
+        ///    &lt;/horlavy&gt;
+        ///	  &lt;jedovaty&gt;
+        ///		  &lt;dphrases&gt;j1; j2; j3; j4; j5; j6&lt;/dphrases&gt;
+        ///		  &lt;wycf&gt;jw1&lt;/wycf&gt;
+        ///	  &lt;/jedo [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string dangericons {
+            get {
+                return ResourceManager.GetString("dangericons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;data xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
         ///  &lt;prvky&gt;
-        ///    &lt;Vodík&gt;
-        ///		&lt;symbol&gt;H&lt;/symbol&gt;
-        ///		&lt;atomicnumber&gt;1&lt;/atomicnumber&gt;
-        ///		&lt;latin&gt;Hydrogenium&lt;/latin&gt;
-        ///		&lt;chemgroup&gt;1.&lt;/chemgroup&gt;
-        ///		&lt;chemperiod&gt;1.&lt;/chemperiod&gt;
-        ///		&lt;atomicweight&gt;1,00784&lt;/atomicweight&gt;
-        ///		&lt;sphrases&gt;S2; S9; S16; S33&lt;/sphrases&gt;
-        ///		&lt;rphrases&gt;R12&lt;/rphrases&gt;
-        ///		&lt;ziravina&gt;no&lt;/ziravina&gt;
-        ///		&lt;latky_nebezpecne_pro_ZP&gt;no&lt;/latky_nebezpecne_pro_ZP&gt;
-        ///		 [rest of string was truncated]&quot;;.
+        ///	&lt;n&gt;
+        ///		&lt;ssphrases&gt;S1 ;S2; S3; S4; S5; S6; S7; S8; S9; S12; S13; S14; S15; S16; S17; S18; S20; S21; S22; S23; S24; S25; S26; S27; S28; S29; S30; S33; S35; S36; S37; S38; S39; S40; S41; S42; S43; S45; S46; S47; S48; S49; S50; S51; S52; S53; S56; S57; S59; S60; S61; S62; S63; S64&lt;/ssphrases&gt;
+        ///		&lt;csphrases&gt;S1/2; S3/7; S3/9/14; S3/9/14/49; S3/9/49; S3/14;  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string data {
             get {
                 return ResourceManager.GetString("data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;data xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;theory&gt;
+        ///        &lt;danger&gt;
+        ///            &lt;xb&gt;svety; rvety; radiace; ziravina; nebezpeciZP; plyn; nebezpecizdravi; vybusny; horlavy; oxidace; drazdivy; jedovaty&lt;/xb&gt;
+        ///        &lt;/danger&gt;
+        ///    &lt;/theory&gt;
+        ///&lt;/data&gt;.
+        /// </summary>
+        public static string tctll {
+            get {
+                return ResourceManager.GetString("tctll", resourceCulture);
             }
         }
     }

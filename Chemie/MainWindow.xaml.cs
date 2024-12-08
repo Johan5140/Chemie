@@ -169,7 +169,7 @@ namespace Chemie
                 {
                     messagepanel.Visibility = Visibility.Hidden;
                 }
-
+              
                 private void Button_Click_8(object sender, RoutedEventArgs e)
                 {
                     if (this.WindowState == WindowState.Normal)

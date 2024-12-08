@@ -9,19 +9,25 @@
       Title="prevody">
 
     <Grid>
-        <Label Content="{DynamicResource transfers}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-        <ComboBox Name="tfncpick" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="341" Height="25" Cursor="Hand" VerticalContentAlignment="Center" FontSize="14">
-            <ComboBoxItem x:Name="lenght" Content="{DynamicResource lenght}"></ComboBoxItem>
-            <ComboBoxItem x:Name="lighttheme" Content="{DynamicResource light}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaaa" Content="{DynamicResource dark}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaa" Content="{DynamicResource light}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaaaa" Content="{DynamicResource dark}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaaaaa" Content="{DynamicResource light}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaaaaaa" Content="{DynamicResource dark}"></ComboBoxItem>
-            <ComboBoxItem x:Name="aaaaaaaaa" Content="{DynamicResource light}"></ComboBoxItem>
-        </ComboBox>
-        <Button Content="{DynamicResource go}" HorizontalAlignment="Left" Margin="356,46,0,0" VerticalAlignment="Top" Width="120" Height="25" Cursor="Hand" FontSize="14"/>
-        <Frame Name="transnav" Content="Frame" Margin="10,76,10,10"/>
+        <Grid Height="50" VerticalAlignment="Top">
+            <Label Name="convhead" Content="{DynamicResource transfers}" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Height="40"/>
+            <ComboBox Name="tfncpick" HorizontalAlignment="Right" VerticalAlignment="Center" Width="340" Height="30" Cursor="Hand" VerticalContentAlignment="Center" FontSize="14" Margin="0,0,140,0">
+                <ComboBoxItem x:Name="lenght" Content="{DynamicResource lenght}"></ComboBoxItem>
+                <ComboBoxItem x:Name="weight" Content="{DynamicResource weight}"></ComboBoxItem>
+                <ComboBoxItem x:Name="volume" Content="{DynamicResource volume}"></ComboBoxItem>
+                <ComboBoxItem x:Name="area" Content="{DynamicResource area}"></ComboBoxItem>
+                <ComboBoxItem x:Name="density" Content="{DynamicResource density}"></ComboBoxItem>
+                <ComboBoxItem x:Name="force" Content="{DynamicResource force}"></ComboBoxItem>
+                <ComboBoxItem x:Name="pressure" Content="{DynamicResource pressure}"></ComboBoxItem>
+                <ComboBoxItem x:Name="workandenergy" Content="{DynamicResource workandenergy}"></ComboBoxItem>
+                <ComboBoxItem x:Name="power" Content="{DynamicResource power}"></ComboBoxItem>
+                <ComboBoxItem x:Name="angle" Content="{DynamicResource angle}"></ComboBoxItem>
+                <ComboBoxItem x:Name="time" Content="{DynamicResource time}"></ComboBoxItem>
+                <ComboBoxItem x:Name="speed" Content="{DynamicResource speed}"></ComboBoxItem>
+            </ComboBox>
+            <Button Content="{DynamicResource go}" HorizontalAlignment="Right" VerticalAlignment="Center" Width="120" Height="30" Cursor="Hand" FontSize="14" Margin="0,0,10,0" Click="Button_Click"/>
+        </Grid>
+        <Frame Name="transnav" Content="Frame" Margin="10,55,10,10"/>
 
     </Grid>
 </Page>

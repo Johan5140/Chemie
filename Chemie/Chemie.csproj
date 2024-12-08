@@ -8,21 +8,13 @@
     <UseWindowsForms>True</UseWindowsForms>
     <AssemblyVersion>0.6.0</AssemblyVersion>
     <ApplicationIcon>ico.ico</ApplicationIcon>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="data\about-dark.png" />
     <None Remove="data\about-light.png" />
-    <None Remove="data\bgdark.png" />
-    <None Remove="data\bglight.png" />
     <None Remove="data\home-dark.png" />
     <None Remove="data\home-light.png" />
     <None Remove="data\ico.png" />
@@ -109,12 +101,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\prevody-light.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="data\bgdark.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="data\bglight.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\settings-dark.png">

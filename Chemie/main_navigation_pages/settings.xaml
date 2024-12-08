@@ -29,7 +29,7 @@
             <ComboBoxItem x:Name="lighttheme" Content="{DynamicResource light}"></ComboBoxItem>
         </ComboBox>
         <Label Content="{DynamicResource lang}" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" FontSize="16" Height="33"/>
-        <ComboBox Name="langpick" HorizontalAlignment="Right" Margin="0,90,25,0" VerticalAlignment="Top" Width="170" Height="33" FontSize="14" VerticalContentAlignment="Center" Cursor="Hand"/>
+        <ComboBox Name="langpick" HorizontalAlignment="Right" Margin="0,90,25,0" VerticalAlignment="Top" Width="170" Height="33" FontSize="14" VerticalContentAlignment="Center" Cursor="Hand" IsEnabled="False"/>
 
 
     </Grid>

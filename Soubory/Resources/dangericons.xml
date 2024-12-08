@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ikony>
+    <drazdivy>
+            <dphrases>d1; d2; d3; d4; d5; d6; d7; d8; d9; d10</dphrases>
+            <wycf>dw1</wycf>
+    </drazdivy>
+    <horlavy>
+            <dphrases>h1; h2; h3; h4; h5; h6; h7</dphrases>
+            <wycf>hw1</wycf>
+    </horlavy>
+	  <jedovaty>
+		  <dphrases>j1; j2; j3; j4; j5; j6</dphrases>
+		  <wycf>jw1</wycf>
+	  </jedovaty>
+	  <nebezpecizdravi>
+		  <dphrases>n1; n2; n3; n4; n5; n6; n7; n8; n9</dphrases>
+		  <wycf>nw1</wycf>
+	  </nebezpecizdravi>
+	  <nebezpeciZP>
+		  <dphrases>nz1; nz2</dphrases>
+		  <wycf>nzw1</wycf>
+	  </nebezpeciZP>
+	  <oxidace>
+		  <dphrases>o1; o2</dphrases>
+		  <wycf>ow1</wycf>
+	  </oxidace>
+	  <plyn>
+		  <dphrases>p1; p2</dphrases>
+		  <wycf>pw1</wycf>
+	  </plyn>
+	  <radiace>
+		  <dphrases>r1</dphrases>
+		  <wycf>rw1</wycf>
+	  </radiace>
+	  <vybusny>
+		  <dphrases>v1; v2; v3; v4; v5</dphrases>
+		  <wycf>vw1</wycf>
+	  </vybusny>
+	  <ziravina>
+		  <dphrases>z1; z2</dphrases>
+		  <wycf>zw1</wycf>
+	  </ziravina>
+    </ikony>
+</data>

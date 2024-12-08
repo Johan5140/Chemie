@@ -15,880 +15,1119 @@
 
             <!--#region Tlačítka prvků -->
             <Button Name="Vodík" Style="{DynamicResource vodik}" HorizontalAlignment="Left" Margin="38,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Click="buttonprvek_Click" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="H" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="1" Foreground="Black" FontSize="12" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Vodík}" Foreground="Black" FontSize="12" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="H" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="1" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Vodík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
-            <Button IsEnabled="False" Foreground="Black" HorizontalAlignment="Left" Margin="465,120,0,0" VerticalAlignment="Top" Width="55" Height="65"  Background="#FFFDFDB8" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="H" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="1" Foreground="Black" FontSize="12" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Vodík}" Foreground="Black" FontSize="12" Padding="0,0,0,0"/>
-                </StackPanel>
+            <Button IsEnabled="False" Style="{DynamicResource vodik}" HorizontalAlignment="Left" Margin="465,120,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+                <Grid Height="65">
+                    <Label Content="H" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="1" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Vodík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Lithium" Style="{DynamicResource alkalicke}" Margin="38,117,947,0" VerticalAlignment="Top" Height="65" Width="55" Click="buttonprvek_Click" Cursor="Hand" HorizontalAlignment="Left">
-                <StackPanel>
-                    <Label Content="Li" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="3" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Lithium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Li" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="3" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Lithium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Sodík" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" Foreground="Black" HorizontalAlignment="Left" Margin="38,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Na" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="11" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Sodík}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Na" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="11" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Sodík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Draslík" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="K" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="19" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Draslík}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="K" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="19" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Draslík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Rubidium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,312,0,0" VerticalAlignment="Top" Width="55" Height="65" RenderTransformOrigin="-0.163,0.132" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Rb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="37" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Rubidium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Rb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="37" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Rubidium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Cesium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cs" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="55" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Cesium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cs" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="55" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Cesium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Francium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Fr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="87" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Francium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Fr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="87" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Francium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Beryllium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Be" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="4" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Beryllium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Be" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="4" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Beryllium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Hořčík" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Mg" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="12" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Hořčík}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Mg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="12" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Hořčík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Vápník" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ca" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="20" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Vápník}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ca" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="20" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Vápník}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Stroncium" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="38" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Stroncium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="38" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Stroncium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Baryum" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ba" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="56" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Baryum}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ba" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="56" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Baryum}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Radium" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ra" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="88" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Radium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ra" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="88" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Radium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Skandium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sc" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="21" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Skandium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="21" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Skandium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Yttrium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Y" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="39" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Yttrium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Y" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="39" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Yttrium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Titan" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ti" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="22" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Titan}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ti" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="22" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Titan}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Zirkonium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Zr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="40" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Zirkonium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Zr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="40" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Zirkonium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Hafnium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Hf" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="72" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Hafnium}" Foreground="Black" Padding="0,0,0,0"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Hf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="72" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Hafnium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Rutherfordium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Rf" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="104" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Rutherfordium}" Foreground="Black" Padding="0,0,0,0" FontSize="8"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Rf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="104" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Rutherfordium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Vanad" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="V" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="23" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Vanad}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="V" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="23" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Vanad}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Niob" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Nb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="41" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Niob}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Nb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="41" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Niob}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Tantal" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ta" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="73" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Tantal}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ta" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="73" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Tantal}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Dubnium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Db" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="105" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Dubnium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Db" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="105" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Dubnium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Molybden" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Mo" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="42" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Molybden}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Mo" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="42" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Molybden}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Chrom" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="24" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Chrom}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="24" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Chrom}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Wolfram" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="313,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="W" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="74" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Wolfram}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="W" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="74" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Wolfram}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Seaborgium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sg" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="106" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Seaborgium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="106" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Seaborgium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Mangan" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Mn" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="25" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Mangan}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Mn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="25" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Mangan}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Technecium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="368,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Tc" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="43" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Technecium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Tc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="43" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Technecium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Rhenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Re" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="75" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Rhenium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Re" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="75" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Rhenium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Bohrium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Bh" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="107" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Bohrium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Bh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="107" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Bohrium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Železo" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Fe" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="26" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Železo}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Fe" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="26" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Železo}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Ruthenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ru" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="44" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Ruthenium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ru" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="44" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Ruthenium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Osmium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Os" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="76" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Osmium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Os" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="76" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Osmium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Hassium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Hs" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="108" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Hassium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Hs" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="108" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Hassium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Kobalt" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Co" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="27" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Kobalt}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Co" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="27" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Kobalt}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Rhodium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Rh" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="45" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Rhodium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Rh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="45" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Rhodium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Iridium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ir" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="77" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Iridium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ir" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="77" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Iridium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Meitnerium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Mt" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="109" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Meitnerium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Mt" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="109" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Meitnerium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Nikl" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ni" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="28" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Nikl}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ni" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="28" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Nikl}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Palladium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pd" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="46" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Palladium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="46" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Palladium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Platina" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pt" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="78" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Platina}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pt" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="78" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Platina}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Darmstadtium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ds" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="110" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Darmstadtium}" Foreground="Black" Padding="0,0,0,0" FontSize="8"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ds" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="110" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Darmstadtium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Měď" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cu" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="29" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Měď}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="29" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Měď}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Stříbro" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ag" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="47" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Stříbro}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ag" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="47" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Stříbro}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Zlato" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Au" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="79" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Zlato}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Au" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="79" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Zlato}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Roentgenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Rg" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="111" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Roentgenium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Rg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="111" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Roentgenium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Zinek" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Zn" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="30" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Zinek}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Zn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="30" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Zinek}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Kadmium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cd" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="48" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Kadmium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="48" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Kadmium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Rtuť" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Hg" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="80" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Rtuť}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Hg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="80" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Rtuť}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Kopernicium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cn" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="112" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Kopernicium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="112" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Kopernicium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Bor" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="698,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="B" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="5" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Bor}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="B" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="5" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Bor}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Hliník" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Al" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="13" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Hliník}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Al" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="13" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Hliník}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Gallium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ga" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="31" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Gallium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ga" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="31" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Gallium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Indium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="In" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="49" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Indium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="In" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="49" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Indium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Thallium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Tl" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="81" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Thallium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Tl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="81" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Thallium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Nihonium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Nh" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="113" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Nihonium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Nh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="113" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Nihonium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Uhlík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="753,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="C" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="6" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Uhlík}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="C" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="6" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Uhlík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Křemík" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Si" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="14" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Křemík}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Si" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="14" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Křemík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Germanium" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ge" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="32" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Germanium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ge" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="32" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Germanium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Cín" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sn" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="50" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Cín}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="50" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Cín}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Olovo" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="82" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Olovo}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="82" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Olovo}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Flerovium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Fl" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="114" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Flerovium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Fl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="114" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Flerovium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Dusík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="N" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="7" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Dusík}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="N" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="7" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Dusík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Fosfor" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="P" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="15" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Fosfor}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="P" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="15" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Fosfor}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Arsen" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="As" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="33" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Arsen}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="As" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="33" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Arsen}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Antimon" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="51" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Antimon}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="51" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Antimon}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Bismut" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Bi" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="83" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Bismut}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Bi" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="83" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Bismut}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Moscovium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Mc" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="115" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Moscovium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Mc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="115" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Moscovium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Kyslík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="O" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="8" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Kyslík}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="O" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="8" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Kyslík}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Síra" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="S" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="16" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Síra}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="S" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="16" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Síra}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Selen" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Se" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="34" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Selen}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Se" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="34" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Selen}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Tellur" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="863,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Te" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="52" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Tellur}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Te" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="52" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Tellur}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Polonium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Po" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="84" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Polonium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Po" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="84" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Polonium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Livermorium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Lv" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="116" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Livermorium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Lv" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="116" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Livermorium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Fluor" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="F" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="9" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Fluor}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="F" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="9" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Fluor}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Chlor" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cl" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="17" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Chlor}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="17" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Chlor}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Brom" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Br" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="35" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Brom}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Br" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="35" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Brom}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Jod" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="I" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="53" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Jód}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="I" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="53" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Jód}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Astat" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="At" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="85" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Astat}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="At" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="85" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Astat}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Tennessin" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ts" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="117" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Tennessin}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ts" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="117" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Tennessin}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Helium" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="He" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="2" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Helium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="He" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="2" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Helium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Neon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ne" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="10" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Neon}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ne" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="10" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Neon}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Argon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ar" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="18" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Argon}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ar" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="18" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Argon}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Krypton" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Kr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="36" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Krypton}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Kr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="36" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Krypton}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Xenon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Xe" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="54" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Xenon}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Xe" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="54" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Xenon}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Radon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Rn" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="86" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Radon}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Rn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="86" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Radon}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Oganesson" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Og" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="118" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Oganesson}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Og" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="118" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Oganesson}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Lanthan" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="148,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="La" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="57" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Lanthan}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
-            </Button>
-            <Button Name="Aktinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="148,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ac" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="89" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Aktinium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="La" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="57" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Lanthan}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Cer" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="203,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ce" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="58" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Cer}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ce" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="58" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Cer}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Praseodym" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="258,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="59" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Praseodym}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="59" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Praseodym}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Neodym" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="313,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Nd" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="60" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Neodym}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Nd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="60" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Neodym}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Promethium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="368,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pm" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="61" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Promethium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="61" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Promethium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Samarium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="423,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Sm" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="62" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Samarium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Sm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="62" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Samarium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Europium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="478,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Eu" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="63" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Europium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Eu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="63" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Europium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Gadolinium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="533,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Gd" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="64" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Gadolinium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Gd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="64" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Gadolinium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Terbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="588,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Tb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="65" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Terbium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Tb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="65" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Terbium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Dysprosium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="643,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Dy" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="66" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Dysprosium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Dy" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="66" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Dysprosium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Holmium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="698,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Ho" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="67" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Holmium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Ho" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="67" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Holmium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Erbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="753,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Er" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="68" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Erbium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Er" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="68" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Erbium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Thulium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="808,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Tm" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="69" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Thulium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Tm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="69" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Thulium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Ytterbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="863,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Yb" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="70" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Ytterbium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Yb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="70" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Ytterbium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Lutecium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="918,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Lu" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="71" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Lutecium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Lu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="71" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Lutecium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
+            </Button>
+            <Button Name="Aktinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="148,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+                <Grid Height="65">
+                    <Label Content="Ac" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="89" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Aktinium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Thorium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="203,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Th" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="90" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Thorium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Th" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="90" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Thorium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Protaktinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="258,595,0,0" VerticalAlignment="Top" Height="65" Width="55" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pa" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="91" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Protaktinium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pa" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="91" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Protaktinium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Uran" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="313,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="U" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="92" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Uran}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="U" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="92" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Uran}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Neptunium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="368,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Np" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="93" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Neptunium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Np" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="93" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Neptunium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Plutonium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="423,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Pu" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="94" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Plutonium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Pu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="94" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Plutonium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Americium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="478,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Am" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="95" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Americium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Am" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="95" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Americium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Curium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="533,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cm" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="96" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Curium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="96" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Curium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Berkelium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="588,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Bk" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="97" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Berkelium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Bk" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="97" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Berkelium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Kalifornium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="643,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Cf" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="98" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Kalifornium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Cf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="98" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Kalifornium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Einsteinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="698,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Es" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="99" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Einsteinium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Es" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="99" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Einsteinium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Fermium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="753,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Fm" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="100" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Fermium}" Foreground="Black" Padding="0,0,0,0" FontSize="12"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Fm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="100" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Fermium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Mendelevium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="808,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Md" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="101" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Mendelevium}" Foreground="Black" Padding="0,0,0,0" FontSize="9"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Md" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="101" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Mendelevium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Nobelium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}"  HorizontalAlignment="Left" Margin="863,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="No" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="102" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Nobelium}" Foreground="Black" Padding="0,0,0,0" FontSize="11"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="No" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="102" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Nobelium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <Button Name="Lawrencium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="918,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
-                <StackPanel>
-                    <Label Content="Lr" Foreground="Black" FontSize="14" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center"/>
-                    <Label Content="103" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <Label Content="{DynamicResource Lawrencium}" Foreground="Black" Padding="0,0,0,0" FontSize="10"/>
-                </StackPanel>
+                <Grid Height="65">
+                    <Label Content="Lr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
+                    <Label Content="103" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
+                    <Viewbox Height="11" Width="50" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <TextBlock Text="{DynamicResource Lawrencium}" FontWeight="Bold"></TextBlock>
+                    </Viewbox>
+                </Grid>
             </Button>
             <!--#endregion-->
             <!--#region Popisky skupin a period -->
-            <Label Content="7" HorizontalAlignment="Left" Margin="10,457,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="6" HorizontalAlignment="Left" Margin="10,392,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="5" HorizontalAlignment="Left" Margin="10,332,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="4" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="3" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="2" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="1" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="I. A" HorizontalAlignment="Left" Margin="51,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="II. A" HorizontalAlignment="Left" Margin="104,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="III. B" HorizontalAlignment="Left" Margin="158,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="IV. B" HorizontalAlignment="Left" Margin="213,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="V. B" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VI.B" HorizontalAlignment="Left" Margin="324,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VII. B" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="429,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="484,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="539,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="I. B" HorizontalAlignment="Left" Margin="601,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="II. B" HorizontalAlignment="Left" Margin="655,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="III. A" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="IV. A" HorizontalAlignment="Left" Margin="763,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="V. A" HorizontalAlignment="Left" Margin="820,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VI. A" HorizontalAlignment="Left" Margin="872,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VII. A" HorizontalAlignment="Left" Margin="925,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="VIII. A" HorizontalAlignment="Left" Margin="978,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="6" HorizontalAlignment="Left" Margin="10,550,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="7" HorizontalAlignment="Left" Margin="10,615,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="7" HorizontalAlignment="Left" Margin="10,454,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="6" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="5" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="4" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="3" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="2" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="1" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="I. A" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="II. A" HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="III. B" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="IV. B" HorizontalAlignment="Left" Margin="211,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="V. B" HorizontalAlignment="Left" Margin="268,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VI.B" HorizontalAlignment="Left" Margin="322,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VII. B" HorizontalAlignment="Left" Margin="371,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="426,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="481,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VIII. B" HorizontalAlignment="Left" Margin="536,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="I. B" HorizontalAlignment="Left" Margin="600,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="II. B" HorizontalAlignment="Left" Margin="653,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="III. A" HorizontalAlignment="Left" Margin="705,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="IV. A" HorizontalAlignment="Left" Margin="761,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="V. A" HorizontalAlignment="Left" Margin="818,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VI. A" HorizontalAlignment="Left" Margin="870,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VII. A" HorizontalAlignment="Left" Margin="923,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="VIII. A" HorizontalAlignment="Left" Margin="975,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="6" HorizontalAlignment="Left" Margin="10,548,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="7" HorizontalAlignment="Left" Margin="10,613,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
             <Label Content="{DynamicResource chemsymbol}" HorizontalAlignment="Left" Margin="153,128,0,0" VerticalAlignment="Top" Height="17" Padding="0,0,0,0" HorizontalContentAlignment="Right" Width="307"/>
-            <Label Content="{DynamicResource atomicnumber}" HorizontalAlignment="Left" Margin="153,145,0,0" VerticalAlignment="Top" Padding="0,0,0,0" Width="307" HorizontalContentAlignment="Right"/>
-            <Label Content="{DynamicResource chemname}" HorizontalAlignment="Left" Margin="153,163,0,0" VerticalAlignment="Top" Padding="0,0,0,0" Width="307" HorizontalContentAlignment="Right"/>
-            <Button Style="{DynamicResource alkalicke}" Cursor="Hand" Content="Alkalické kovy" HorizontalAlignment="Left" Margin="82,681,0,0" VerticalAlignment="Top" FontSize="14" Width="97" Height="29" BorderThickness="0,0,0,0" Click="Button_Click_2"/>
-            <Button Style="{DynamicResource kaz}" Content="Kovy alkalických zemin" HorizontalAlignment="Left" Margin="184,681,0,0" VerticalAlignment="Top" Width="150" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_3"/>
-            <Button Style="{DynamicResource přechodné}" Content="Přechodné kovy" HorizontalAlignment="Left" Margin="339,681,0,0" VerticalAlignment="Top" Height="29" Width="109" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_4"/>
-            <Button Style="{DynamicResource kovy}" Content="Kovy" HorizontalAlignment="Left" Margin="453,681,0,0" VerticalAlignment="Top" Width="39" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_5"/>
-            <Button Style="{DynamicResource polokovy}" Content="Polokovy" HorizontalAlignment="Left" Margin="497,681,0,0" VerticalAlignment="Top" BorderThickness="0,0,0,0" Height="29" Width="66" FontSize="14" Cursor="Hand" Click="Button_Click_6"/>
-            <Button Style="{DynamicResource nekovy}" Content="Nekovy" HorizontalAlignment="Left" Margin="568,681,0,0" VerticalAlignment="Top" Height="29" Width="57" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_7"/>
-            <Button Style="{DynamicResource halogeny}" Content="Halogeny" HorizontalAlignment="Left" Margin="630,681,0,0" VerticalAlignment="Top" Width="69" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_8"/>
-            <Button Style="{DynamicResource vp}" Content="Vzácné plyny" HorizontalAlignment="Left" Margin="704,681,0,0" VerticalAlignment="Top" Width="91" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_9"/>
-            <Button Style="{DynamicResource lanthanoidy}" Content="Lanthanoidy" HorizontalAlignment="Left" Margin="800,681,0,0" VerticalAlignment="Top" Width="86" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_10"/>
-            <Button Style="{DynamicResource aktinoidy}" Content="Aktinoidy" HorizontalAlignment="Left" Margin="891,681,0,0" VerticalAlignment="Top" Width="69" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" Click="Button_Click_11"/>
+            <Label Content="{DynamicResource atomicnumber}" HorizontalAlignment="Left" Margin="153,147,0,0" VerticalAlignment="Top" Padding="0,0,0,0" Width="307" HorizontalContentAlignment="Right"/>
+            <Label Content="{DynamicResource chemname}" HorizontalAlignment="Left" Margin="153,166,0,0" VerticalAlignment="Top" Padding="0,0,0,0" Width="307" HorizontalContentAlignment="Right"/>
+            <!-- Zakázaná tlačítka (do budoucna přesměrování do sekce teorie) -->
+            <Button IsEnabled="False" Style="{DynamicResource alkalicke}" Cursor="Hand" Content="Alkalické kovy" HorizontalAlignment="Left" Margin="82,681,0,0" VerticalAlignment="Top" FontSize="14" Width="97" Height="29" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource kaz}" Content="Kovy alkalických zemin" HorizontalAlignment="Left" Margin="184,681,0,0" VerticalAlignment="Top" Width="150" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource přechodné}" Content="Přechodné kovy" HorizontalAlignment="Left" Margin="339,681,0,0" VerticalAlignment="Top" Height="29" Width="109" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource kovy}" Content="Kovy" HorizontalAlignment="Left" Margin="453,681,0,0" VerticalAlignment="Top" Width="39" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0" />
+            <Button IsEnabled="False" Style="{DynamicResource polokovy}" Content="Polokovy" HorizontalAlignment="Left" Margin="497,681,0,0" VerticalAlignment="Top" BorderThickness="0,0,0,0" Height="29" Width="66" FontSize="14" Cursor="Hand"/>
+            <Button IsEnabled="False" Style="{DynamicResource nekovy}" Content="Nekovy" HorizontalAlignment="Left" Margin="568,681,0,0" VerticalAlignment="Top" Height="29" Width="57" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource halogeny}" Content="Halogeny" HorizontalAlignment="Left" Margin="630,681,0,0" VerticalAlignment="Top" Width="69" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource vp}" Content="Vzácné plyny" HorizontalAlignment="Left" Margin="704,681,0,0" VerticalAlignment="Top" Width="91" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource lanthanoidy}" Content="Lanthanoidy" HorizontalAlignment="Left" Margin="800,681,0,0" VerticalAlignment="Top" Width="86" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
+            <Button IsEnabled="False" Style="{DynamicResource aktinoidy}" Content="Aktinoidy" HorizontalAlignment="Left" Margin="891,681,0,0" VerticalAlignment="Top" Width="69" Height="29" FontSize="14" Cursor="Hand" BorderThickness="0,0,0,0"/>
             <!--#endregion-->
 
         </Grid>
