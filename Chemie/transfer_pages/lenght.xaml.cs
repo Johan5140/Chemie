@@ -73,10 +73,16 @@ namespace Chemie.transfer_pages
                 ComboBoxItem TU = (ComboBoxItem)TargetUnit.SelectedItem;
                 string TargetUx = TU.Name;
                 TargetU = TargetUx.Replace("_", "");
-                double value = double.Parse(SourceValue.Text);
-                //double result = ConvertLenght(value,SourceU,TargetU);
-                string result = ConvertLenght(value, SourceU, TargetU).ToString();
-                TargetValue.Text = result;
+                if (SourceU != TargetU)
+                {
+                    double value = double.Parse(SourceValue.Text);
+                    string result = ConvertLenght(value, SourceU, TargetU).ToString();
+                    TargetValue.Text = result;
+                }
+                else
+                {
+                    TargetValue.Text = "1";
+                }
             }
         }
           public static double ConvertLenght(double value, string SourceU, string TargetU)
@@ -110,6 +116,14 @@ namespace Chemie.transfer_pages
                       return 100.0;
                   case "km":
                       return 1000.0;
+                  case "ft":
+                    return 0.3048;
+                  case "mi":
+                    return 1609.34;
+                case "in":
+                    return 0.0254;
+                case "yd":
+                    return 0.9144;
                 default: throw new NotImplementedException();
               }
           }
@@ -137,6 +151,14 @@ namespace Chemie.transfer_pages
                           return 0.01;
                       case "km":
                           return 0.001;
+                case "ft":
+                    return 3.2808399;
+                case "mi":
+                    return 0.000621371192;
+                case "in":
+                    return 39.3700787;
+                case "yd":
+                    return 1.0936133;
                 default: throw new NotImplementedException();
             }
               }

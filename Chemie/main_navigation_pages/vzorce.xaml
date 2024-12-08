@@ -9,18 +9,20 @@
       Title="vzorce">
 
     <Grid>
-        <Frame Name="vypocty" Margin="10,77,10,10"/>
-        <Label Content="{DynamicResource calculations}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="32"/>
-        <Button Cursor="Hand" Content="{DynamicResource go}" HorizontalAlignment="Left" Margin="355,47,0,0" VerticalAlignment="Top" Width="120" Height="25" FontSize="14" Click="Button_Click_3"/>
-        <ComboBox Name="fncpick" VerticalAlignment="Top" Width="340" Height="25" FontSize="14" Cursor="Hand" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="hm" Content="{DynamicResource hm}"></ComboBoxItem>
-            <ComboBoxItem x:Name="hol" Content="{DynamicResource hol}"></ComboBoxItem>
-            <ComboBoxItem x:Name="oz" Content="{DynamicResource oz}"></ComboBoxItem>
-            <ComboBoxItem x:Name="lm" Content="{DynamicResource lm}"></ComboBoxItem>
-            <ComboBoxItem x:Name="mk" Content="{DynamicResource mk}"></ComboBoxItem>
-            <ComboBoxItem x:Name="rr" Content="{DynamicResource rr}"></ComboBoxItem>
-            <ComboBoxItem x:Name="chr" Content="{DynamicResource chr}"></ComboBoxItem>
-        </ComboBox>
+        <Grid Height="50" VerticalAlignment="Top">
+            <Label Content="{DynamicResource calculations}" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Height="40"/>
+            <Button Cursor="Hand" Content="{DynamicResource go}" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="120" Height="30" FontSize="14" Click="Button_Click_3"/>
+            <ComboBox Name="fncpick" VerticalAlignment="Center" Width="340" Height="30" FontSize="14" Cursor="Hand" HorizontalAlignment="Right" VerticalContentAlignment="Center" Margin="0,0,140,0">
+                <ComboBoxItem x:Name="hm" Content="{DynamicResource hm}"></ComboBoxItem>
+                <ComboBoxItem x:Name="hol" Content="{DynamicResource hol}"></ComboBoxItem>
+                <ComboBoxItem x:Name="oz" Content="{DynamicResource oz}"></ComboBoxItem>
+                <ComboBoxItem x:Name="lm" Content="{DynamicResource lm}"></ComboBoxItem>
+                <ComboBoxItem x:Name="mk" Content="{DynamicResource mk}"></ComboBoxItem>
+                <ComboBoxItem x:Name="rr" Content="{DynamicResource rr}"></ComboBoxItem>
+                <ComboBoxItem x:Name="chr" Content="{DynamicResource chr}"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Frame Name="vypocty" Margin="10,55,10,10"/>
     </Grid>
 </Page>
 

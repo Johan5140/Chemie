@@ -23,8 +23,8 @@
     <SolidColorBrush x:Key="cellfg" Color="White"/>
     <SolidColorBrush x:Key="labelbordercl" Color="DarkGray"/>
     <SolidColorBrush x:Key="cbihoverbg" Color="#555555"/>
-    <SolidColorBrush x:Key="menubg" Color="#1a1a1a"/>
-    <SolidColorBrush x:Key="mainbg" Color="#555555"/>
+    <SolidColorBrush x:Key="menubg" Color="#FF1A1A1A"/>
+    <SolidColorBrush x:Key="mainbg" Color="#242424"/>
     <SolidColorBrush x:Key="activemenuitemb" Color="#a3a3a3"/>
     <SolidColorBrush x:Key="activemenuitem" Color="#363535"/>
     <SolidColorBrush x:Key="mainbtnhover" Color="LightGray"/>
@@ -32,6 +32,10 @@
     <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#000000"/>
     <SolidColorBrush x:Key="comboboxhover" Color="#262626"/>
     <SolidColorBrush x:Key="linkfg" Color="#ededed"/>
+    <SolidColorBrush x:Key="elbtncl" Color="#000000"/>
+
+    <SolidColorBrush x:Key="hlbg" Color="#808080"/>
+    
     <!--<BitmapImage x:Key="menu" UriSource="../Media/Image.png" /> -->
     <BitmapImage x:Key="menuico" UriSource="/Chemie;component/data/menu-dark.png" />
     <BitmapImage x:Key="domu" UriSource="/Chemie;component/data/home-dark.png" />

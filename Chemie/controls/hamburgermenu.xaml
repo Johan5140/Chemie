@@ -24,16 +24,16 @@
         </Grid.ColumnDefinitions>
 
         <Grid x:Name="menu" Grid.Column="0" HorizontalAlignment="Left" Width="50" Background="{DynamicResource menubg}">
-            <ToggleButton Style="{DynamicResource tbxx}" Name="menucontrol" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Height="40" IsEnabled="True" Click="ToggleButton_click" Cursor="Hand" FontSize="14">
-                <Grid Width="170" Height="40">
-                    <Image Source="{DynamicResource menuico}" Width="20" Height="20" Margin="15,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                    <Label Content="{DynamicResource menu}" VerticalAlignment="Center" Margin="48,0,0,0" FontSize="13" Width="122" Height="30" FontFamily="Arial" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+            <ToggleButton Style="{DynamicResource tbxx}" Name="menucontrol" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" IsEnabled="True" Click="ToggleButton_click" Cursor="Hand" FontSize="14" Margin="5,5,0,0">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource menuico}" Width="20" Height="20" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource menu}" VerticalAlignment="Center" Margin="43,0,0,0" FontSize="13" Width="122" Height="30" FontFamily="Arial" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
                 </Grid>
             </ToggleButton>
-            <RadioButton GroupName="menulinks" IsChecked="True" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" Click="Button_Click_3" CommandParameter="home" Name="home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Height="40" Cursor="Hand" Margin="0,40,0,0" Padding="0,-1,0,0">
-                <Grid Width="170" Height="40">
-                    <Image Source="{DynamicResource domu}" Width="22" Height="22" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                    <Label Content="{DynamicResource home}" VerticalAlignment="Center" Margin="45,0,0,0" Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+            <RadioButton GroupName="menulinks" IsChecked="True" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" Click="Button_Click_3" CommandParameter="home" Name="home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Cursor="Hand" Margin="5,50,0,0" Padding="0,-1,0,0">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource domu}" Width="22" Height="22" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource home}" VerticalAlignment="Center" Margin="40,0,0,0" Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
                 </Grid>
             </RadioButton>
 
@@ -45,43 +45,48 @@
                     </Grid>
                 </Border>
             </Button> -->
-            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="0,80,0,0" VerticalAlignment="Top" Cursor="Hand" Width="170" Height="40" Click="Button_Click_6" BorderThickness="0,0,0,0" Padding="0,-1,0,0">
-                    <Grid Width="170" Height="40">
-                        <Image Source="{DynamicResource vypocty}" Width="22" Height="22" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                        <Label Content="{DynamicResource calculations}" VerticalAlignment="Center" Margin="45,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
-                    </Grid>
+            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="5,95,0,0" VerticalAlignment="Top" Cursor="Hand" Width="40" Height="40" Click="Button_Click_6" BorderThickness="0,0,0,0" Padding="0,-1,0,0">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource vypocty}" Width="22" Height="22" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource calculations}" VerticalAlignment="Center" Margin="40,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
             </RadioButton>
-            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top" Cursor="Hand" Width="170" Height="40" Click="Button_Click_7" BorderThickness="0,0,0,0" Padding="0,-1,0,0">
-                    <Grid Width="170" Height="40">
-                        <Image Source="{DynamicResource prevody}" Width="22" Height="22" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                        <Label Content="{DynamicResource transfers}" VerticalAlignment="Center" Margin="45,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
-                    </Grid>
+            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="5,140,0,0" VerticalAlignment="Top" Cursor="Hand" Width="40" Height="40" Click="Button_Click_7" BorderThickness="0,0,0,0" Padding="0,-1,0,0">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource prevody}" Width="22" Height="22" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource transfers}" VerticalAlignment="Center" Margin="40,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
             </RadioButton>
-            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="0,160,0,0" VerticalAlignment="Top" Cursor="Hand" Width="170" Height="40" Click="Button_Click_2" Padding="0,-1,0,0">
-                    <Grid Width="170" Height="40">
-                        <Image Source="{DynamicResource teorie}" Width="30" Height="30" Margin="7,5,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                        <Label Content="{DynamicResource theory}" VerticalAlignment="Center" Margin="45,0,0,0" Width="125" Height="30" FontSize="13" FontFamily="Arial" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
-                    </Grid>
+            <RadioButton Name="theoryrb" GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="5,185,0,0" VerticalAlignment="Top" Cursor="Hand" Width="40" Height="40" Click="Button_Click_2" Padding="0,-1,0,0" Visibility="Hidden">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource teorie}" Width="30" Height="30" Margin="3,5,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource theory}" VerticalAlignment="Center" Margin="40,0,0,0" Width="125" Height="30" FontSize="13" FontFamily="Arial" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
             </RadioButton>
-
-            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" Margin="0,0,0,40" Width="170" Click="Button_Click_5" BorderThickness="0,0,0,0" Cursor="Hand" Height="40" VerticalAlignment="Bottom" Padding="0,-1,0,0">
-                    <Grid Width="170" Height="40">
-                        <Image Source="{DynamicResource nastaveni}" Width="22" Height="22" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                        <Label Content="{DynamicResource settings}" VerticalAlignment="Center" Margin="45,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
-                    </Grid>
+            <RadioButton Name="translaterb" GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" HorizontalAlignment="Left" Margin="5,230,0,0" VerticalAlignment="Top" Cursor="Hand" Width="40" Height="40" Click="Button_Click_8" Padding="0,-1,0,0" Visibility="Hidden">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource nastaveni}" Width="30" Height="30" Margin="3,5,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource apptranslate}" VerticalAlignment="Center" Margin="40,0,0,0" Width="125" Height="30" FontSize="13" FontFamily="Arial" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
             </RadioButton>
-            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" Margin="0,20,0,0" Width="170" Click="Button_Click_4" BorderThickness="0,0,0,0" Cursor="Hand" Height="40" VerticalAlignment="Bottom" Padding="0,-1,0,0">
-                <Grid Width="170" Height="40">
-                    <Image Source="{DynamicResource oaplikaci}" Width="22" Height="22" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                    <Label Content="{DynamicResource about}" VerticalAlignment="Center" Margin="45,0,0,0" Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
-                    </Grid>
+            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" Margin="5,0,0,50" Width="40" Click="Button_Click_5" BorderThickness="0,0,0,0" Cursor="Hand" Height="40" VerticalAlignment="Bottom" Padding="0,-1,0,0" HorizontalAlignment="Left">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource nastaveni}" Width="22" Height="22" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource settings}" VerticalAlignment="Center" Margin="40,0,0,0"  Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
+            </RadioButton>
+            <RadioButton GroupName="menulinks" Template="{DynamicResource RBStyle1}" Command="{Binding Activebutton}" CommandParameter="home" Margin="5,0,0,5" Width="40" Click="Button_Click_4" BorderThickness="0,0,0,0" Cursor="Hand" Height="40" VerticalAlignment="Bottom" Padding="0,-1,0,0" HorizontalAlignment="Left">
+                <Grid Height="40">
+                    <Image Source="{DynamicResource oaplikaci}" Width="22" Height="22" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Label Content="{DynamicResource about}" VerticalAlignment="Center" Margin="40,0,0,0" Width="125" Height="30" FontFamily="Arial" FontSize="13" Padding="5,8,5,5" FontWeight="Bold" HorizontalAlignment="Left"/>
+                </Grid>
             </RadioButton>
         </Grid>
 
         <GridSplitter x:Name="spltNavLinks" Grid.Column="1" />
 
         <Grid x:Name="contentSection" Grid.Column="2">
-            <Frame x:Name="nav" x:FieldModifier="public" RenderTransformOrigin="0.8,0.589" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Source="/main_navigation_pages/main.xaml" NavigationUIVisibility="Hidden" Background="#00000000" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="10,0,10,0"/>
+            <Frame x:Name="nav" x:FieldModifier="public" RenderTransformOrigin="0.8,0.589" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Source="/main_navigation_pages/main.xaml" NavigationUIVisibility="Hidden" Background="#00000000" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
         </Grid>
     </Grid>
 </UserControl>

@@ -33,6 +33,7 @@
     <SolidColorBrush x:Key="arrowpr" Color="LightGray"/>
     <SolidColorBrush x:Key="labelbordercl" Color="Black"/>
     <SolidColorBrush x:Key="linkfg" Color="#424242"/>
+    <SolidColorBrush x:Key="elbtncl" Color="#FFFFFF"/>
     <BitmapImage x:Key="menuico" UriSource="/Chemie;component/data/menu-light.png" />
     <BitmapImage x:Key="domu" UriSource="/Chemie;component/data/home-light.png" />
     <BitmapImage x:Key="vypocty" UriSource="/Chemie;component/data/vypocty-light.png" />

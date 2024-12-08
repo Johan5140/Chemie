@@ -20,8 +20,8 @@
         <Label Content="{DynamicResource element_info}" HorizontalAlignment="Left" Margin="28,160,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
         <Label Content="{DynamicResource ghs_icns}" HorizontalAlignment="Left" Margin="28,191,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
         <Label Content="{DynamicResource ghs_info}" HorizontalAlignment="Left" Margin="28,222,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
-        <Button Cursor="Hand" Content="{DynamicResource githubpage}" HorizontalAlignment="Left" Margin="74,36,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click" Grid.Column="1"/>
-        <Button Cursor="Hand" Content="{DynamicResource reportbug}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click_1" Margin="74,67,0,0" Grid.Column="1"/>
+        <Button Cursor="Hand" Content="{DynamicResource githubpage}" HorizontalAlignment="Left" Margin="200,36,0,0" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click" Grid.Column="1"/>
+        <Button Cursor="Hand" Content="{DynamicResource reportbug}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="220" Click="Button_Click_1" Margin="200,67,0,0" Grid.Column="1"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Height="26" Padding="0,5,0,0">
             <Hyperlink NavigateUri="https://www.wikipedia.org/" RequestNavigate="Hyperlink_RequestNavigate">https://www.wikipedia.org/</Hyperlink>
         </TextBlock>
@@ -37,5 +37,9 @@
         </TextBlock>
         <TextBlock Name="vernum" Style="{DynamicResource TextBlockStyle1}" Grid.Column="1" HorizontalAlignment="Left" Margin="10,67,0,0" Text="TextBlock" VerticalAlignment="Top" Height="26" Padding="0,5,0,0"/>
         <TextBlock Style="{DynamicResource TextBlockStyle1}" Name="Nameapp" Grid.Column="1" HorizontalAlignment="Left" Margin="10,36,0,0" Text="{DynamicResource chemistry}" VerticalAlignment="Top" Padding="0,5,0,0" Height="26"/>
+        <Label Content="{DynamicResource RSphrases}" HorizontalAlignment="Left" Margin="28,253,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Height="26" Padding="0,4,0,0">
+    <Hyperlink NavigateUri="https://www.wikipedia.org/" RequestNavigate="Hyperlink_RequestNavigate">https://www.wikipedia.org/</Hyperlink>
+        </TextBlock>
     </Grid>
 </Page>
