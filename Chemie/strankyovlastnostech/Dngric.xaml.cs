@@ -16,6 +16,8 @@ using System.Windows.Shapes;
 using static System.Windows.Forms.LinkLabel;
 using System.Xml.Linq;
 using static Chemie.strankyovlastnostech.Phrases;
+using System.Data.SQLite;
+using Path = System.IO.Path;
 
 namespace Chemie.strankyovlastnostech
 {
@@ -26,26 +28,30 @@ namespace Chemie.strankyovlastnostech
     {
         internal string df1;
         internal string df2;
+        internal string nazevp;
         public List<dangericons> dicn = new();
         public List<dwycf> dwf = new();
         public Dngric(string s)
         {
             InitializeComponent();
-            dangericonimg.Source = (BitmapImage)System.Windows.Application.Current.Resources[s + "i"];
-            headline.Content = (String)System.Windows.Application.Current.Resources[s];
-            XDocument doc = XDocument.Parse(Soubory.Resource.dangericons);
 
-            var result = from ele in doc.Descendants(s)
-                         select new
-                         {
-                             dphrases = (string)ele.Element("dphrases"),
-                             wycf = (string)ele.Element("wycf"),
-                         };
-            foreach (var t in result)
+            using (SQLiteConnection conn = new SQLiteConnection("Data Source=data.db;Version=3;"))
             {
-                df1 = t.dphrases;
-                df2 = t.wycf;
+                conn.Open();
+                string cs = s;
+                SQLiteCommand command = new SQLiteCommand("SELECT * FROM ikony WHERE nazev=" + "'" + s + "'" , conn);
+                SQLiteDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    nazevp = $"{reader["nazev"]}";
+                    df1 = $"{reader["dphrases"]}";
+                    df2 = $"{reader["wycf"]}";
+
+                }
             }
+            dangericonimg.Source = (BitmapImage)System.Windows.Application.Current.Resources[s + "i"];
+            headline.Content = (String)System.Windows.Application.Current.Resources[nazevp];
             if (df1 != "")
             {
                 string[] dngri = df1.Split(';', ' ');

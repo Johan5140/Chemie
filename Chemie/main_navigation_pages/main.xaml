@@ -14,7 +14,7 @@
         <Grid MouseMove="grid_MouseMove" HorizontalAlignment="Center" VerticalAlignment="Center">
 
             <!--#region Tlačítka prvků -->
-            <Button Name="Vodík" Style="{DynamicResource vodik}" HorizontalAlignment="Left" Margin="38,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Click="buttonprvek_Click" Cursor="Hand">
+            <Button Name="Vodík" Tag="1" Style="{DynamicResource vodik}" HorizontalAlignment="Left" Margin="38,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Click="buttonprvek_Click" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="H" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="1" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -32,7 +32,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Lithium" Style="{DynamicResource alkalicke}" Margin="38,117,947,0" VerticalAlignment="Top" Height="65" Width="55" Click="buttonprvek_Click" Cursor="Hand" HorizontalAlignment="Left">
+            <Button Name="Lithium" Tag="3" Style="{DynamicResource alkalicke}" Margin="38,117,947,0" VerticalAlignment="Top" Height="65" Width="55" Click="buttonprvek_Click" Cursor="Hand" HorizontalAlignment="Left">
                 <Grid Height="65">
                     <Label Content="Li" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="3" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -41,7 +41,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Sodík" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" Foreground="Black" HorizontalAlignment="Left" Margin="38,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Sodík" Tag="11" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" Foreground="Black" HorizontalAlignment="Left" Margin="38,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Na" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="11" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -50,7 +50,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Draslík" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Draslík" Tag="19" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="K" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="19" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -59,7 +59,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Rubidium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,312,0,0" VerticalAlignment="Top" Width="55" Height="65" RenderTransformOrigin="-0.163,0.132" Cursor="Hand">
+            <Button Name="Rubidium" Tag="37" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,312,0,0" VerticalAlignment="Top" Width="55" Height="65" RenderTransformOrigin="-0.163,0.132" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Rb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="37" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -68,7 +68,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Cesium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Cesium" Tag="55" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cs" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="55" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -77,7 +77,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Francium" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Francium" Tag="87" Click="buttonprvek_Click" Style="{DynamicResource alkalicke}" HorizontalAlignment="Left" Margin="38,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Fr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="87" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -86,7 +86,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Beryllium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Beryllium" Tag="4" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Be" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="4" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -95,7 +95,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Hořčík" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Hořčík" Tag="12" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="93,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Mg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="12" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -104,7 +104,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Vápník" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Vápník" Tag="20" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ca" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="20" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -113,7 +113,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Stroncium" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Stroncium" Tag="38" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="38" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -122,7 +122,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Baryum" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Baryum" Tag="56" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ba" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="56" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -131,7 +131,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Radium" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Radium" Tag="88" Click="buttonprvek_Click" Style="{DynamicResource kaz}" HorizontalAlignment="Left" Margin="93,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ra" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="88" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -140,7 +140,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Skandium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Skandium" Tag="21" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="21" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -149,7 +149,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Yttrium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Yttrium" Tag="39" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="148,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Y" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="39" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -158,7 +158,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Titan" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Titan" Tag="22" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ti" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="22" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -167,7 +167,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Zirkonium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Zirkonium" Tag="40" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Zr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="40" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -176,7 +176,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Hafnium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Hafnium" Tag="72" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Hf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="72" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -185,7 +185,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Rutherfordium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Rutherfordium" Tag="104" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="203,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Rf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="104" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -194,7 +194,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Vanad" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Vanad" Tag="23" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="V" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="23" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -203,7 +203,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Niob" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Niob" Tag="41" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Nb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="41" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -212,7 +212,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Tantal" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Tantal" Tag="73" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ta" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="73" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -221,7 +221,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Dubnium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Dubnium" Tag="105" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="258,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Db" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="105" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -230,7 +230,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Molybden" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Molybden" Tag="42" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Mo" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="42" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -239,7 +239,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Chrom" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Chrom" Tag="24" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="24" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -248,7 +248,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Wolfram" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="313,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Wolfram" Tag="74" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="313,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="W" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="74" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -257,7 +257,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Seaborgium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Seaborgium" Tag="106" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="313,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="106" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -266,7 +266,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Mangan" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Mangan" Tag="25" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Mn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="25" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -275,7 +275,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Technecium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="368,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Technecium" Tag="43" Click="buttonprvek_Click" Style="{DynamicResource přechodné}"  HorizontalAlignment="Left" Margin="368,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Tc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="43" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -284,7 +284,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Rhenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Rhenium" Tag="75" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Re" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="75" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -293,7 +293,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Bohrium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Bohrium" Tag="107" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="368,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Bh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="107" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -302,7 +302,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Železo" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Železo" Tag="26" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Fe" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="26" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -311,7 +311,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Ruthenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Ruthenium" Tag="44" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ru" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="44" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -320,7 +320,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Osmium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Osmium" Tag="76" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Os" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="76" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -329,7 +329,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Hassium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Hassium" Tag="108" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="423,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Hs" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="108" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -338,7 +338,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Kobalt" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Kobalt" Tag="27" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Co" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="27" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -347,7 +347,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Rhodium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Rhodium" Tag="45" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Rh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="45" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -356,7 +356,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Iridium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Iridium" Tag="77" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ir" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="77" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -365,7 +365,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Meitnerium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Meitnerium" Tag="109" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="478,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Mt" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="109" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -374,7 +374,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Nikl" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Nikl" Tag="28" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ni" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="28" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -383,7 +383,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Palladium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Palladium" Tag="46" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="46" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -392,7 +392,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Platina" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Platina" Tag="78" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pt" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="78" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -401,7 +401,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Darmstadtium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Darmstadtium" Tag="110" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="533,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ds" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="110" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -410,7 +410,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Měď" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Měď" Tag="29" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="29" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -419,7 +419,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Stříbro" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Stříbro" Tag="47" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ag" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="47" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -428,7 +428,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Zlato" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Zlato" Tag="79" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Au" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="79" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -437,7 +437,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Roentgenium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Roentgenium" Tag="111" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="588,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Rg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="111" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -446,7 +446,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Zinek" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Zinek" Tag="30" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Zn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="30" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -455,7 +455,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Kadmium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Kadmium" Tag="48" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="48" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -464,7 +464,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Rtuť" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Rtuť" Tag="80" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Hg" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="80" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -473,7 +473,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Kopernicium" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Kopernicium" Tag="112" Click="buttonprvek_Click" Style="{DynamicResource přechodné}" HorizontalAlignment="Left" Margin="643,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="112" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -482,7 +482,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Bor" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="698,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Bor" Tag="5" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="698,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="B" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="5" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -491,7 +491,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Hliník" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Hliník" Tag="13" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Al" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="13" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -500,7 +500,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Gallium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Gallium" Tag="31" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ga" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="31" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -509,7 +509,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Indium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Indium" Tag="49" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="In" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="49" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -518,7 +518,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Thallium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Thallium" Tag="81" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Tl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="81" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -527,7 +527,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Nihonium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Nihonium" Tag="113" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="698,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Nh" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="113" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -536,7 +536,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Uhlík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="753,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Uhlík" Tag="6" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="753,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="C" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="6" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -545,7 +545,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Křemík" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Křemík" Tag="14" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Si" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="14" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -554,7 +554,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Germanium" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Germanium" Tag="32" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="753,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ge" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="32" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -563,7 +563,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Cín" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Cín" Tag="50" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="50" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -572,7 +572,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Olovo" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Olovo" Tag="82" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="82" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -581,7 +581,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Flerovium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Flerovium" Tag="114" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="753,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Fl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="114" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -590,7 +590,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Dusík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Dusík" Tag="7" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="N" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="7" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -599,7 +599,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Fosfor" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Fosfor" Tag="15" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="808,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="P" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="15" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -608,7 +608,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Arsen" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Arsen" Tag="33" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="As" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="33" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -617,7 +617,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Antimon" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Antimon" Tag="51" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="808,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="51" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -626,7 +626,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Bismut" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Bismut" Tag="83" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Bi" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="83" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -635,7 +635,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Moscovium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Moscovium" Tag="115" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="808,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Mc" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="115" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -644,7 +644,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Kyslík" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Kyslík" Tag="8" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="O" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="8" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -653,7 +653,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Síra" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Síra" Tag="16" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="S" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="16" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -662,7 +662,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Selen" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Selen" Tag="34" Click="buttonprvek_Click" Style="{DynamicResource nekovy}" HorizontalAlignment="Left" Margin="863,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Se" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="34" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -671,7 +671,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Tellur" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="863,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Tellur" Tag="52" Click="buttonprvek_Click" Style="{DynamicResource polokovy}" HorizontalAlignment="Left" Margin="863,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Te" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="52" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -680,7 +680,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Polonium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Polonium" Tag="84" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Po" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="84" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -689,7 +689,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Livermorium" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Livermorium" Tag="116" Click="buttonprvek_Click" Style="{DynamicResource kovy}" HorizontalAlignment="Left" Margin="863,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Lv" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="116" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -698,7 +698,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Fluor" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Fluor" Tag="9" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="F" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="9" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -707,7 +707,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Chlor" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Chlor" Tag="17" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cl" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="17" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -716,7 +716,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Brom" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Brom" Tag="35" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Br" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="35" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -725,7 +725,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Jod" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Jod" Tag="53" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="I" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="53" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -734,7 +734,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Astat" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Astat" Tag="85" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="At" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="85" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -743,7 +743,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Tennessin" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Tennessin" Tag="117" Click="buttonprvek_Click" Style="{DynamicResource halogeny}" HorizontalAlignment="Left" Margin="918,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ts" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="117" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -752,7 +752,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Helium" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Helium" Tag="2" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,52,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="He" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="2" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -761,7 +761,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Neon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Neon" Tag="10" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,117,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ne" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="10" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -770,7 +770,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Argon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Argon" Tag="18" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,182,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ar" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="18" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -779,7 +779,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Krypton" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Krypton" Tag="36" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,247,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Kr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="36" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -788,7 +788,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Xenon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Xenon" Tag="54" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,312,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Xe" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="54" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -797,7 +797,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Radon" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Radon" Tag="86" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,377,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Rn" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="86" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -806,7 +806,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Oganesson" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Oganesson" Tag="118" Click="buttonprvek_Click" Style="{DynamicResource vp}" HorizontalAlignment="Left" Margin="973,442,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Og" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="118" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -815,7 +815,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Lanthan" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="148,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Lanthan" Tag="57" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="148,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="La" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="57" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -824,7 +824,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Cer" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="203,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Cer" Tag="58" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="203,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ce" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="58" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -833,7 +833,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Praseodym" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="258,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Praseodym" Tag="59" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="258,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="59" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -842,7 +842,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Neodym" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="313,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Neodym" Tag="60" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="313,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Nd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="60" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -851,7 +851,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Promethium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="368,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Promethium" Tag="61" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="368,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="61" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -860,7 +860,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Samarium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="423,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Samarium" Tag="62" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="423,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Sm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="62" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -869,7 +869,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Europium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="478,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Europium" Tag="63" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="478,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Eu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="63" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -878,7 +878,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Gadolinium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="533,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Gadolinium" Tag="64" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="533,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Gd" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="64" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -887,7 +887,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Terbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="588,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Terbium" Tag="65" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="588,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Tb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="65" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -896,7 +896,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Dysprosium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="643,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Dysprosium" Tag="66" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="643,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Dy" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="66" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -905,7 +905,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Holmium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="698,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Holmium" Tag="67" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="698,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ho" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="67" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -914,7 +914,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Erbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="753,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Erbium" Tag="68" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="753,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Er" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="68" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -923,7 +923,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Thulium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="808,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Thulium" Tag="69" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="808,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Tm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="69" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -932,7 +932,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Ytterbium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="863,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Ytterbium" Tag="70" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="863,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Yb" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="70" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -941,7 +941,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Lutecium" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="918,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Lutecium" Tag="71" Click="buttonprvek_Click" Style="{DynamicResource lanthanoidy}" HorizontalAlignment="Left" Margin="918,530,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Lu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="71" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -950,7 +950,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Aktinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="148,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Aktinium" Tag="89" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="148,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Ac" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="89" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -959,7 +959,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Thorium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="203,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Thorium" Tag="90" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="203,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Th" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="90" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -968,7 +968,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Protaktinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="258,595,0,0" VerticalAlignment="Top" Height="65" Width="55" Cursor="Hand">
+            <Button Name="Protaktinium" Tag="91" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="258,595,0,0" VerticalAlignment="Top" Height="65" Width="55" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pa" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="91" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -977,7 +977,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Uran" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="313,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Uran" Tag="92" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="313,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="U" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="92" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -986,7 +986,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Neptunium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="368,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Neptunium" Tag="93" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="368,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Np" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="93" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -995,7 +995,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Plutonium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="423,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Plutonium" Tag="94" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="423,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Pu" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="94" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1004,7 +1004,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Americium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="478,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Americium" Tag="95" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="478,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Am" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="95" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -1013,7 +1013,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Curium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="533,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Curium" Tag="96" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="533,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="96" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1022,7 +1022,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Berkelium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="588,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Berkelium" Tag="97" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="588,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Bk" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="97" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1031,7 +1031,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Kalifornium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="643,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Kalifornium" Tag="98" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="643,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Cf" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="98" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1040,7 +1040,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Einsteinium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="698,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Einsteinium" Tag="99" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="698,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Es" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="99" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1049,7 +1049,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Fermium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="753,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Fermium" Tag="100" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="753,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Fm" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="100" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1058,7 +1058,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Mendelevium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="808,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Mendelevium" Tag="101" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="808,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Md" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="101" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0" />
@@ -1067,7 +1067,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Nobelium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}"  HorizontalAlignment="Left" Margin="863,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Nobelium" Tag="102" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}"  HorizontalAlignment="Left" Margin="863,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="No" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="102" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
@@ -1076,7 +1076,7 @@
                     </Viewbox>
                 </Grid>
             </Button>
-            <Button Name="Lawrencium" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="918,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
+            <Button Name="Lawrencium" Tag="103" Click="buttonprvek_Click" Style="{DynamicResource aktinoidy}" HorizontalAlignment="Left" Margin="918,595,0,0" VerticalAlignment="Top" Width="55" Height="65" Cursor="Hand">
                 <Grid Height="65">
                     <Label Content="Lr" Foreground="Black" FontSize="20" FontWeight="Bold" Padding="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,0"/>
                     <Label Content="103" Foreground="Black" Padding="0,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="0,27,0,0"/>
