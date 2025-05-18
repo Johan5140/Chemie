@@ -25,7 +25,7 @@ namespace Chemie
             InitializeComponent();
             string thmpck = Chemie.Properties.Settings.Default.theme;
             tfncpick.SelectedValue = lenght;
-            transnav.Source = new Uri("../transfer_pages/lenght.xaml", UriKind.Relative);
+            transnav.Source = new Uri("../Converter_pages/lenght.xaml", UriKind.Relative);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -41,51 +41,51 @@ namespace Chemie
                 string vybran = ComboItem.Name;
                 if (vybran == "lenght")
                 {
-                    transnav.Source = new Uri("../transfer_pages/lenght.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/lenght.xaml", UriKind.Relative);
                 }
                 if (vybran == "weight")
                 {
-                    transnav.Source = new Uri("../transfer_pages/weight.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/weight.xaml", UriKind.Relative);
                 }
                 if (vybran == "volume")
                 {
-                    transnav.Source = new Uri("../transfer_pages/volume.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/volume.xaml", UriKind.Relative);
                 }
                 if (vybran == "area")
                 {
-                    transnav.Source = new Uri("../transfer_pages/area.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/area.xaml", UriKind.Relative);
                 }
                 if (vybran == "density")
                 {
-                    transnav.Source = new Uri("../transfer_pages/density.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/density.xaml", UriKind.Relative);
                 }
                 if (vybran == "force")
                 {
-                    transnav.Source = new Uri("../transfer_pages/force.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/force.xaml", UriKind.Relative);
                 }
                 if (vybran == "pressure")
                 {
-                    transnav.Source = new Uri("../transfer_pages/pressure.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/pressure.xaml", UriKind.Relative);
                 }
                 if (vybran == "workandenergy")
                 {
-                    transnav.Source = new Uri("../transfer_pages/workandenergy.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/workandenergy.xaml", UriKind.Relative);
                 }
                 if (vybran == "power")
                 {
-                    transnav.Source = new Uri("../transfer_pages/power.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/power.xaml", UriKind.Relative);
                 }
                 if (vybran == "angle")
                 {
-                    transnav.Source = new Uri("../transfer_pages/angle.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/angle.xaml", UriKind.Relative);
                 }
                 if (vybran == "time")
                 {
-                    transnav.Source = new Uri("../transfer_pages/time.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/time.xaml", UriKind.Relative);
                 }
                 if (vybran == "speed")
                 {
-                    transnav.Source = new Uri("../transfer_pages/speed.xaml", UriKind.Relative);
+                    transnav.Source = new Uri("../Converter_pages/speed.xaml", UriKind.Relative);
                 }
             }
         }

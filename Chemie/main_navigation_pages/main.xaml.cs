@@ -32,8 +32,8 @@ namespace Chemie
 
         private void buttonprvek_Click(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;
-            NavigationService.Navigate(new prvekinfo(btn.Name));
+            string tag = ((Button)sender).Tag.ToString();
+            NavigationService.Navigate(new prvekinfo(tag));
 
         }
         private void ScrollViewer_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
